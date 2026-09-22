@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { Link, NavLink, Outlet, useLocation } from 'react-router-dom';
 import { CorporateLogo, Mark } from '../components/Logo';
 import SearchDog from '../components/SearchDog';
-import { Button, Container, ExternalLink, MonoLabel, Pending, useNavHidden, useScrolled } from '../components/ui';
+import { Button, Container, ExternalLink, MonoLabel, Pending, ScrollProgress, useNavHidden, useScrolled } from '../components/ui';
 import { CORPORATE_FOOTER, CORPORATE_NAV, CORPORATE_NAV_CTA } from '../lib/site';
 
 export default function CorporateLayout() {
@@ -33,6 +33,7 @@ function CorporateNav() {
       } ${navHidden && !open ? '-translate-y-full' : ''}`}
       style={{ paddingTop: 'env(safe-area-inset-top, 0px)' }}
     >
+      <ScrollProgress />
       <Container className="flex h-16 items-center justify-between gap-6">
         <CorporateLogo height={24} />
 
@@ -42,7 +43,9 @@ function CorporateNav() {
               key={item.to}
               to={item.to}
               className={({ isActive }) =>
-                `text-sm transition-colors duration-180 ${isActive ? 'text-ink' : 'text-ink-55 hover:text-ink'}`
+                `relative pb-1 text-sm transition-colors duration-180 after:absolute after:bottom-0 after:left-0 after:h-px after:w-full after:origin-left after:bg-current after:transition-transform after:duration-200 ${
+                  isActive ? 'text-ink after:scale-x-100' : 'text-ink-55 after:scale-x-0 hover:text-ink'
+                }`
               }
             >
               {item.label}
@@ -68,14 +71,15 @@ function CorporateNav() {
       </Container>
 
       {open && (
-        <div className="border-t border-ink-14 bg-paper lg:hidden">
+        <div className="animate-menu-in border-t border-ink-14 bg-paper lg:hidden">
           <Container className="py-6">
             <nav aria-label="Primary mobile" className="flex flex-col">
-              {CORPORATE_NAV.map((item) => (
+              {CORPORATE_NAV.map((item, i) => (
                 <NavLink
                   key={item.to}
                   to={item.to}
-                  className="border-b border-ink-08 py-3.5 font-display text-h4 font-semibold"
+                  className="menu-link border-b border-ink-08 py-3.5 font-display text-h4 font-semibold"
+                  style={{ animationDelay: `${60 + i * 45}ms` }}
                 >
                   {item.label}
                 </NavLink>

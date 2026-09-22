@@ -1,15 +1,25 @@
-import { useId, useState } from 'react';
+import { useId, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
+import { AnimatePresence, motion, useReducedMotion, useScroll, useTransform } from 'framer-motion';
 import { Body, Button, Container, Display, Lead, MonoLabel, Reveal, Rule, Section } from './ui';
 
 /* ------------------------------------------------------------------- heroes */
 
 export function PageHero({ eyebrow, headline, lead, actions, surface = 'paper', aside }) {
   const dark = surface === 'ink';
+  const ref = useRef(null);
+  const reduce = useReducedMotion();
+  const { scrollYProgress } = useScroll({ target: ref, offset: ['start start', 'end start'] });
+  const y = useTransform(scrollYProgress, [0, 1], [0, 72]);
+  const opacity = useTransform(scrollYProgress, [0, 0.85], [1, 0.25]);
   return (
-    <Section surface={surface} ambient bleed className="pb-16 pt-14 md:pb-24 md:pt-20">
+    <Section surface={surface} ambient bleed className="sticky top-0 z-0 pb-16 pt-14 md:pb-24 md:pt-20">
       <Container>
-        <div className={aside ? 'grid gap-12 lg:grid-cols-[1.1fr_0.9fr] lg:gap-20' : ''}>
+        <motion.div
+          ref={ref}
+          style={reduce ? undefined : { y, opacity }}
+          className={aside ? 'grid gap-12 lg:grid-cols-[1.1fr_0.9fr] lg:gap-20' : ''}
+        >
           <div>
             {eyebrow ? (
               <div className="animate-hero-in" style={{ animationDelay: '0ms' }}>
@@ -33,24 +43,29 @@ export function PageHero({ eyebrow, headline, lead, actions, surface = 'paper', 
             ) : null}
           </div>
           {aside ? <div className="animate-hero-in lg:justify-self-end" style={{ animationDelay: '180ms' }}>{aside}</div> : null}
-        </div>
+        </motion.div>
       </Container>
     </Section>
   );
 }
 
-/** Section header: label, headline, optional supporting paragraph. */
+/** Section header: label, headline, optional supporting paragraph.
+ *  Columns enter from opposite sides — left text, right copy. */
 export function SectionHead({ eyebrow, headline, children, tone = 'ink', className = '' }) {
   return (
-    <Reveal className={`grid gap-8 lg:grid-cols-[0.9fr_1.1fr] lg:gap-20 ${className}`}>
-      <div>
+    <div className={`grid gap-8 lg:grid-cols-[0.9fr_1.1fr] lg:gap-20 ${className}`}>
+      <Reveal from="left">
         {eyebrow ? <MonoLabel tone={tone}>{eyebrow}</MonoLabel> : null}
         <Display level={2} className="mt-6">
           {headline}
         </Display>
-      </div>
-      {children ? <div className="lg:pt-3">{children}</div> : null}
-    </Reveal>
+      </Reveal>
+      {children ? (
+        <Reveal from="right" delay={90} className="lg:pt-3">
+          {children}
+        </Reveal>
+      ) : null}
+    </div>
   );
 }
 
@@ -60,8 +75,8 @@ export function CTABand({ eyebrow, headline, body, actions, surface = 'ink' }) {
   return (
     <Section surface={surface} ambient>
       <Container>
-        <Reveal className="grid gap-10 lg:grid-cols-[1.1fr_0.9fr] lg:items-end lg:gap-20">
-          <div>
+        <div className="grid gap-10 lg:grid-cols-[1.1fr_0.9fr] lg:items-end lg:gap-20">
+          <Reveal from="left">
             {eyebrow ? <MonoLabel tone={dark ? 'paper' : 'ink'}>{eyebrow}</MonoLabel> : null}
             <Display level={2} className="mt-6 max-w-[18ch]">
               {headline}
@@ -71,9 +86,11 @@ export function CTABand({ eyebrow, headline, body, actions, surface = 'ink' }) {
                 {body}
               </Body>
             ) : null}
-          </div>
-          <div className="flex flex-wrap gap-3 lg:justify-end">{actions}</div>
-        </Reveal>
+          </Reveal>
+          <Reveal from="right" delay={90} className="flex flex-wrap gap-3 lg:justify-end">
+            {actions}
+          </Reveal>
+        </div>
       </Container>
     </Section>
   );
@@ -134,7 +151,13 @@ export function CardGrid({ cols = 3, tone = 'ink', className = '', children }) {
 
 export function Card({ tone = 'ink', className = '', children }) {
   const bg = tone === 'paper' ? 'bg-ink' : 'bg-paper';
-  return <article className={`flex flex-col gap-4 ${bg} p-7 md:p-8 ${className}`}>{children}</article>;
+  return (
+    <article
+      className={`flex flex-col gap-4 ${bg} p-7 transition-transform duration-200 ease-signal hover:-translate-y-1 md:p-8 ${className}`}
+    >
+      {children}
+    </article>
+  );
 }
 
 /* ------------------------------------------------------------------- tables */
@@ -282,15 +305,24 @@ export function Textarea({ error, className = '', ...rest }) {
 
 /** Result banner for a submitted form. Calm, specific, never blaming. */
 export function FormNotice({ state, message }) {
-  if (!state) return null;
-  const success = state === 'success';
   return (
-    <div
-      role="status"
-      className={`mt-6 rounded-md border p-4 text-sm ${success ? 'border-ink bg-ink text-paper' : 'border-ink-14 bg-cloud text-ink'}`}
-    >
-      {message}
-    </div>
+    <AnimatePresence initial={false}>
+      {state ? (
+        <motion.div
+          key={state}
+          role="status"
+          initial={{ opacity: 0, y: 8 }}
+          animate={{ opacity: 1, y: 0 }}
+          exit={{ opacity: 0, transition: { duration: 0.12 } }}
+          transition={{ duration: 0.24, ease: [0.22, 0.61, 0.36, 1] }}
+          className={`mt-6 rounded-md border p-4 text-sm ${
+            state === 'success' ? 'border-ink bg-ink text-paper' : 'border-ink-14 bg-cloud text-ink'
+          }`}
+        >
+          {message}
+        </motion.div>
+      ) : null}
+    </AnimatePresence>
   );
 }
 

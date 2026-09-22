@@ -1,5 +1,6 @@
 import { useEffect } from 'react';
 import { BrowserRouter, HashRouter, Route, Routes, useLocation } from 'react-router-dom';
+import { AnimatePresence, motion } from 'framer-motion';
 import CorporateLayout from './layouts/CorporateLayout';
 import Operon360Layout from './layouts/Operon360Layout';
 import Home from './pages/Home';
@@ -45,6 +46,7 @@ function ScrollManager() {
 }
 
 export function AppRoutes() {
+  const location = useLocation();
   return (
     <>
       <ScrollManager />
@@ -54,7 +56,15 @@ export function AppRoutes() {
       >
         Skip to content
       </a>
-      <Routes>
+      <AnimatePresence mode="wait" initial={false}>
+        <motion.div
+          key={location.pathname}
+          initial={{ opacity: 0, y: 10 }}
+          animate={{ opacity: 1, y: 0 }}
+          exit={{ opacity: 0, transition: { duration: 0.12 } }}
+          transition={{ duration: 0.24, ease: [0.22, 0.61, 0.36, 1] }}
+        >
+          <Routes location={location}>
         {/* ---------------------------------------- Operon Softwares (corporate) */}
         <Route element={<CorporateLayout />}>
           <Route path="/" element={<Home />} />
@@ -85,7 +95,9 @@ export function AppRoutes() {
           <Route path="why-us" element={<WhyUs />} />
           <Route path="ecosystem" element={<Ecosystem />} />
         </Route>
-      </Routes>
+          </Routes>
+        </motion.div>
+      </AnimatePresence>
     </>
   );
 }

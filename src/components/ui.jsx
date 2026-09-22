@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
+import { AnimatePresence, motion, useReducedMotion, useScroll, useSpring } from 'framer-motion';
 import { EXTERNAL } from '../lib/site';
 import AmbientGradient from './AmbientGradient';
 import { GAPS } from '../content/gaps';
@@ -28,7 +29,7 @@ export function Section({ surface = 'paper', id, className = '', bleed = false, 
       className={`relative ${SURFACES[surface]} ${bleed ? '' : 'py-20 md:py-30'} ${className}`}
     >
       {ambient ? <AmbientGradient tone={surface === 'ink' ? 'paper' : 'ink'} /> : null}
-      <div className="relative">{children}</div>
+      <div className="relative z-10">{children}</div>
     </section>
   );
 }
@@ -180,7 +181,7 @@ export function EmptyState({ message, action, tone = 'ink' }) {
  * One reveal per section, transform/opacity only. Honours reduced motion by
  * rendering the final state immediately.
  */
-export function Reveal({ as: As = 'div', delay = 0, className = '', children, once = true, ...rest }) {
+export function Reveal({ as: As = 'div', delay = 0, className = '', children, once = true, from = 'up', ...rest }) {
   const ref = useRef(null);
   const [shown, setShown] = useState(false);
 
@@ -207,10 +208,98 @@ export function Reveal({ as: As = 'div', delay = 0, className = '', children, on
   }, [once]);
 
   return (
-    <As ref={ref} className={`reveal ${className}`} data-shown={shown} style={{ transitionDelay: `${delay}ms` }} {...rest}>
+    <As ref={ref} className={`reveal ${className}`} data-shown={shown} data-from={from} style={{ transitionDelay: `${delay}ms` }} {...rest}>
       {children}
     </As>
   );
+}
+
+/**
+ * Cycles a headline word — Mistral-style. Swaps with a soft rise via
+ * AnimatePresence; reduced-motion users get the first word, static.
+ */
+export function RotatingWord({ words, interval = 2800, className = '' }) {
+  const reduce = useReducedMotion();
+  const [i, setI] = useState(0);
+  useEffect(() => {
+    if (reduce) return;
+    const t = setInterval(() => setI((v) => (v + 1) % words.length), interval);
+    return () => clearInterval(t);
+  }, [words.length, interval, reduce]);
+  return (
+    <span className={`relative inline-grid overflow-hidden align-bottom ${className}`}>
+      <AnimatePresence mode="popLayout" initial={false}>
+        <motion.span
+          key={words[i]}
+          className="inline-block"
+          initial={{ y: '110%', opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          exit={{ y: '-110%', opacity: 0 }}
+          transition={{ duration: 0.45, ease: [0.22, 0.61, 0.36, 1] }}
+        >
+          {words[i]}
+        </motion.span>
+      </AnimatePresence>
+    </span>
+  );
+}
+
+/**
+ * Opacity-only reveal — for elements that must not be transformed
+ * (table rows, sticky containers). Same trigger semantics as Reveal.
+ */
+export function RevealFlat({ as: As = 'div', delay = 0, className = '', children, once = true, ...rest }) {
+  const ref = useRef(null);
+  const [shown, setShown] = useState(false);
+
+  useEffect(() => {
+    const el = ref.current;
+    if (!el) return;
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      setShown(true);
+      return;
+    }
+    const io = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setShown(true);
+          if (once) io.disconnect();
+        } else if (!once) {
+          setShown(false);
+        }
+      },
+      { rootMargin: '0px 0px -8% 0px', threshold: 0.05 },
+    );
+    io.observe(el);
+    return () => io.disconnect();
+  }, [once]);
+
+  return (
+    <As ref={ref} className={`reveal-flat ${className}`} data-shown={shown} style={{ transitionDelay: `${delay}ms` }} {...rest}>
+      {children}
+    </As>
+  );
+}
+
+/** Thin scroll-progress bar — sits at the bottom edge of the sticky nav. */
+export function ScrollProgress({ tone = 'ink' }) {
+  const { scrollYProgress } = useScroll();
+  const scaleX = useSpring(scrollYProgress, { stiffness: 140, damping: 30, mass: 0.4 });
+  return (
+    <motion.div
+      aria-hidden="true"
+      className={`absolute inset-x-0 bottom-0 h-[2px] origin-left ${tone === 'paper' ? 'bg-paper' : 'bg-ink'}`}
+      style={{ scaleX }}
+    />
+  );
+}
+
+/** Spotlight handler — set --mx/--my on the hovered card. Pair with `.spotlight`. */
+export function spotlightMove(e) {
+  const el = e.currentTarget;
+  const r = el.getBoundingClientRect();
+  el.style.setProperty('--mx', `${e.clientX - r.left}px`);
+  el.style.setProperty('--my', `${e.clientY - r.top}px`);
 }
 
 /** Scroll position hook, used by the sticky nav. */

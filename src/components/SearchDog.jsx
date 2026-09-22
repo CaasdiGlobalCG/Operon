@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import { AnimatePresence, motion } from 'framer-motion';
 import { ROUTES, O360 } from '../lib/site';
 import { ArrowOut, Button, MonoLabel } from './ui';
 
@@ -109,7 +110,7 @@ export default function SearchDog() {
         onClick={() => setOpen((o) => !o)}
         aria-expanded={open}
         aria-controls={panelId}
-        className="group fixed bottom-6 right-6 z-50 flex h-12 w-12 items-center justify-center rounded-lg bg-ink text-paper shadow-[0_4px_20px_rgba(0,0,0,0.18)] transition-transform duration-180 ease-signal hover:-translate-y-0.5"
+        className="sd-fab group fixed bottom-6 right-6 z-50 flex h-12 w-12 items-center justify-center rounded-lg bg-ink text-paper shadow-[0_4px_20px_rgba(0,0,0,0.18)] transition-transform duration-180 ease-signal hover:-translate-y-0.5"
       >
         <DogMark />
         <span className="pointer-events-none absolute right-full mr-3 hidden whitespace-nowrap rounded-md bg-ink px-2.5 py-1.5 font-mono text-mono-xs uppercase text-paper opacity-0 transition-opacity duration-180 group-hover:opacity-100 group-focus-visible:opacity-100 md:block">
@@ -118,12 +119,17 @@ export default function SearchDog() {
         <span className="sr-only">Search Dog</span>
       </button>
 
+      <AnimatePresence>
       {open && (
-        <div
+        <motion.div
           id={panelId}
           role="dialog"
           aria-label="Search Dog"
-          className="animate-pop-in fixed bottom-24 right-4 z-50 w-[min(420px,calc(100vw-2rem))] rounded-lg border border-ink-14 bg-paper shadow-[0_16px_50px_rgba(0,0,0,0.22)]"
+          initial={{ opacity: 0, y: 10, scale: 0.97 }}
+          animate={{ opacity: 1, y: 0, scale: 1 }}
+          exit={{ opacity: 0, y: 6, scale: 0.98 }}
+          transition={{ duration: 0.22, ease: [0.22, 0.61, 0.36, 1] }}
+          className="fixed bottom-24 right-4 z-50 w-[min(420px,calc(100vw-2rem))] rounded-lg border border-ink-14 bg-paper shadow-[0_16px_50px_rgba(0,0,0,0.22)]"
         >
           <div className="flex items-start justify-between gap-4 border-b border-ink-14 p-5">
             <div>
@@ -161,6 +167,14 @@ export default function SearchDog() {
               </Button>
             </form>
 
+            <AnimatePresence mode="wait" initial={false}>
+            <motion.div
+              key={state}
+              initial={{ opacity: 0, y: 6 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, transition: { duration: 0.1 } }}
+              transition={{ duration: 0.2, ease: [0.22, 0.61, 0.36, 1] }}
+            >
             {state === 'idle' && (
               <div className="mt-4 flex flex-wrap gap-2">
                 {SUGGESTIONS.map((s) => (
@@ -177,7 +191,14 @@ export default function SearchDog() {
             )}
 
             {state === 'loading' && (
-              <p className="mt-4 font-mono text-mono uppercase text-ink-55">One moment — finding the right page.</p>
+              <p className="mt-4 flex items-center gap-2.5 font-mono text-mono uppercase text-ink-55">
+                Finding the right page
+                <span className="flex items-center gap-1" aria-hidden="true">
+                  <span className="sd-dot" style={{ animationDelay: '0ms' }} />
+                  <span className="sd-dot" style={{ animationDelay: '160ms' }} />
+                  <span className="sd-dot" style={{ animationDelay: '320ms' }} />
+                </span>
+              </p>
             )}
 
             {state === 'result' && result && (
@@ -217,6 +238,8 @@ export default function SearchDog() {
                 </p>
               </div>
             )}
+            </motion.div>
+            </AnimatePresence>
 
             <div className="mt-5 flex items-center justify-between border-t border-ink-14 pt-4">
               <span className="font-mono text-mono-xs uppercase text-ink-40">Navigation assistant</span>
@@ -232,8 +255,9 @@ export default function SearchDog() {
               </button>
             </div>
           </div>
-        </div>
+        </motion.div>
       )}
+      </AnimatePresence>
     </>
   );
 }

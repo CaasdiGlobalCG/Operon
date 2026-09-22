@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import { useLocation } from 'react-router-dom';
+import { motion } from 'framer-motion';
 import { CTABand, PageHero } from '../../components/blocks';
 import { ArrowOut, Button, Container, ExternalLink, MonoLabel, Pending, Reveal, Section } from '../../components/ui';
 import { MODULES } from '../../content/platform';
@@ -61,7 +62,15 @@ function ModuleIndex() {
         {MODULES.map((m, i) => {
           const is = m.id === active;
           return (
-            <Reveal as="li" key={m.id} id={m.id} delay={i * 70} once={false} className="scroll-mt-28 border-b border-ink-14">
+            <Reveal as="li" key={m.id} id={m.id} delay={i * 70} once={false} className="relative scroll-mt-28 border-b border-ink-14">
+              {is && (
+                <motion.span
+                  layoutId="module-marker"
+                  className="absolute -left-3 top-0 hidden h-full w-[3px] bg-ink lg:block"
+                  transition={{ type: 'spring', stiffness: 380, damping: 34 }}
+                  aria-hidden="true"
+                />
+              )}
               <button
                 type="button"
                 aria-expanded={is}

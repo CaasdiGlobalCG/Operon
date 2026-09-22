@@ -1,4 +1,6 @@
+import { useRef } from 'react';
 import { Link } from 'react-router-dom';
+import { motion, useReducedMotion, useScroll, useTransform } from 'framer-motion';
 import Signal from '../components/Signal';
 import {
   Body,
@@ -10,8 +12,10 @@ import {
   Lead,
   MonoLabel,
   Reveal,
+  RotatingWord,
   Rule,
   Section,
+  spotlightMove,
   TextLink,
 } from '../components/ui';
 import { INDUSTRIES, O360 } from '../lib/site';
@@ -47,22 +51,34 @@ const NEXT_STEPS = [
 ];
 
 export default function Home() {
+  const heroRef = useRef(null);
+  const reduce = useReducedMotion();
+  // Signal graphic drifts slower than the scroll — parallax inside the hero.
+  const { scrollYProgress } = useScroll({ target: heroRef, offset: ['start start', 'end start'] });
+  const signalY = useTransform(scrollYProgress, [0, 1], [0, -56]);
   return (
     <>
       {/* ------------------------------------------------------------- hero */}
       <Section surface="paper" bleed className="pb-20 pt-16 md:pb-30 md:pt-24">
         <Container>
-          <div className="grid items-center gap-14 lg:grid-cols-[1.15fr_0.85fr] lg:gap-20">
+          <div ref={heroRef} className="grid items-center gap-14 lg:grid-cols-[1.15fr_0.85fr] lg:gap-20">
             <div>
-              <MonoLabel>Operon Softwares · Bengaluru</MonoLabel>
-              <h1 className="mt-7 text-h1 md:text-h1-lg">We build the platforms institutions are missing.</h1>
-              <Lead className="mt-8">
-                Every government, enterprise, and industry depends on utilities — functions so fundamental that nothing
-                else works without them. Most of the ones that matter today are still undersupplied. Operon Softwares
-                finds those gaps and builds the platform required to close each one, directly, as our own product.
-                Operon 360 is the first.
-              </Lead>
-              <div className="mt-10 flex flex-wrap gap-3">
+              <div className="animate-hero-in">
+                <MonoLabel>Operon Softwares · Bengaluru</MonoLabel>
+              </div>
+              <h1 className="animate-hero-in mt-7 text-h1 md:text-h1-lg" style={{ animationDelay: '90ms' }}>
+                We build the{' '}
+                <RotatingWord words={['platforms', 'utilities', 'rails']} /> institutions are missing.
+              </h1>
+              <div className="animate-hero-in" style={{ animationDelay: '180ms' }}>
+                <Lead className="mt-8">
+                  Every government, enterprise, and industry depends on utilities — functions so fundamental that nothing
+                  else works without them. Most of the ones that matter today are still undersupplied. Operon Softwares
+                  finds those gaps and builds the platform required to close each one, directly, as our own product.
+                  Operon 360 is the first.
+                </Lead>
+              </div>
+              <div className="animate-hero-in mt-10 flex flex-wrap gap-3" style={{ animationDelay: '260ms' }}>
                 <Button to={O360}>Explore Operon 360</Button>
                 <Button
                   variant="secondary"
@@ -72,24 +88,44 @@ export default function Home() {
                 </Button>
               </div>
             </div>
-            <div className="justify-self-center lg:justify-self-end">
+            <motion.div
+              className="animate-hero-in justify-self-center lg:justify-self-end"
+              style={{ animationDelay: '180ms', ...(reduce ? {} : { y: signalY }) }}
+            >
               <Signal className="w-[220px] md:w-[300px] lg:w-[340px]" />
-            </div>
+            </motion.div>
           </div>
         </Container>
       </Section>
 
+      {/* ---------------------------------------------- sectors marquee */}
+      <div className="marquee overflow-hidden border-y border-ink-14 bg-paper py-4" aria-hidden="true">
+        <div className="marquee-track">
+          {[0, 1].map((dup) => (
+            <div key={dup} className="flex shrink-0 items-center">
+              {INDUSTRIES.map((ind) => (
+                <span key={ind.slug} className="flex items-center">
+                  <span className="px-8 font-mono text-mono uppercase text-ink-55">{ind.name}</span>
+                  <span className="h-1 w-1 rounded-full bg-ink-30" />
+                </span>
+              ))}
+            </div>
+          ))}
+        </div>
+      </div>
+
       {/* ------------------------------------------------------ what we do */}
-      <Section surface="cloud">
+      {/* Pinned: everything after this section slides up and over it. */}
+      <Section surface="cloud" className="sticky top-0 z-0">
         <Container>
-          <Reveal className="grid gap-10 lg:grid-cols-[0.9fr_1.1fr] lg:gap-20">
-            <div>
+          <div className="grid gap-10 lg:grid-cols-[0.9fr_1.1fr] lg:gap-20">
+            <Reveal from="left">
               <MonoLabel>What we do</MonoLabel>
               <Display level={2} className="mt-6">
                 We find what&rsquo;s missing before we decide what to build.
               </Display>
-            </div>
-            <div className="lg:pt-3">
+            </Reveal>
+            <Reveal from="right" delay={90} className="lg:pt-3">
               <Body>
                 We identify critical, structural gaps across governments, enterprises, and industries — then build the
                 platform required to close each one at scale. We don&rsquo;t start with a product idea and look for a market.
@@ -99,8 +135,8 @@ export default function Home() {
               <div className="mt-8">
                 <TextLink to="/approach">See how we work</TextLink>
               </div>
-            </div>
-          </Reveal>
+            </Reveal>
+          </div>
         </Container>
       </Section>
 
@@ -300,7 +336,8 @@ export default function Home() {
               <Reveal key={step.label} delay={i * 70} className="bg-paper">
                 <Link
                   to={step.to}
-                  className="group flex h-full min-h-[9.5rem] flex-col justify-between p-6 transition-colors duration-180 hover:bg-cloud"
+                  onMouseMove={spotlightMove}
+                  className="spotlight group flex h-full min-h-[9.5rem] flex-col justify-between p-6 transition-colors duration-180 hover:bg-cloud"
                 >
                   <MonoLabel>{step.note}</MonoLabel>
                   <span className="font-display text-h4 font-semibold">{step.label}</span>

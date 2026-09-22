@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { CTABand, PageHero, SectionHead, Tabs } from '../../components/blocks';
-import { ArrowOut, Body, Button, Container, MonoLabel, Reveal, Section, Shape, TextLink } from '../../components/ui';
+import { ArrowOut, Body, Button, Container, MonoLabel, Reveal, Section, Shape, spotlightMove, TextLink } from '../../components/ui';
 import { ECOSYSTEM, MODULES } from '../../content/platform';
 import { O360 } from '../../lib/site';
 
@@ -139,7 +139,12 @@ export default function O360Landing() {
 
           <div className="mt-16 grid gap-px overflow-hidden rounded-lg bg-paper-14 sm:grid-cols-2 lg:grid-cols-4">
             {ECOSYSTEM.map((node, i) => (
-              <Reveal key={node.name} delay={i * 50} className="bg-ink p-6">
+              <Reveal
+                key={node.name}
+                delay={i * 50}
+                onMouseMove={spotlightMove}
+                className="spotlight spotlight-paper bg-ink p-6"
+              >
                 <MonoLabel tone="paper">{node.name}</MonoLabel>
                 <p className="mt-4 text-sm text-paper-70">{node.copy}</p>
               </Reveal>

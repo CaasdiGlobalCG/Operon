@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 import { useLocation } from 'react-router-dom';
+import { AnimatePresence, motion } from 'framer-motion';
 import { CardGrid, CTABand, Field, FormNotice, Input, PageHero, SectionHead, Textarea, useFormState } from '../components/blocks';
 import { Body, Button, Container, EmptyState, MonoLabel, Pending, Reveal, Section, TextLink } from '../components/ui';
 import { ChasingCostCalculator, FragmentationTaxCalculator } from '../components/Calculators';
@@ -41,7 +42,10 @@ export default function Grow() {
               {REFERRALS.map((item) => {
                 const is = referral === item.kind;
                 return (
-                  <article key={item.title} className="flex flex-col justify-between gap-8 bg-paper p-7 md:p-8">
+                  <article
+                    key={item.title}
+                    className="flex flex-col justify-between gap-8 bg-paper p-7 transition-transform duration-200 ease-signal hover:-translate-y-1 md:p-8"
+                  >
                     <div>
                       <MonoLabel>{item.title}</MonoLabel>
                       <p className="mt-4 text-body text-ink-70">{item.copy}</p>
@@ -173,9 +177,29 @@ export default function Grow() {
 
 function ReferralForm({ kind }) {
   const [values, setValues] = useState({ name: '', email: '', company: '', refName: '', refContact: '', note: '' });
-  const { errors, state, submit } = useFormState(['name', 'email', 'refName', 'refContact']);
+  const { errors, state, submit, reset } = useFormState(['name', 'email', 'refName', 'refContact']);
   const set = (k) => (e) => setValues({ ...values, [k]: e.target.value });
   const who = kind === 'client' ? 'business' : 'vendor';
+
+  if (state === 'success') {
+    return (
+      <motion.div
+        role="status"
+        initial={{ opacity: 0, y: 10 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.28, ease: [0.22, 0.61, 0.36, 1] }}
+        className="rounded-lg border border-ink bg-ink p-8 text-paper"
+      >
+        <MonoLabel tone="paper">Referral received</MonoLabel>
+        <p className="mt-4 max-w-prose text-body text-paper-70">
+          Thanks — the referral is in. We'll reach out to the {who} and keep you posted.
+        </p>
+        <Button tone="ink" variant="secondary" className="mt-8" onClick={reset}>
+          Refer another
+        </Button>
+      </motion.div>
+    );
+  }
 
   return (
     <form onSubmit={(e) => submit(e, values)} noValidate>
