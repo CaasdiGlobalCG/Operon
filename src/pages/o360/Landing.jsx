@@ -137,14 +137,14 @@ export default function O360Landing() {
             </div>
           </SectionHead>
 
-          <Reveal className="mt-16 grid gap-px overflow-hidden rounded-lg bg-paper-14 sm:grid-cols-2 lg:grid-cols-4" delay={60}>
-            {ECOSYSTEM.map((node) => (
-              <div key={node.name} className="bg-ink p-6">
+          <div className="mt-16 grid gap-px overflow-hidden rounded-lg bg-paper-14 sm:grid-cols-2 lg:grid-cols-4">
+            {ECOSYSTEM.map((node, i) => (
+              <Reveal key={node.name} delay={i * 50} className="bg-ink p-6">
                 <MonoLabel tone="paper">{node.name}</MonoLabel>
                 <p className="mt-4 text-sm text-paper-70">{node.copy}</p>
-              </div>
+              </Reveal>
             ))}
-          </Reveal>
+          </div>
         </Container>
       </Section>
 

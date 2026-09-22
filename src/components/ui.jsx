@@ -70,7 +70,8 @@ export function Body({ tone = 'ink', className = '', children }) {
 
 const BTN_BASE =
   'inline-flex items-center justify-center gap-2 font-sans text-sm font-medium rounded-md ' +
-  'px-5 h-11 transition-colors duration-180 ease-signal whitespace-nowrap';
+  'px-5 h-11 whitespace-nowrap transition-[color,background-color,border-color,transform] duration-180 ease-signal ' +
+  'active:scale-[0.97]';
 
 const BTN = {
   'primary-on-paper': `${BTN_BASE} bg-ink text-paper hover:bg-ink-70`,
@@ -222,4 +223,20 @@ export function useScrolled(threshold = 8) {
     return () => window.removeEventListener('scroll', onScroll);
   }, [threshold]);
   return scrolled;
+}
+
+/** True while scrolling down past `threshold` — sticky navs slide away, return on scroll-up. */
+export function useNavHidden(threshold = 320) {
+  const [hidden, setHidden] = useState(false);
+  useEffect(() => {
+    let last = window.scrollY;
+    const onScroll = () => {
+      const y = window.scrollY;
+      setHidden(y > threshold && y > last);
+      last = y;
+    };
+    window.addEventListener('scroll', onScroll, { passive: true });
+    return () => window.removeEventListener('scroll', onScroll);
+  }, [threshold]);
+  return hidden;
 }

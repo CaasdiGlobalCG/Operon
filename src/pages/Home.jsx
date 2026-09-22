@@ -114,20 +114,21 @@ export default function Home() {
             </Display>
           </Reveal>
 
-          <Reveal className="mt-16" delay={60}>
+          <div className="mt-16">
             <Rule />
             <dl>
-              {INFRASTRUCTURE.map((item) => (
-                <div
+              {INFRASTRUCTURE.map((item, i) => (
+                <Reveal
                   key={item.name}
+                  delay={i * 55}
                   className="grid gap-3 border-b border-ink-14 py-8 md:grid-cols-[0.8fr_1.2fr] md:gap-12"
                 >
                   <dt className="font-display text-h4 font-semibold">{item.name}</dt>
                   <dd className="max-w-prose text-body text-ink-70">{item.copy}</dd>
-                </div>
+                </Reveal>
               ))}
             </dl>
-          </Reveal>
+          </div>
         </Container>
       </Section>
 
@@ -149,8 +150,8 @@ export default function Home() {
             </div>
           </Reveal>
 
-          <Reveal className="mt-16 grid gap-px overflow-hidden rounded-lg bg-paper-14 md:grid-cols-2" delay={60}>
-            <article className="flex flex-col justify-between gap-10 bg-ink p-8 md:p-10">
+          <div className="mt-16 grid gap-px overflow-hidden rounded-lg bg-paper-14 md:grid-cols-2">
+            <Reveal delay={0} className="flex flex-col justify-between gap-10 bg-ink p-8 md:p-10">
               <div>
                 <MonoLabel tone="paper">Execution infrastructure</MonoLabel>
                 <h3 className="mt-5 text-h3">Operon 360</h3>
@@ -162,8 +163,8 @@ export default function Home() {
               <Button to={O360} tone="ink">
                 Enter Operon 360
               </Button>
-            </article>
-            <article className="flex flex-col justify-between gap-10 bg-ink p-8 md:p-10">
+            </Reveal>
+            <Reveal delay={80} className="flex flex-col justify-between gap-10 bg-ink p-8 md:p-10">
               <div>
                 <MonoLabel tone="paper">External platform</MonoLabel>
                 <h3 className="mt-5 text-h3">Graviyx</h3>
@@ -176,8 +177,8 @@ export default function Home() {
                   Visit Graviyx
                 </ExternalLink>
               </div>
-            </article>
-          </Reveal>
+            </Reveal>
+          </div>
         </Container>
       </Section>
 
@@ -294,18 +295,19 @@ export default function Home() {
               Wherever you fit in, there&rsquo;s a next step.
             </Display>
           </Reveal>
-          <Reveal className="mt-14 grid gap-px overflow-hidden rounded-lg bg-ink-14 sm:grid-cols-2 lg:grid-cols-4" delay={60}>
-            {NEXT_STEPS.map((step) => (
-              <Link
-                key={step.label}
-                to={step.to}
-                className="group flex min-h-[9.5rem] flex-col justify-between bg-paper p-6 transition-colors duration-180 hover:bg-cloud"
-              >
-                <MonoLabel>{step.note}</MonoLabel>
-                <span className="font-display text-h4 font-semibold">{step.label}</span>
-              </Link>
+          <div className="mt-14 grid gap-px overflow-hidden rounded-lg bg-ink-14 sm:grid-cols-2 lg:grid-cols-4">
+            {NEXT_STEPS.map((step, i) => (
+              <Reveal key={step.label} delay={i * 70} className="bg-paper">
+                <Link
+                  to={step.to}
+                  className="group flex h-full min-h-[9.5rem] flex-col justify-between p-6 transition-colors duration-180 hover:bg-cloud"
+                >
+                  <MonoLabel>{step.note}</MonoLabel>
+                  <span className="font-display text-h4 font-semibold">{step.label}</span>
+                </Link>
+              </Reveal>
             ))}
-          </Reveal>
+          </div>
         </Container>
       </Section>
     </>

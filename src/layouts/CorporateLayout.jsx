@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { Link, NavLink, Outlet, useLocation } from 'react-router-dom';
 import { CorporateLogo, Mark } from '../components/Logo';
 import SearchDog from '../components/SearchDog';
-import { Button, Container, ExternalLink, MonoLabel, Pending, useScrolled } from '../components/ui';
+import { Button, Container, ExternalLink, MonoLabel, Pending, useNavHidden, useScrolled } from '../components/ui';
 import { CORPORATE_FOOTER, CORPORATE_NAV, CORPORATE_NAV_CTA } from '../lib/site';
 
 export default function CorporateLayout() {
@@ -20,6 +20,7 @@ export default function CorporateLayout() {
 
 function CorporateNav() {
   const scrolled = useScrolled();
+  const navHidden = useNavHidden();
   const [open, setOpen] = useState(false);
   const { pathname } = useLocation();
 
@@ -27,9 +28,9 @@ function CorporateNav() {
 
   return (
     <header
-      className={`sticky top-0 z-40 bg-paper/95 backdrop-blur-sm transition-colors duration-240 ease-signal ${
+      className={`sticky top-0 z-40 bg-paper/95 backdrop-blur-sm transition-[transform,border-color] duration-300 ease-signal ${
         scrolled ? 'border-b border-ink-14' : 'border-b border-transparent'
-      }`}
+      } ${navHidden && !open ? '-translate-y-full' : ''}`}
       style={{ paddingTop: 'env(safe-area-inset-top, 0px)' }}
     >
       <Container className="flex h-16 items-center justify-between gap-6">

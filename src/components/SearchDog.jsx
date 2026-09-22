@@ -123,7 +123,7 @@ export default function SearchDog() {
           id={panelId}
           role="dialog"
           aria-label="Search Dog"
-          className="fixed bottom-24 right-4 z-50 w-[min(420px,calc(100vw-2rem))] rounded-lg border border-ink-14 bg-paper shadow-[0_16px_50px_rgba(0,0,0,0.22)]"
+          className="animate-pop-in fixed bottom-24 right-4 z-50 w-[min(420px,calc(100vw-2rem))] rounded-lg border border-ink-14 bg-paper shadow-[0_16px_50px_rgba(0,0,0,0.22)]"
         >
           <div className="flex items-start justify-between gap-4 border-b border-ink-14 p-5">
             <div>

@@ -11,16 +11,28 @@ export function PageHero({ eyebrow, headline, lead, actions, surface = 'paper', 
       <Container>
         <div className={aside ? 'grid gap-12 lg:grid-cols-[1.1fr_0.9fr] lg:gap-20' : ''}>
           <div>
-            {eyebrow ? <MonoLabel tone={dark ? 'paper' : 'ink'}>{eyebrow}</MonoLabel> : null}
-            <h1 className="mt-6 max-w-[20ch] text-h1 md:text-h1-lg">{headline}</h1>
-            {lead ? (
-              <Lead tone={dark ? 'paper' : 'ink'} className="mt-8">
-                {lead}
-              </Lead>
+            {eyebrow ? (
+              <div className="animate-hero-in" style={{ animationDelay: '0ms' }}>
+                <MonoLabel tone={dark ? 'paper' : 'ink'}>{eyebrow}</MonoLabel>
+              </div>
             ) : null}
-            {actions ? <div className="mt-10 flex flex-wrap gap-3">{actions}</div> : null}
+            <h1 className="animate-hero-in mt-6 max-w-[20ch] text-h1 md:text-h1-lg" style={{ animationDelay: '90ms' }}>
+              {headline}
+            </h1>
+            {lead ? (
+              <div className="animate-hero-in" style={{ animationDelay: '180ms' }}>
+                <Lead tone={dark ? 'paper' : 'ink'} className="mt-8">
+                  {lead}
+                </Lead>
+              </div>
+            ) : null}
+            {actions ? (
+              <div className="animate-hero-in mt-10 flex flex-wrap gap-3" style={{ animationDelay: '260ms' }}>
+                {actions}
+              </div>
+            ) : null}
           </div>
-          {aside ? <div className="lg:justify-self-end">{aside}</div> : null}
+          {aside ? <div className="animate-hero-in lg:justify-self-end" style={{ animationDelay: '180ms' }}>{aside}</div> : null}
         </div>
       </Container>
     </Section>
@@ -75,11 +87,15 @@ export function DefinitionList({ items, tone = 'ink' }) {
   const muted = tone === 'paper' ? 'text-paper-70' : 'text-ink-70';
   return (
     <dl className={`border-t ${border}`}>
-      {items.map((item) => (
-        <div key={item.term} className={`grid gap-3 border-b ${border} py-8 md:grid-cols-[0.8fr_1.2fr] md:gap-12`}>
+      {items.map((item, i) => (
+        <Reveal
+          key={item.term}
+          delay={i * 55}
+          className={`grid gap-3 border-b ${border} py-8 md:grid-cols-[0.8fr_1.2fr] md:gap-12`}
+        >
           <dt className="font-display text-h4 font-semibold">{item.term}</dt>
           <dd className={`max-w-prose text-body ${muted}`}>{item.copy}</dd>
-        </div>
+        </Reveal>
       ))}
     </dl>
   );
@@ -92,13 +108,18 @@ export function Steps({ steps, tone = 'ink' }) {
   return (
     <ol className={`border-t ${border}`}>
       {steps.map((step, i) => (
-        <li key={step.term} className={`grid gap-4 border-b ${border} py-8 md:grid-cols-[3rem_0.7fr_1.3fr] md:gap-8`}>
+        <Reveal
+          as="li"
+          key={step.term}
+          delay={i * 55}
+          className={`grid gap-4 border-b ${border} py-8 md:grid-cols-[3rem_0.7fr_1.3fr] md:gap-8`}
+        >
           <span className="font-mono text-mono uppercase tabular-nums opacity-55">
             {String(i + 1).padStart(2, '0')}
           </span>
           <h3 className="font-display text-h4 font-semibold">{step.term}</h3>
           <p className={`max-w-prose text-body ${muted}`}>{step.copy}</p>
-        </li>
+        </Reveal>
       ))}
     </ol>
   );

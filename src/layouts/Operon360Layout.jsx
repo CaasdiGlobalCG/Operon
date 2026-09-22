@@ -3,7 +3,7 @@ import { Outlet, useLocation } from 'react-router-dom';
 import { Link, NavLink } from 'react-router-dom';
 import { Mark, PlatformLogo } from '../components/Logo';
 import SearchDog from '../components/SearchDog';
-import { Button, Container, ExternalLink, MonoLabel } from '../components/ui';
+import { Button, Container, ExternalLink, MonoLabel, useNavHidden } from '../components/ui';
 import { O360, O360_FOOTER, O360_NAV, O360_NAV_CTA } from '../lib/site';
 
 /**
@@ -26,11 +26,17 @@ export default function Operon360Layout() {
 
 function O360Nav() {
   const [open, setOpen] = useState(false);
+  const navHidden = useNavHidden();
   const { pathname } = useLocation();
   useEffect(() => setOpen(false), [pathname]);
 
   return (
-    <header className="sticky top-0 z-40 bg-ink text-paper" style={{ paddingTop: 'env(safe-area-inset-top, 0px)' }}>
+    <header
+      className={`sticky top-0 z-40 bg-ink text-paper transition-transform duration-300 ease-signal ${
+        navHidden && !open ? '-translate-y-full' : ''
+      }`}
+      style={{ paddingTop: 'env(safe-area-inset-top, 0px)' }}
+    >
       <Container className="flex h-16 items-center justify-between gap-6">
         <div className="flex items-center gap-4">
           <PlatformLogo tone="white" height={20} />

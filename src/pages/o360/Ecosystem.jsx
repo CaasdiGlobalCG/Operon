@@ -15,22 +15,22 @@ export default function Ecosystem() {
 
       <Section surface="paper">
         <Container>
-          <Reveal>
-            <ol className="border-t border-ink-14">
-              {ECOSYSTEM.map((node, i) => (
-                <li
-                  key={node.name}
-                  className="grid gap-3 border-b border-ink-14 py-8 md:grid-cols-[3rem_0.7fr_1.3fr] md:gap-8"
-                >
-                  <span className="font-mono text-mono uppercase tabular-nums text-ink-40">
-                    {String(i + 1).padStart(2, '0')}
-                  </span>
-                  <h2 className="font-display text-h4 font-semibold">{node.name}</h2>
-                  <p className="max-w-prose text-body text-ink-70">{node.copy}</p>
-                </li>
-              ))}
-            </ol>
-          </Reveal>
+          <ol className="border-t border-ink-14">
+            {ECOSYSTEM.map((node, i) => (
+              <Reveal
+                as="li"
+                key={node.name}
+                delay={i * 60}
+                className="grid gap-3 border-b border-ink-14 py-8 md:grid-cols-[3rem_0.7fr_1.3fr] md:gap-8"
+              >
+                <span className="font-mono text-mono uppercase tabular-nums text-ink-40">
+                  {String(i + 1).padStart(2, '0')}
+                </span>
+                <h2 className="font-display text-h4 font-semibold">{node.name}</h2>
+                <p className="max-w-prose text-body text-ink-70">{node.copy}</p>
+              </Reveal>
+            ))}
+          </ol>
         </Container>
       </Section>
 
