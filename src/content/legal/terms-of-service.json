@@ -1,0 +1,2633 @@
+{
+ "meta": {
+  "title": "Terms of Service",
+  "tagline": "A brand of Operon Softwares",
+  "effectiveDate": "[INSERT DATE]",
+  "lastUpdated": null,
+  "version": "2.0"
+ },
+ "blocks": [
+  {
+   "t": "h2",
+   "num": "1",
+   "text": "Introduction and Acceptance of Terms",
+   "id": "s-1"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Welcome to Operon 360 (the “Platform”), an AI-powered business-to-business (B2B) platform developed and operated by [OPERON SOFTWARES PRIVATE LIMITED, a company incorporated under the laws of [JURISDICTION] with its registered office at [REGISTERED ADDRESS] (“Operon Softwares”, “we”, “us”, or “our”). “Operon 360” is a trading name and brand under which Operon Softwares makes the Platform available; it is not a separate legal entity from Operon Softwares.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "These Terms of Service (“Terms”) constitute a legally binding agreement between you, the individual user or the organisation you represent (“User”, “you”, or “your”), and Operon Softwares, governing your access to and use of the Platform, including all associated services, tools, features, AI-assisted workflows, project workspaces, procurement powered by Graviyx modules, tender facilities, subscription plans, and any other services made available through Operon 360 (collectively, the “Services”).",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "BY ACCESSING, REGISTERING FOR, OR OTHERWISE USING THE PLATFORM OR ANY SERVICE, YOU EXPRESSLY REPRESENT THAT: (A) YOU HAVE READ, UNDERSTOOD, AND AGREE TO BE BOUND BY THESE TERMS; (B) YOU HAVE THE LEGAL CAPACITY AND AUTHORITY TO ENTER INTO THESE TERMS ON BEHALF OF YOURSELF OR THE ORGANISATION YOU REPRESENT; AND (C) YOUR USE OF THE PLATFORM COMPLIES WITH ALL APPLICABLE LAWS AND REGULATIONS. IF YOU DO NOT AGREE TO THESE TERMS, YOU MUST IMMEDIATELY CEASE ALL USE OF THE PLATFORM.",
+     "b": true
+    }
+   ],
+   "caps": true
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "These Terms should be read in conjunction with our Privacy Policy, Acceptable Use Policy, Cookie Policy, and any other policies or supplemental terms published from time to time, all of which are incorporated herein by reference.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "1.1",
+   "text": "Corporate Structure and Interpretation",
+   "id": "s-1-1"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "(a) Relationship.",
+     "b": true
+    },
+    {
+     "t": " Operon 360 is the commercial and product name under which Operon Softwares offers the Platform to Clients, Vendors, and other Users. Operon 360 has no separate legal personality; all rights, obligations, warranties, and liabilities described in these Terms as belonging to, or owed to, “Operon 360” or “the Platform” are rights, obligations, warranties, and liabilities of Operon Softwares.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "(b) Interpretation.",
+     "b": true
+    },
+    {
+     "t": " References to “Operon 360” or “the Platform” describe the product, brand, workspace, and features that Users interact with. References to “Operon Softwares”, “we”, “us”, or “our” refer to the legal entity identified above, which is the contracting party to these Terms and which owns, operates, and is legally responsible for Operon 360.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "(c) Notices.",
+     "b": true
+    },
+    {
+     "t": " All legal notices, formal correspondence, and legal process relating to these Terms or the Platform must be directed to Operon Softwares in accordance with Section 28.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h2",
+   "num": "2",
+   "text": "Definitions",
+   "id": "s-2"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "In these Terms, the following capitalised terms shall have the meanings set forth below:",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "defs",
+   "items": [
+    {
+     "term": "“Account”",
+     "copy": [
+      {
+       "t": "means the registered account created by a User on the Platform.",
+       "b": false
+      }
+     ]
+    },
+    {
+     "term": "“Authorised User”",
+     "copy": [
+      {
+       "t": "means any employee, contractor, agent, or representative granted access to the Platform under a User's Account.",
+       "b": false
+      }
+     ]
+    },
+    {
+     "term": "“CAS Expert”",
+     "copy": [
+      {
+       "t": "means Operon 360's Client Advisory Specialist, an industry-domain expert who analyses requirements, evaluates Vendor suitability, and facilitates procurement powered by Graviyx recommendations.",
+       "b": false
+      }
+     ]
+    },
+    {
+     "term": "“Client”",
+     "copy": [
+      {
+       "t": "means a User who registers primarily to submit requirements, receive proposals, procure goods or services, or manage projects through the Platform.",
+       "b": false
+      }
+     ]
+    },
+    {
+     "term": "“Confidential Information”",
+     "copy": [
+      {
+       "t": "means any non-public information disclosed by one party to the other that is designated as confidential or that reasonably should be understood to be confidential.",
+       "b": false
+      }
+     ]
+    },
+    {
+     "term": "“Content”",
+     "copy": [
+      {
+       "t": "means any data, text, files, documents, images, communications, specifications, requirements, bids, proposals, contracts, or other materials uploaded or submitted through the Platform by a User.",
+       "b": false
+      }
+     ]
+    },
+    {
+     "term": "“Department Head Access”",
+     "copy": [
+      {
+       "t": "means the platform access granted to designated senior representatives of a User's organisation, as selected during subscription setup or thereafter.",
+       "b": false
+      }
+     ]
+    },
+    {
+     "term": "“Intellectual Property Rights”",
+     "copy": [
+      {
+       "t": "means all patents, copyright, trademarks, design rights, database rights, trade secrets, and all other intellectual property rights, whether registered or unregistered.",
+       "b": false
+      }
+     ]
+    },
+    {
+     "term": "“Operon Softwares”",
+     "copy": [
+      {
+       "t": "means OPERON SOFTWARES PRIVATE LIMITED , the legal entity that owns and operates Operon 360, as described in Section 1.",
+       "b": false
+      }
+     ]
+    },
+    {
+     "term": "“Operon 360”",
+     "copy": [
+      {
+       "t": "means the Platform, as described in Section 1.",
+       "b": false
+      }
+     ]
+    },
+    {
+     "term": "“KYC”",
+     "copy": [
+      {
+       "t": "means Know Your Customer, the verification and due diligence process described in Section 4.",
+       "b": false
+      }
+     ]
+    },
+    {
+     "term": "“Milestone”",
+     "copy": [
+      {
+       "t": "means a defined deliverable, approval gate, or project checkpoint agreed between a Client and Vendor within a Project Workspace.",
+       "b": false
+      }
+     ]
+    },
+    {
+     "term": "“OEM”",
+     "copy": [
+      {
+       "t": "means Original Equipment Manufacturer.",
+       "b": false
+      }
+     ]
+    },
+    {
+     "term": "“Platform”",
+     "copy": [
+      {
+       "t": "has the meaning given in Section 1.",
+       "b": false
+      }
+     ]
+    },
+    {
+     "term": "“PM” or “Project Manager”",
+     "copy": [
+      {
+       "t": "means an Operon Softwares-assigned professional responsible for overseeing project delivery, milestone tracking, and client-vendor coordination.",
+       "b": false
+      }
+     ]
+    },
+    {
+     "term": "“procurement powered by Graviyx Marketplace”",
+     "copy": [
+      {
+       "t": "means the module through which Clients source, evaluate, and procure goods and services from verified Vendors.",
+       "b": false
+      }
+     ]
+    },
+    {
+     "term": "“Project Workspace” or “Workspace”",
+     "copy": [
+      {
+       "t": "means the dedicated collaborative environment accessible to a Client, Vendor(s), and PM for project execution.",
+       "b": false
+      }
+     ]
+    },
+    {
+     "term": "“Proposal”",
+     "copy": [
+      {
+       "t": "means a commercial offer submitted by a Vendor in response to a Client requirement or Tender.",
+       "b": false
+      }
+     ]
+    },
+    {
+     "term": "“Purchase Order” or “PO”",
+     "copy": [
+      {
+       "t": "means a formal commercial document issued through the Platform confirming a purchase commitment.",
+       "b": false
+      }
+     ]
+    },
+    {
+     "term": "“Services”",
+     "copy": [
+      {
+       "t": "has the meaning given in Section 1.",
+       "b": false
+      }
+     ]
+    },
+    {
+     "term": "“Subscription”",
+     "copy": [
+      {
+       "t": "means a paid plan granting access to defined Platform features for a specified term.",
+       "b": false
+      }
+     ]
+    },
+    {
+     "term": "“Tender”",
+     "copy": [
+      {
+       "t": "means a formal procurement powered by Graviyx / requirement of service exercise posted by or on behalf of a Client inviting eligible Vendors to submit bids.",
+       "b": false
+      }
+     ]
+    },
+    {
+     "term": "“User”",
+     "copy": [
+      {
+       "t": "has the meaning given in Section 1. A User may register as a Client, a Vendor, or both.",
+       "b": false
+      }
+     ]
+    },
+    {
+     "term": "“Vendor”",
+     "copy": [
+      {
+       "t": "means a User who registers as a service provider, product manufacturer, OEM, distributor, wholesaler, or other supplier offering goods or services through the Platform.",
+       "b": false
+      }
+     ]
+    },
+    {
+     "term": "“Warranty Claim”",
+     "copy": [
+      {
+       "t": "means a formal request submitted by a Client seeking remedy for a defect or non-conformity in a product or service procured through the Platform.",
+       "b": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "t": "h2",
+   "num": "3",
+   "text": "Eligibility and Account Registration",
+   "id": "s-3"
+  },
+  {
+   "t": "h3",
+   "num": "3.1",
+   "text": "Eligibility",
+   "id": "s-3-1"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "To register for and use the Platform, you must: (a) be at least 18 years of age or the age of majority in your jurisdiction, whichever is higher; (b) have the legal capacity to enter into binding contracts; (c) if registering on behalf of a legal entity, have authority to bind that entity to these Terms; (d) not be subject to applicable trade sanctions, export controls, or restrictions; and (e) not have previously had an Account terminated by Operon Softwares for cause.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "By creating an Account, you expressly represent and warrant that you are not named on any sanctions list maintained by the United Nations, the European Union, the United States Office of Foreign Assets Control (OFAC), or any other applicable governmental or regulatory authority, and that your use of the Platform does not violate any applicable sanctions or export control laws. You agree to notify Operon Softwares immediately if this representation ceases to be accurate.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "3.2",
+   "text": "Account Creation",
+   "id": "s-3-2"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Registration requires accurate, current, and complete information including your full legal name or entity name, registered business address, contact details, and selected subscription tier. You agree to keep all Account information updated at all times.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "3.3",
+   "text": "Account Security",
+   "id": "s-3-3"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "You are solely responsible for maintaining the confidentiality of your Account credentials and for all activities under your Account. Notify Operon Softwares immediately at [SECURITY CONTACT EMAIL] upon becoming aware of any unauthorised access.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "3.4",
+   "text": "Single and Dual Role Accounts",
+   "id": "s-3-4"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "A User who initially registers as a Client may subsequently apply to be onboarded as a Vendor, and vice versa, subject to successful completion of the applicable KYC requirements for the additional role. Dual-role Users acknowledge that their obligations apply separately in respect of each role.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "3.5",
+   "text": "Guest and View-Only Access",
+   "id": "s-3-5"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Clients may invite internal stakeholders (such as senior executives, auditors, or board members) to access the Platform as view-only guests under their Account. Guest users may view project progress, reports, and Workspace updates but may not submit, approve, or transact. The Account holder is solely responsible for all activity by guest users and must ensure they comply with these Terms. Operon Softwares reserves the right to limit the number of guest users permitted under each subscription tier.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "3.6",
+   "text": "Change of Account Ownership",
+   "id": "s-3-6"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "If your organisation undergoes a change of control, merger, acquisition, or transfer of business, you must notify Operon Softwares in writing within 14 days of such change. Operon Softwares will review the change and may require re-verification or KYC of the new Account owner. Operon Softwares reserves the right to suspend the Account pending such review. Accounts may not be transferred to a third party without Operon Softwares's prior written consent.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "3.7",
+   "text": "Account Accuracy and Responsibility",
+   "id": "s-3-7"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "You are solely responsible for ensuring all information provided during registration and throughout your use of the Platform is accurate, complete, and not misleading. You are solely responsible for the consequences of any inaccuracies or omissions.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h2",
+   "num": "4",
+   "text": "KYC, Verification, and Onboarding",
+   "id": "s-4"
+  },
+  {
+   "t": "h3",
+   "num": "4.1",
+   "text": "Mandatory Verification",
+   "id": "s-4-1"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Operon Softwares operates a compliance-first onboarding model for Operon 360. All Vendors, and Clients who apply to also act as Vendors, must complete a full KYC process before being permitted to transact on the Platform. Clients registering solely as buyers may be subject to a lighter onboarding process, which may be upgraded to full KYC at Operon Softwares's discretion or upon a change in role.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "4.2",
+   "text": "KYC Components",
+   "id": "s-4-2"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "The KYC process may include, without limitation:",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Document verification:",
+     "b": true
+    },
+    {
+     "t": " submission of government-issued identification, certificate of incorporation, trade licences, GST registrations, professional certifications, and any other documents requested by Operon Softwares.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Background checks:",
+     "b": true
+    },
+    {
+     "t": " review of directorships, legal proceedings, sanctions screening, and regulatory history.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Physical verification:",
+     "b": true
+    },
+    {
+     "t": " an on-site or third-party-facilitated verification of the User's declared place of business.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Legal and regulatory review:",
+     "b": true
+    },
+    {
+     "t": " assessment of compliance with applicable industry-specific regulations.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Ongoing periodic re-verification as required by applicable law or Operon Softwares policy.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "4.3",
+   "text": "KYC Rejection and Appeal",
+   "id": "s-4-3"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "If Operon Softwares determines that a User does not meet its KYC requirements, Operon Softwares will notify the User of the rejection. A rejected User may submit a written appeal to [KYC APPEAL EMAIL] within 14 days of receiving the rejection notice, providing additional documentation or clarification. Operon Softwares will review the appeal and communicate its final decision within [NUMBER] business days. Operon Softwares's final decision on KYC appeals is binding.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Where a User has paid Subscription fees prior to a KYC rejection, Operon Softwares will refund the unused portion of the prepaid Subscription fees on a pro-rata basis, provided that the rejection was not caused by the User's submission of false, fraudulent, or misleading information. No refund shall be issued where rejection results from the User's own misrepresentation.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "4.4",
+   "text": "Responsibility for Accuracy",
+   "id": "s-4-4"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "You are solely responsible for ensuring that all documents and information submitted during KYC are authentic, accurate, complete, and lawfully obtained. Submission of false, forged, or misleading documents is a material breach of these Terms and may constitute a criminal offence. Operon Softwares reserves the right to report suspected fraud to relevant authorities.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "4.5",
+   "text": "Operon Softwares Discretion",
+   "id": "s-4-5"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Operon Softwares reserves the sole and absolute discretion to approve, defer, reject, or re-verify any User at any stage. This discretion does not create any obligation on Operon Softwares to provide reasons and shall not give rise to any claim for compensation, except as set out in Section 4.3.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "4.6",
+   "text": "Third-Party Verification",
+   "id": "s-4-6"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Operon Softwares may engage third-party identity verification or due diligence providers to assist with KYC. By submitting your information, you consent to such information being shared with these providers as described in our Privacy Policy.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h2",
+   "num": "5",
+   "text": "Subscriptions, Department Head Access, and Account Management",
+   "id": "s-5"
+  },
+  {
+   "t": "h3",
+   "num": "5.1",
+   "text": "Subscription Plans",
+   "id": "s-5-1"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Access to the Platform is conditional upon the purchase of an applicable Subscription. Subscription plans, including pricing, features, and included access levels, are set out on the Platform and may be updated with appropriate notice as described in Section 25.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "5.2",
+   "text": "Subscription Upgrades and Downgrades",
+   "id": "s-5-2"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Users may upgrade their Subscription plan at any time. An upgrade takes effect immediately and the User will be charged the pro-rata difference for the remainder of the current billing period, based on the number of days remaining.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Users may downgrade their Subscription plan at any time. A downgrade takes effect at the start of the next billing period. No refund or credit is issued for the unused portion of the current period upon a downgrade. Operon Softwares will notify the User of any features or access that will be removed as a result of the downgrade, and the User is responsible for ensuring any data or configurations dependent on the higher-tier features are addressed before the downgrade takes effect.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "5.3",
+   "text": "Department Head Access",
+   "id": "s-5-3"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "During Subscription setup and at any time thereafter, Users may designate specific department heads or senior representatives within their organisation to receive elevated access to relevant Platform features and workflows (“Department Head Access”). Users are responsible for designating appropriate individuals and may add or remove Department Head Access at any time through the Account settings. Operon Softwares does not independently verify the authority of designated individuals within the User's organisation. The User is solely responsible for all actions taken by individuals granted Department Head Access.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "5.4",
+   "text": "Subscription Lapse and Active Projects",
+   "id": "s-5-4"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "If a Client's Subscription lapses due to non-renewal or non-payment, access to the Platform will be suspended in accordance with Section 20. In such circumstances: (a) all active Project Workspaces associated with the Account will be placed into a read-only state for a grace period of [NUMBER] days; (b) the Client will be notified and given the opportunity to renew the Subscription within the grace period to restore full access; (c) if the Subscription is not renewed within the grace period, active Workspaces will be archived and Vendors and PMs will be notified; and (d) any pending POs or payment obligations arising prior to lapse remain due and payable.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h2",
+   "num": "6",
+   "text": "Platform Services and Workflow Model",
+   "id": "s-6"
+  },
+  {
+   "t": "h3",
+   "num": "6.1",
+   "text": "Overview of Services",
+   "id": "s-6-1"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Operon 360 provides an integrated B2B platform offering, among other things:",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "A requirement and proposal management system for Clients and Vendors.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "AI-assisted analytics, recommendations, and workflow automation.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "A procurement powered by Graviyx Marketplace for sourcing, quoting, and purchasing goods and services.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Project Workspaces for collaborative project execution.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "A Tender facility for multi-vendor procurement powered by Graviyx exercises.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Warranty claim management and post-sales service coordination.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Billing, subscription, and financial management tools.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "6.2",
+   "text": "Client Workflow",
+   "id": "s-6-2"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Upon successful onboarding, a Client may: (a) submit requirements through the Platform; (b) receive Vendor recommendations and Proposals; (c) approve Proposals and initiate a Project Workspace; (d) issue Tenders; (e) procure products and services; (f) manage projects, milestones, approvals, and budgets within the Workspace; and (g) submit Warranty Claims and post-sales service requests.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "6.3",
+   "text": "Vendor Workflow",
+   "id": "s-6-3"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Upon successful onboarding, a Vendor may: (a) create and maintain a product and services portfolio; (b) appear in the procurement powered by Graviyx Marketplace; (c) receive and respond to Tenders; (d) participate in Project Workspaces; (e) manage purchase orders, quotations, and post-sales obligations; and (f) access sales projections and material forecasts as provided by the Platform.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "6.4",
+   "text": "Platform Discretion and Limitations",
+   "id": "s-6-4"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Operon Softwares does not guarantee that: (a) a particular Vendor will be matched to or selected for a Client's requirement; (b) a Vendor's bid will be accepted for a Tender; (c) a Client's procurement powered by Graviyx will be fulfilled within any particular timeframe; or (d) any recommendation produced by the Platform will be accurate or complete. All platform operations are subject to system availability, applicable regulatory requirements, and Operon Softwares's operational policies.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h2",
+   "num": "7",
+   "text": "AI Features and Limitations",
+   "id": "s-7"
+  },
+  {
+   "t": "h3",
+   "num": "7.1",
+   "text": "AI-Assisted Tools",
+   "id": "s-7-1"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "The Platform incorporates artificial intelligence and machine learning technologies to assist Users with tasks such as requirement analysis, vendor matching, procurement powered by Graviyx recommendations, project workflow support, market forecasting, and data structuring (collectively, “AI Features”). AI Features are provided as a convenience to improve operational efficiency.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "7.2",
+   "text": "Not a Substitute for Professional Advice",
+   "id": "s-7-2"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "AI-generated outputs, recommendations, analyses, and suggestions are produced by automated systems and are subject to limitations including potential inaccuracies, errors, biases, and omissions. AI outputs do not constitute and must not be treated as professional, legal, financial, technical, engineering, medical, regulatory, or commercial advice of any kind. Users must seek independent professional advice before relying on any AI output for material business decisions, compliance determinations, or contractual commitments. Operon Softwares expressly disclaims any liability arising from a User's reliance on AI outputs as a substitute for professional advice.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "7.3",
+   "text": "User Consent to AI Processing",
+   "id": "s-7-3"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "By using the Platform, you consent to Operon Softwares processing the Content and data you submit through the Platform using AI systems for the purpose of delivering the AI Features described in these Terms and the Privacy Policy. This includes processing your requirements, project data, procurement powered by Graviyx history, and communications to generate recommendations, analytics, and workflow support. You may withdraw consent to certain AI processing by contacting [PRIVACY CONTACT EMAIL], subject to the limitations set out in Section 7.4.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "7.4",
+   "text": "Opt-Out Rights and Automated Decision-Making",
+   "id": "s-7-4"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Where AI Features involve automated decision-making that produces legal or similarly significant effects on Users (such as automated eligibility determinations or automated bid assessments), Operon Softwares will ensure that a human review mechanism is available. Users who are subject to such automated decisions have the right to: (a) request human review of the decision; (b) express their point of view; and (c) contest the decision, by submitting a request to [AI REVIEW EMAIL]. These rights apply to the extent required by applicable law, including the EU General Data Protection Regulation (GDPR), India's Digital Personal Data Protection Act (DPDP), and other applicable data protection legislation. Operon Softwares will not use AI-based profiling to make decisions that discriminate unlawfully against Users.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "7.5",
+   "text": "Human Review",
+   "id": "s-7-5"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Operon Softwares may apply human review and oversight by its specialist teams to supplement or override AI-generated outputs. The application of human review does not guarantee the accuracy or completeness of any output.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "7.6",
+   "text": "No Guarantee of AI Performance",
+   "id": "s-7-6"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Operon Softwares makes no warranty that the AI Features will be error-free, uninterrupted, or produce any specific result. Operon Softwares shall not be liable for any loss arising from reliance on AI-generated outputs, except to the extent that liability cannot be excluded under applicable law.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h2",
+   "num": "8",
+   "text": "Client Responsibilities",
+   "id": "s-8"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "In addition to the general obligations set out elsewhere in these Terms, each Client agrees to:",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Provide accurate, complete, and up-to-date requirements, specifications, and information when submitting requirements or participating in procurement powered by Graviyx .",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Respond promptly to requests for information, approvals, and decisions from Operon Softwares's teams within specified timeframes, and in any event within a reasonable time.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Conduct independent due diligence on any Vendor, product, or service before entering into a contract or purchase.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Comply with all applicable laws, including those relating to procurement powered by Graviyx , import and export, anti-bribery, data protection, and sector-specific regulations.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Not engage directly with a Vendor introduced through the Platform outside of the Platform for a period of [DURATION] following the termination of the relevant engagement, except as otherwise agreed in writing with Operon Softwares (“Non-Circumvention Obligation”).",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Promptly notify Operon Softwares of any dispute, non-conformity, or defect relating to goods or services procured through the Platform.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Ensure all Authorised Users and guest users under the Client's Account comply with these Terms.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Pay all sums due to Operon Softwares in accordance with Chapter 13.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Use the Workspace exclusively for legitimate project-related activities and not share access credentials with unauthorised persons.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h2",
+   "num": "9",
+   "text": "Vendor Responsibilities",
+   "id": "s-9"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "In addition to the general obligations set out elsewhere in these Terms, each Vendor agrees to:",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Maintain accurate, complete, and current product and service listings, pricing, and availability on the Platform at all times.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Fulfil all orders and contractual commitments accepted through the Platform in accordance with agreed specifications, timelines, and quality standards.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Hold all necessary licences, permits, certifications, and insurance required to offer and deliver the listed goods or services.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Comply with all applicable laws, including product safety, labelling, import and export, and anti-bribery laws.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Respond promptly to Tenders, Proposals, Warranty Claims, and post-sales service requests within specified timelines.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Not list, offer, or facilitate the sale of counterfeit, prohibited, restricted, or hazardous goods or services.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Maintain the confidentiality of Client information and Workspace content in accordance with Section 18.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Notify Operon Softwares promptly of any material change in business status, ownership, certifications, regulatory standing, or capacity to fulfil existing obligations.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Manage all post-sales obligations, including warranty fulfilment, service calls, and problem resolution, in accordance with applicable contractual terms and platform policies.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h2",
+   "num": "10",
+   "text": "User Conduct and Safety",
+   "id": "s-10"
+  },
+  {
+   "t": "h3",
+   "num": "10.1",
+   "text": "Platform Communication Policy",
+   "id": "s-10-1"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "All project-related communications, approvals, negotiations, amendments, and instructions between Clients, Vendors, and Operon Softwares must be conducted exclusively through the Platform's designated communication channels, including the Project Workspace messaging tools and the Platform's notification system. Communications conducted outside the Platform (including via personal email, WhatsApp, telephone, or other channels) will not be recognised as binding or admissible for dispute resolution purposes unless subsequently confirmed in writing within the Platform. Operon Softwares is not responsible for any loss arising from off-platform communications.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "10.2",
+   "text": "Workspace Credential Sharing",
+   "id": "s-10-2"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Users must not share their Workspace login credentials, access tokens, or session information with any person who has not been formally added to the Platform as an Authorised User or guest user under the User's Account. Where a User needs to grant access to a consultant, third-party advisor, or external representative, the User must request the addition of that person as an Authorised User through the Account management process. The Account holder is solely responsible for all actions taken by any person who gains access through the Account holder's credentials, whether authorised or not.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "10.3",
+   "text": "Anti-Poaching",
+   "id": "s-10-3"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Users agree that during the term of their engagement on the Platform and for a period of [DURATION] following the completion or termination of any Project Workspace, they will not directly or indirectly solicit, recruit, hire, or engage any employee, contractor, or key representative of another User or of Operon Softwares, where such individual was introduced to them through the Platform or in connection with a Platform engagement, without the prior written consent of the relevant party. This restriction applies to Clients in respect of Vendor personnel and to Vendors in respect of Client personnel and Operon Softwares personnel.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "10.4",
+   "text": "Prohibited Activities",
+   "id": "s-10-4"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Users must not use the Platform to:",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Submit false, fraudulent, misleading, or defamatory Content or misrepresent identity or authority.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Engage in any unlawful, deceptive, or manipulative commercial practice.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Upload or transmit malware, viruses, spyware, or any other malicious code.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Attempt to gain unauthorised access to any part of the Platform, other Users' Accounts, or Operon Softwares's systems.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Use automated bots, scrapers, or other automated means to access or extract Platform data except through Operon Softwares's approved API.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "List, offer, or facilitate the procurement powered by Graviyx of counterfeit, prohibited, restricted, or hazardous goods or services.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Engage in money laundering, terrorist financing, or other illicit financial activity.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Harass, threaten, or engage in harmful conduct towards other Users or Operon Softwares personnel.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Violate any applicable intellectual property rights of Operon Softwares or any third party.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Use AI Features or Platform data to develop competing products or services.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "10.5",
+   "text": "Enforcement",
+   "id": "s-10-5"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Operon Softwares may, without prior notice, warn, restrict, suspend, or terminate a User's Account and report the User to relevant authorities in response to a violation of these Terms or applicable law. The exercise of any enforcement power does not limit Operon Softwares's other rights or remedies.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h2",
+   "num": "11",
+   "text": "Procurement powered by Graviyx , Tenders, Quotations, and Purchase Flows",
+   "id": "s-11"
+  },
+  {
+   "t": "h3",
+   "num": "11.1",
+   "text": "procurement powered by Graviyx Marketplace",
+   "id": "s-11-1"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "The procurement powered by Graviyx Marketplace enables Clients to source, evaluate, and procure goods and services from verified Vendors. Listings are subject to Operon Softwares's approval and may be updated, removed, or modified by Operon Softwares at any time.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "11.2",
+   "text": "Tender Process",
+   "id": "s-11-2"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Clients may publish requirements as a Tender through the Platform. Operon Softwares retains sole discretion to determine which Vendors are eligible to receive and respond to a Tender, to review and shortlist bids, and to assist the Client in vendor selection. Operon Softwares's involvement is facilitative only; the final selection and resulting contract are the responsibility of the Client and Vendor.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "11.3",
+   "text": "Tender Confidentiality",
+   "id": "s-11-3"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "All bids submitted by Vendors in response to a Tender are strictly confidential. Vendors are prohibited from disclosing their own bid terms, pricing, or any related communications to other Vendors or to any third party. Operon Softwares will not disclose the content of one Vendor's bid to another Vendor participating in the same Tender. Any Vendor found to have disclosed bid information to a competitor or to have colluded with other bidders will be immediately disqualified from the Tender and may have their Account suspended or terminated.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "11.4",
+   "text": "Bid Bond and Earnest Money Deposits",
+   "id": "s-11-4"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Where Operon Softwares or a Client specifies that a Tender requires a bid bond, earnest money deposit, or similar financial security (“Bid Security”), this requirement will be specified in the Tender documentation. The terms of any Bid Security, including the amount, form, conditions for forfeiture, and process for return, will be set out in the relevant Tender documents. Failure to provide a required Bid Security by the specified deadline will result in disqualification from the Tender. Operon Softwares is not responsible for the administration of Bid Securities except where it has expressly agreed to act as custodian in writing.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "11.5",
+   "text": "Vendor Failure to Execute after Tender Award",
+   "id": "s-11-5"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "If a Vendor is awarded a Tender and subsequently fails or refuses to execute the resulting contract or fulfil the awarded obligations without a valid legal justification, Operon Softwares may: (a) immediately disqualify the Vendor from future Tenders on the Platform; (b) forfeit any Bid Security lodged by the Vendor; (c) suspend or terminate the Vendor's Account; and (d) notify the affected Client and assist in sourcing an alternative Vendor. The Client's recourse for losses arising from the Vendor's failure shall be against the Vendor directly; Operon Softwares shall not be liable for such losses except where they arise from Operon Softwares's own breach.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "11.6",
+   "text": "Quotation and PO Flow",
+   "id": "s-11-6"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Quotations submitted by Vendors may be reviewed and processed by Operon Softwares's Finance Team before being presented to the Client. POs issued through the Platform are binding upon acceptance. Users agree to honour all POs duly accepted through the Platform.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "11.7",
+   "text": "PO Cancellation",
+   "id": "s-11-7"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "A confirmed PO may only be cancelled in the following circumstances: (a) by mutual written agreement of the Client and Vendor, confirmed through the Platform; (b) by the Client, where the Vendor has materially failed to commence performance within the agreed timeframe and has not remedied the failure within [NUMBER] days of written notice; or (c) by the Vendor, where the Client has failed to make a required advance payment and has not remedied the failure within [NUMBER] days of written notice. Cancellation of a confirmed PO outside of these circumstances may give rise to liability for costs incurred, cancellation fees, and other damages as specified in the relevant contract or as determined by applicable law. Users must submit all PO cancellation requests through the Platform's designated cancellation workflow.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "11.8",
+   "text": "Delivery, Logistics, and Risk of Loss",
+   "id": "s-11-8"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Unless otherwise agreed in a specific contract, the terms of delivery, shipping, and logistics for physical goods procured through the Platform shall be as specified in the relevant PO or contract. Risk of loss or damage to goods passes from the Vendor to the Client in accordance with the delivery terms agreed in the relevant PO (for example, EXW, FOB, CIF, DDP, as applicable). Operon Softwares is not a logistics provider and is not responsible for shipping, customs clearance, import duties, or the condition of goods in transit, unless Operon Softwares has expressly contracted to provide logistics services in writing.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "11.9",
+   "text": "Inspection and Acceptance",
+   "id": "s-11-9"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Upon delivery of goods or completion of services, the Client has [NUMBER] calendar days (“Inspection Period”) to inspect the goods or services and notify Operon Softwares and the Vendor in writing of any defects, non-conformities, or shortfalls. Failure to raise a written notification within the Inspection Period shall be deemed acceptance of the goods or services as conforming, subject to any latent defects that could not reasonably have been discovered during inspection. Inspection notifications must be submitted through the designated Workspace or support channel.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "11.10",
+   "text": "Returns and Replacements",
+   "id": "s-11-10"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Where a Client has raised a valid defect or non-conformity notification within the Inspection Period, the Vendor must, at its election or as agreed with the Client: (a) replace the non-conforming goods or re-perform the non-conforming services within a reasonable period; or (b) issue a credit or refund for the non-conforming portion. The return logistics for non-conforming goods shall be arranged and paid for by the Vendor unless otherwise agreed. This return and replacement right is separate from and in addition to any Warranty rights described in Section 14.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h2",
+   "num": "12",
+   "text": "Project Workspaces and Collaboration",
+   "id": "s-12"
+  },
+  {
+   "t": "h3",
+   "num": "12.1",
+   "text": "Workspace Activation",
+   "id": "s-12-1"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Upon approval of a Client-Vendor engagement, Operon Softwares will activate a dedicated Project Workspace accessible to the relevant Client, Vendor(s), and assigned PM.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "12.2",
+   "text": "Scope of Workspace",
+   "id": "s-12-2"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "The Workspace provides a secure collaborative environment for project planning, milestone tracking, procurement powered by Graviyx management, document sharing, approval workflows, communication, and budget management. All Workspace activities must be limited to the legitimate purposes of the project and must comply with these Terms.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "12.3",
+   "text": "Milestone Sign-Off",
+   "id": "s-12-3"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Each Milestone within a Workspace will be formally presented to the Client for approval through the Platform's milestone sign-off workflow. A Milestone is deemed approved when the designated Client representative submits an explicit written approval through the Platform. Verbal approvals, approvals communicated off-platform, or failure to respond within the specified review period do not constitute approval. Where a Client does not respond to a milestone sign-off request within [NUMBER] business days, Operon Softwares may send a reminder notice; continued non-response for a further [NUMBER] business days may be treated as deemed acceptance at Operon Softwares's discretion and upon prior written notice to the Client.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "12.4",
+   "text": "Adding or Replacing a Vendor in an Active Workspace",
+   "id": "s-12-4"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Operon Softwares may, with the Client's consent, add or replace a Vendor within an active Workspace where: (a) the original Vendor has failed to meet its obligations; (b) the scope of the project has expanded to require additional capabilities; or (c) the original Vendor has withdrawn or been removed in accordance with these Terms. Before a new or replacement Vendor is added, Operon Softwares will ensure the incoming Vendor has completed the applicable KYC process. The incoming Vendor will be granted access to Workspace documents and history relevant to their scope of work, subject to confidentiality protections.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "12.5",
+   "text": "Workspace Data Upon Vendor Removal",
+   "id": "s-12-5"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Where a Vendor is removed from a Workspace, whether at the Client's request, due to a breach of these Terms, or for any other reason: (a) the removed Vendor's active access to the Workspace will be immediately revoked; (b) the removed Vendor will retain view-only access to documentation relating to their own completed or ongoing deliverables for a period of [NUMBER] days for record-keeping purposes, unless restricted by Operon Softwares for cause; (c) all Content contributed by the removed Vendor to the Workspace remains within the Workspace and accessible to the Client and PM; and (d) the removed Vendor's confidentiality obligations in respect of Workspace content continue in accordance with Section 18.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "12.6",
+   "text": "Client-Side Project Cancellation",
+   "id": "s-12-6"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "A Client may cancel an active project by providing written notice through the Platform. Upon cancellation: (a) the Client shall remain liable for all costs, committed expenditure, approved Milestones, and POs issued prior to the cancellation notice; (b) Operon Softwares will facilitate the orderly wind-down of the Workspace, including final invoicing and documentation; (c) a cancellation notice period of [NUMBER] days applies, during which the Vendor and PM will complete or document all in-progress activities; and (d) any cancellation fees specified in the relevant contract or applicable subscription terms will apply. Cancellation does not relieve the Client of outstanding payment obligations.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "12.7",
+   "text": "PM Role and Oversight",
+   "id": "s-12-7"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "The assigned PM oversees all aspects of project delivery within the Workspace. The PM's oversight does not make Operon Softwares liable for the performance of the Vendor or the quality of goods and services delivered.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "12.8",
+   "text": "Workspace Closure and Archiving",
+   "id": "s-12-8"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Operon Softwares may close or archive a Workspace upon project completion, termination of the engagement, or material breach of these Terms. Archived Workspace data will be retained in accordance with Operon Softwares's data retention policy.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h2",
+   "num": "13",
+   "text": "Fees, Payments, Billing, and Financial Terms",
+   "id": "s-13"
+  },
+  {
+   "t": "h3",
+   "num": "13.1",
+   "text": "Subscription Fees",
+   "id": "s-13-1"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Access to the Platform is conditional upon purchase of an applicable Subscription. Subscription plans and pricing are set out on the Platform and may be updated with appropriate notice. By selecting a Subscription, you agree to pay the applicable fees in accordance with the selected billing cycle.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "13.2",
+   "text": "Billing and Payment",
+   "id": "s-13-2"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "All fees are invoiced and payable in advance unless otherwise agreed in writing. You authorise Operon Softwares (or its designated payment processor) to charge your payment method for all applicable fees. Failure to pay fees when due may result in suspension or termination of your Account.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "13.3",
+   "text": "Milestone-Based Payment Model",
+   "id": "s-13-3"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Operon 360 operates on a Milestone-Based Payment Model for specific transactions or Subscriptions, under which the following terms apply: (a) the Client funds each agreed Milestone to Operon Softwares before the Vendor begins work on that Milestone; (b) once the Vendor marks the Milestone complete and the Client reviews and approves it, the corresponding payment is released to the Vendor; (c) Operon Softwares acts as a facilitative intermediary and payment custodian in respect of Milestone-Based payments and is not a licensed payment institution or bank unless expressly stated; (d) Milestone payments will be disbursed or refunded in accordance with the outcome of the relevant transaction, dispute resolution process, or applicable law; and (e) Operon Softwares may charge a Milestone-Based Payment facilitation fee as disclosed at the time of the transaction.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "13.4",
+   "text": "Multi-Currency and Exchange Rate Risk",
+   "id": "s-13-4"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "The Platform currently supports transactions in Indian Rupees (INR) only. Multi-currency support is planned for future international phases (including the United States, Australia, and the United Kingdom) and is not currently available. Where a transaction involves a currency conversion, the applicable exchange rate will be the rate applied by Operon Softwares's payment processor at the time of the transaction, which may include a conversion spread or fee. Exchange rate fluctuations between the time a PO is issued and the time of payment are the responsibility of the transacting parties. Operon Softwares does not guarantee any specific exchange rate and is not liable for losses arising from currency fluctuations.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "13.5",
+   "text": "Taxes",
+   "id": "s-13-5"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "All fees are exclusive of applicable taxes, levies, duties, or charges imposed by any governmental authority. You are responsible for paying all applicable taxes associated with your use of the Platform. Where Operon Softwares is required to collect taxes on your behalf, the applicable amount will be added to your invoice.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "13.6",
+   "text": "Late Payment",
+   "id": "s-13-6"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Amounts not paid by the due date shall accrue interest at the rate of [RATE]% per month (or the maximum rate permitted by applicable law, whichever is lower) from the due date until payment. Operon Softwares reserves the right to suspend access to the Platform for any Account with overdue amounts.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "13.7",
+   "text": "Pending Payments on Account Suspension",
+   "id": "s-13-7"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Where a User's Account is suspended for any reason, all pending payment obligations remain due and payable. Pending outbound payments to Vendors that are funded under the Milestone-Based Payment Model or awaiting release will remain pending resolution of the matter giving rise to the suspension. Operon Softwares will not release those funds to either party during the period of a suspension unless required by a court order or arbitral award, or unless the suspension is lifted. Upon reinstatement of the Account, pending payments will be processed in accordance with the applicable transaction terms.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "13.8",
+   "text": "Refund Policy",
+   "id": "s-13-8"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Subscription fees paid in advance are generally non-refundable, except: (a) as set out in Section 4.3 (KYC rejection refund); (b) where required by applicable consumer protection law; or (c) where Operon Softwares has materially failed to provide the agreed Services and the failure is not remedied within 30 days of written notice. Partial period refunds are not issued for downgrades or voluntary cancellations.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "13.9",
+   "text": "Disputed Invoices",
+   "id": "s-13-9"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Invoice disputes must be raised within 14 days of the invoice date by written submission to [BILLING CONTACT EMAIL]. Undisputed portions of an invoice remain payable by the due date.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h2",
+   "num": "14",
+   "text": "Warranty, After-Sales, and Support Services",
+   "id": "s-14"
+  },
+  {
+   "t": "h3",
+   "num": "14.1",
+   "text": "Vendor Warranty Obligations",
+   "id": "s-14-1"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Vendors are solely responsible for the warranty terms applicable to goods and services supplied through the Platform and must clearly specify warranty terms, duration, coverage, and exclusions in their listings and executed contracts. Operon Softwares is not a manufacturer or service provider and assumes no liability for Vendor warranty obligations, except where Operon Softwares has expressly assumed specific obligations in writing.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "14.2",
+   "text": "Warranty Claim Timelines",
+   "id": "s-14-2"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Clients may submit a Warranty Claim in respect of goods or services procured through the Platform. Warranty Claims must be submitted within the warranty period specified by the Vendor in the relevant contract, and in any event no later than [NUMBER] calendar days from the date of delivery or acceptance of the goods or services, unless a longer period is specified in the Vendor's warranty documentation. Claims submitted outside of the applicable warranty period will not be eligible for platform-facilitated resolution, though the Client may retain independent legal remedies against the Vendor.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "14.3",
+   "text": "Warranty Claim Process",
+   "id": "s-14-3"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "The Warranty Claim process includes: (a) submission of a written claim through the designated Warranty module, specifying the defect or non-conformity; (b) review and initial triage by Operon Softwares's support team; (c) escalation to the relevant Vendor for investigation and resolution; (d) tracking of claim status within the Workspace; and (e) final resolution documentation. Operon Softwares facilitates the process but does not make final warranty determinations on behalf of Vendors.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "14.4",
+   "text": "Escalation for Unresolved Warranty Claims",
+   "id": "s-14-4"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "If a Vendor fails to acknowledge a Warranty Claim within [NUMBER] business days of submission, or fails to provide a substantive response or remediation plan within [NUMBER] business days thereafter, the Client may escalate the claim to Operon Softwares by flagging the claim as “Escalated” within the Platform. Upon escalation, Operon Softwares will: (a) formally notify the Vendor of the escalation and the consequences of continued non-response; (b) assign a dedicated support representative to monitor the claim; (c) where the Vendor remains unresponsive or disputes the claim without valid basis, note the Vendor's conduct in Operon Softwares's vendor performance records; and (d) facilitate access to the dispute resolution process under Section 24. Persistent non-compliance with warranty obligations may result in suspension or removal of the Vendor from the Platform.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "14.5",
+   "text": "Post-Sales Services",
+   "id": "s-14-5"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Following project completion, Clients may submit post-sales service requests, report minor issues, request maintenance, and request additional services from the relevant Vendor through the Platform. The Platform facilitates communication and tracking of post-sales obligations.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "14.6",
+   "text": "Support SLA Disclaimer",
+   "id": "s-14-6"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Operon Softwares's internal support team is available to assist with platform-related queries, billing issues, and Warranty Claim tracking. Response times are determined by the User's subscription tier and as published on the Platform from time to time. Operon Softwares does not guarantee resolution timelines for Vendor-side issues outside of Operon Softwares's direct control. Operon Softwares makes no binding service level commitments in respect of third-party vendor performance unless such commitments are set out in a separately executed agreement.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h2",
+   "num": "15",
+   "text": "Intellectual Property",
+   "id": "s-15"
+  },
+  {
+   "t": "h3",
+   "num": "15.1",
+   "text": "Operon Softwares IP",
+   "id": "s-15-1"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "All Intellectual Property Rights in the Platform, its technology, software, AI models, algorithms, databases, documentation, brand assets (including the “Operon 360” name and marks), and all related materials are the exclusive property of Operon Softwares or its licensors. Users are granted a limited, non-exclusive, non-transferable, revocable licence to access and use the Platform solely for their own internal business purposes in accordance with these Terms and their applicable Subscription.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "15.2",
+   "text": "Restrictions",
+   "id": "s-15-2"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Users must not: (a) copy, modify, reverse-engineer, decompile, or create derivative works of the Platform; (b) scrape or extract Platform data using automated means outside approved APIs; (c) resell or sublicense the Platform without Operon Softwares's prior written consent; or (d) remove any proprietary notices or labels on the Platform.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "15.3",
+   "text": "Feedback",
+   "id": "s-15-3"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Any suggestions, ideas, or improvement requests you provide to Operon Softwares (“Feedback”) are granted to Operon Softwares on a perpetual, irrevocable, royalty-free basis for any purpose, without obligation or compensation to you.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h2",
+   "num": "16",
+   "text": "User Content and Licence",
+   "id": "s-16"
+  },
+  {
+   "t": "h3",
+   "num": "16.1",
+   "text": "Ownership",
+   "id": "s-16-1"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Users retain all Intellectual Property Rights in the Content they upload to or generate through the Platform.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "16.2",
+   "text": "Licence Grant",
+   "id": "s-16-2"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "By submitting Content to the Platform, you grant Operon Softwares a non-exclusive, worldwide, royalty-free, sublicensable licence to host, store, process, transmit, and display the Content solely for the purpose of providing and improving the Services, facilitating transactions, and complying with legal obligations.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "16.3",
+   "text": "Content Accuracy and Responsibility",
+   "id": "s-16-3"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "You are solely responsible for all Content you submit. You represent and warrant that Content is accurate, does not infringe third-party rights, and does not violate any applicable law or these Terms.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "16.4",
+   "text": "Content Moderation",
+   "id": "s-16-4"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Operon Softwares reserves the right to review, remove, or restrict access to any Content that violates these Terms or applicable law, without making Operon Softwares liable for Content it does not remove.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h2",
+   "num": "17",
+   "text": "Compliance and Prohibited Activities",
+   "id": "s-17"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Each User is solely responsible for ensuring their use of the Platform and all transactions comply with applicable laws, including anti-bribery and corruption laws, trade sanctions and export controls, data protection laws, product safety laws, competition laws, and sector-specific regulatory requirements.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "In addition to the prohibited activities listed in Section 10.4, Users must not engage in any conduct that: (a) constitutes market manipulation, bid rigging, or collusive tendering; (b) involves offering, paying, or accepting any bribe, kickback, or improper inducement in connection with a Platform transaction; or (c) violates applicable sanctions laws or involves sanctioned parties, countries, or territories.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h2",
+   "num": "18",
+   "text": "Confidentiality and Data Protection",
+   "id": "s-18"
+  },
+  {
+   "t": "h3",
+   "num": "18.1",
+   "text": "Confidentiality Obligations",
+   "id": "s-18-1"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Each party agrees to hold all Confidential Information of the other party in strict confidence and not to disclose or use such information except for the purpose of fulfilling obligations or exercising rights under these Terms. These obligations apply during the term of these Terms and for [DURATION] years following termination.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "18.2",
+   "text": "Exceptions",
+   "id": "s-18-2"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Confidentiality obligations do not apply to information that: (a) is publicly available other than through a breach of these Terms; (b) was already in the receiving party's possession free of any confidentiality obligation; (c) is independently developed without reference to the Confidential Information; or (d) is required to be disclosed by applicable law or court order, provided the receiving party gives prior written notice where legally permissible.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "18.3",
+   "text": "Data Protection",
+   "id": "s-18-3"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Operon Softwares processes personal data in accordance with its Privacy Policy, incorporated herein by reference. Where Operon Softwares acts as a data processor on behalf of a User, the parties shall enter into an appropriate data processing agreement as required under applicable data protection law, including the GDPR and India's DPDP Act.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "18.4",
+   "text": "Data Security",
+   "id": "s-18-4"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Operon Softwares employs industry-standard technical and organisational measures to protect User data. Users are responsible for implementing appropriate security measures on their own systems. Operon Softwares will notify affected Users of any material data breach in accordance with applicable law.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h2",
+   "num": "19",
+   "text": "Third-Party Services and Marketplace Interactions",
+   "id": "s-19"
+  },
+  {
+   "t": "h3",
+   "num": "19.1",
+   "text": "Third-Party Providers",
+   "id": "s-19-1"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "The Platform may integrate with third-party services including payment processors, identity verification providers, logistics partners, and communication tools. Operon Softwares does not own or control third-party services and is not responsible for their availability, accuracy, security, or performance.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "19.2",
+   "text": "Marketplace Interactions",
+   "id": "s-19-2"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Transactions between Clients and Vendors are commercial arrangements between those parties, facilitated by Operon 360. Operon Softwares is not a party to such transactions and does not assume liability for the quality, safety, legality, or performance of goods or services supplied by Vendors.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "19.3",
+   "text": "Vendor Listing Accuracy",
+   "id": "s-19-3"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Vendors are solely responsible for the accuracy and completeness of their listings. Operon Softwares reserves the right to remove listings that are inaccurate, prohibited, or in violation of these Terms.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h2",
+   "num": "20",
+   "text": "Suspension, Termination, and Account Closure",
+   "id": "s-20"
+  },
+  {
+   "t": "h3",
+   "num": "20.1",
+   "text": "Termination by User",
+   "id": "s-20-1"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "A User may terminate their Account and Subscription at any time by providing written notice through the Platform or to [TERMINATION CONTACT EMAIL]. Termination takes effect at the end of the then-current Subscription period. Termination does not entitle the User to a refund of prepaid fees, except as set out in Section 13.8.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "20.2",
+   "text": "Suspension or Termination by Operon Softwares",
+   "id": "s-20-2"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Operon Softwares may immediately suspend, restrict, or terminate a User's Account upon: (a) material breach of these Terms; (b) failure to pay fees when due; (c) failure to complete or maintain KYC requirements; (d) engagement in any prohibited activity; (e) credible third-party complaints or legal notices; (f) the User's insolvency or bankruptcy proceedings; or (g) a determination that continued access poses a risk to the Platform or other Users.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "20.3",
+   "text": "Effect of Termination",
+   "id": "s-20-3"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Upon termination: (a) all licences granted to the User immediately cease; (b) outstanding payment obligations become immediately due; (c) active Workspaces are handled as described in Section 5.4; and (d) surviving clauses (including Sections 13, 15, 18, 21, 22, 23, and 24) remain in full force.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "20.4",
+   "text": "Data Access Post-Termination",
+   "id": "s-20-4"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Following Account closure, the User may request data export within 30 days by contacting [DATA EXPORT CONTACT]. After this period, Operon Softwares may delete User data subject to legal retention obligations.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h2",
+   "num": "21",
+   "text": "Disclaimers",
+   "id": "s-21"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW:",
+     "b": true
+    }
+   ],
+   "caps": true
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "THE PLATFORM AND ALL SERVICES ARE PROVIDED ON AN “AS IS” AND “AS AVAILABLE” BASIS WITHOUT ANY WARRANTIES, EXPRESS OR IMPLIED, INCLUDING WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, OR NON-INFRINGEMENT.",
+     "b": true
+    }
+   ],
+   "caps": true
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "OPERON SOFTWARES DOES NOT WARRANT THAT THE PLATFORM WILL BE UNINTERRUPTED, ERROR-FREE, OR FREE FROM HARMFUL COMPONENTS.",
+     "b": true
+    }
+   ],
+   "caps": true
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "OPERON SOFTWARES DOES NOT WARRANT THE ACCURACY, COMPLETENESS, OR RELIABILITY OF ANY CONTENT, AI OUTPUTS, OR RECOMMENDATIONS ON THE PLATFORM.",
+     "b": true
+    }
+   ],
+   "caps": true
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "OPERON SOFTWARES IS NOT RESPONSIBLE FOR THE CONDUCT, QUALITY, SAFETY, LEGALITY, OR PERFORMANCE OF ANY VENDOR OR CLIENT, OR FOR ANY GOODS OR SERVICES PROCURED THROUGH THE PLATFORM.",
+     "b": true
+    }
+   ],
+   "caps": true
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "OPERON SOFTWARES DOES NOT GUARANTEE THE OUTCOME OF ANY TENDER, procurement powered by procurement powered by Graviyx Marketplace When a Client's procurement requirement sourced through Graviyx results in a confirmed purchase order, the engagement automatically converts into a live Operon 360 project. Upon such conversion: (a) title to the goods transfers as specified in the purchase order or applicable Vendor agreement; (b) risk of loss during manufacturing and transit remains with the Vendor until delivery is confirmed and accepted by the Client, unless otherwise agreed in writing; and (c) Operon Softwares' role remains that of a platform facilitator and payment custodian, consistent with Section 21 (Disclaimers), and does not extend to assuming Vendor liability for the underlying goods or their manufacture. EXERCISE, KYC REVIEW, OR VENDOR SELECTION PROCESS.",
+     "b": true
+    }
+   ],
+   "caps": true
+  },
+  {
+   "t": "h2",
+   "num": "22",
+   "text": "Limitation of Liability",
+   "id": "s-22"
+  },
+  {
+   "t": "h3",
+   "num": "22.1",
+   "text": "Exclusion of Consequential Loss",
+   "id": "s-22-1"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, OPERON SOFTWARES SHALL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, PUNITIVE, OR EXEMPLARY DAMAGES, INCLUDING LOSS OF PROFITS, LOSS OF REVENUE, LOSS OF DATA, LOSS OF GOODWILL, OR BUSINESS INTERRUPTION, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.",
+     "b": true
+    }
+   ],
+   "caps": true
+  },
+  {
+   "t": "h3",
+   "num": "22.2",
+   "text": "Cap on Liability",
+   "id": "s-22-2"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "OPERON SOFTWARES'S TOTAL AGGREGATE LIABILITY TO ANY USER SHALL NOT EXCEED THE TOTAL FEES PAID BY THAT USER TO OPERON SOFTWARES IN THE TWELVE (12) MONTHS IMMEDIATELY PRECEDING THE EVENT GIVING RISE TO THE CLAIM.",
+     "b": true
+    }
+   ],
+   "caps": true
+  },
+  {
+   "t": "h3",
+   "num": "22.3",
+   "text": "Exceptions",
+   "id": "s-22-3"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Nothing in these Terms limits liability for: (a) death or personal injury caused by negligence; (b) fraud or fraudulent misrepresentation; or (c) any liability that cannot be excluded under applicable law.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h2",
+   "num": "23",
+   "text": "Indemnity",
+   "id": "s-23"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Each User agrees to defend, indemnify, and hold harmless Operon Softwares and its affiliates, officers, directors, employees, agents, and licensors from and against all claims, liabilities, damages, losses, costs, and expenses (including reasonable legal fees) arising out of or relating to: (a) the User's use of the Platform in violation of these Terms or applicable law; (b) any Content submitted by the User; (c) any dispute or transaction between the User and another User; (d) the User's infringement of any third-party rights; or (e) any regulatory or governmental claim arising from the User's business activities on the Platform.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h2",
+   "num": "24",
+   "text": "Dispute Resolution and Governing Law",
+   "id": "s-24"
+  },
+  {
+   "t": "h3",
+   "num": "24.1",
+   "text": "Good Faith Resolution",
+   "id": "s-24-1"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Parties shall first attempt to resolve any Dispute amicably through good-faith negotiations for 30 days following written notice of the Dispute.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "24.2",
+   "text": "Arbitration",
+   "id": "s-24-2"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Unresolved Disputes shall be finally settled by binding arbitration administered by [ARBITRATION INSTITUTION] in accordance with its rules. The seat of arbitration shall be [CITY, JURISDICTION]. The arbitration shall be conducted by [ONE/THREE] arbitrator(s) in [LANGUAGE]. The award shall be final and binding.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "24.3",
+   "text": "Urgent Relief",
+   "id": "s-24-3"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Either party may seek urgent injunctive or equitable relief from a court of competent jurisdiction without waiving the right to arbitration.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "24.4",
+   "text": "Class Action Waiver",
+   "id": "s-24-4"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "To the fullest extent permitted by applicable law, Users waive any right to participate in any class action or representative proceeding against Operon Softwares. Disputes must be brought on an individual basis only.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "24.5",
+   "text": "Governing Law",
+   "id": "s-24-5"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "These Terms shall be governed by and construed in accordance with the laws of [JURISDICTION], without regard to its conflict of laws provisions.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h2",
+   "num": "25",
+   "text": "Changes to the Terms",
+   "id": "s-25"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Operon Softwares reserves the right to update these Terms at any time. When material changes are made, Operon Softwares will notify Users via a Platform notice, email to the registered Account address, or such other means as Operon Softwares deems appropriate. Updated Terms will specify the effective date, which shall be no earlier than 14 days after notification, except where changes are required by applicable law, in which case they may take effect immediately.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Your continued use of the Platform after the effective date of any updated Terms constitutes acceptance of those updated Terms. If you do not agree, you must cease using the Platform and may terminate your Account in accordance with Section 20.1.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Operon Softwares maintains a version history of these Terms. The version number and effective date are displayed at the top of this document. Users are deemed to have accepted the version of the Terms in force at the time of their most recent login or transaction on the Platform. Prior versions of these Terms are available upon request by contacting [LEGAL CONTACT EMAIL].",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h2",
+   "num": "26",
+   "text": "Accessibility and Language",
+   "id": "s-26"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Operon Softwares is committed to making the Platform accessible to Users across jurisdictions. These Terms are published in English, which shall be the governing language for all legal purposes. Where Operon Softwares makes translations of these Terms available in other languages as a courtesy, the English version shall prevail in the event of any inconsistency or ambiguity.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "If you require these Terms or any other Platform documentation in an accessible format (for example, due to a disability or language requirement), please contact Operon Softwares at [ACCESSIBILITY CONTACT EMAIL] and we will endeavour to accommodate reasonable requests.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h2",
+   "num": "27",
+   "text": "General Provisions",
+   "id": "s-27"
+  },
+  {
+   "t": "h3",
+   "num": "27.1",
+   "text": "Entire Agreement",
+   "id": "s-27-1"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "These Terms, together with the Privacy Policy, Acceptable Use Policy, and any other incorporated policies, constitute the entire agreement between the parties with respect to the Platform and supersede all prior agreements and understandings.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "27.2",
+   "text": "Severability",
+   "id": "s-27-2"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "If any provision is held invalid or unenforceable, it shall be modified to the minimum extent necessary to make it enforceable, or severed, without affecting the remaining provisions.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "27.3",
+   "text": "No Waiver",
+   "id": "s-27-3"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Failure to enforce any provision on one occasion shall not constitute a waiver of that provision or the right to enforce it in the future.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "27.4",
+   "text": "Assignment",
+   "id": "s-27-4"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Users may not assign these Terms without Operon Softwares's prior written consent. Operon Softwares may assign these Terms to an affiliate or successor in connection with a merger, acquisition, or sale of assets.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "27.5",
+   "text": "Force Majeure",
+   "id": "s-27-5"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Operon Softwares shall not be liable for any delay or failure to perform caused by events beyond its reasonable control, including natural disasters, acts of war, pandemics, government actions, or telecommunications failures.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "27.6",
+   "text": "Relationship of the Parties",
+   "id": "s-27-6"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "The parties are independent contracting parties. Nothing in these Terms creates a partnership, joint venture, agency, employment, or fiduciary relationship.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h2",
+   "num": "28",
+   "text": "Contact Information",
+   "id": "s-28"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "For questions, concerns, or formal notices regarding these Terms or the Platform, please contact:",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Operon 360 (operated by Operon Softwares) — [OPERON SOFTWARES LEGAL ENTITY FULL NAME]",
+     "b": true
+    }
+   ]
+  },
+  {
+   "t": "kv",
+   "rows": [
+    [
+     "Registered Office",
+     "[FULL REGISTERED ADDRESS]"
+    ],
+    [
+     "Legal & Compliance",
+     "legal@operon360.com"
+    ],
+    [
+     "General Support",
+     "support@operon360.com"
+    ],
+    [
+     "Billing Enquiries",
+     "finance@operon360.com"
+    ],
+    [
+     "Data Privacy / AI Review",
+     "privacy@operon360.com"
+    ],
+    [
+     "KYC Appeals",
+     "kyc@operon360.com"
+    ],
+    [
+     "Website",
+     "https://www.operon360.com"
+    ]
+   ]
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "For urgent data protection or security matters, please include “URGENT” in the subject line.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "For formal legal notices, delivery must be to the registered office address above or to legal@operon360.com with confirmation of receipt requested.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "fine",
+   "runs": [
+    {
+     "t": "© [YEAR] Operon Softwares. All rights reserved. “Operon 360” and associated marks are trading names of Operon Softwares. These Terms of Service are the property of Operon Softwares and may not be reproduced without express written consent.",
+     "b": false
+    }
+   ]
+  }
+ ]
+}

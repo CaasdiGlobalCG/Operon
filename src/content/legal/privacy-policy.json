@@ -1,0 +1,5001 @@
+{
+ "meta": {
+  "title": "Privacy Policy",
+  "tagline": "A brand operated by Operon Softwares",
+  "effectiveDate": "[INSERT DATE]",
+  "lastUpdated": "[INSERT DATE]",
+  "version": "2.0"
+ },
+ "blocks": [
+  {
+   "t": "h2",
+   "num": null,
+   "text": "Introduction and How to Read This Policy",
+   "id": "s-introduction-and-how-to-read-t"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "At Operon 360, we understand that personal data is one of the most important things you entrust to us when using our platform. Whether you are a Client seeking to procure goods and manage complex projects, a Vendor going through our multi-layered verification process, or simply a visitor exploring our website, this Privacy Policy is your complete guide to how we collect, use, store, share, and protect your information.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "This Policy has been drafted with two frameworks primarily in mind: India's Digital Personal Data Protection Act, 2023 (“DPDP Act”) and the European Union's General Data Protection Regulation (“GDPR”), to ensure that our practices meet international privacy standards even where not immediately legally required. As Operon 360 expands to the United States, Australia, and the United Kingdom, this Policy will be supplemented with jurisdiction-specific addenda.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "This is not a short legal notice. We have deliberately written it in detail so that you can understand exactly what happens to your data at every stage of your engagement with Operon 360 — from the moment you visit our website, through onboarding, project execution, and beyond. We encourage you to read it in full.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "If you have questions that this Policy does not answer, or if you wish to exercise any of your privacy rights, please contact us at help@operon360.com. Our Grievance Officer and DPO details are set out in Section 22.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h2",
+   "num": null,
+   "text": "Brand and Entity Clarification",
+   "id": "s-brand-and-entity-clarification"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "“Operon 360” is the brand name under which Operon Softwares — the company identified in Section 2 below — owns and operates the Website and Platform. Operon 360 is not a separate legal entity.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Accordingly:",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Operon Softwares is the Data Fiduciary (under the DPDP Act) and data controller (under the GDPR, where applicable) in respect of all personal data processed in connection with Operon 360;",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "All rights, obligations, security commitments, and regulatory responsibilities described in this Policy are held and exercised by Operon Softwares, acting under the Operon 360 brand;",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "All contracts, Data Processing Agreements, grievance handling, and regulatory correspondence referenced in this Policy are undertaken by and binding on Operon Softwares;",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "References in this Policy to “Operon 360,” the “Website,” or the “Platform” describe the branded product and services; references to “Operon Softwares,” “we,” “us,” or “our” refer to the contracting legal entity behind that brand. Both are used interchangeably wherever the context concerns legal rights, obligations, or regulatory status.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "This clause is included so that Data Principals are at all times aware of, and able to identify, the registered legal entity responsible for their personal data.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h2",
+   "num": "1",
+   "text": "Scope of This Policy",
+   "id": "s-1"
+  },
+  {
+   "t": "h3",
+   "num": "1.1",
+   "text": "What This Policy Covers",
+   "id": "s-1-1"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "This Privacy Policy governs the collection, processing, storage, sharing, and deletion of personal data by Operon Softwares in connection with:",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "The Operon 360 website located at https://www.operon360.com and all associated sub-domains and web pages (the “Website”).",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "The Operon 360 AI-powered B2B project management and procurement powered by Graviyx platform, including all features, tools, modules, Project Workspaces, procurement powered by Graviyx interfaces, tender facilities, AI-assisted workflows, and support services (the “Platform”).",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "All communications you have with Operon 360, including via email, telephone, video call, in-platform messaging, or during the sales and onboarding process.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Offline interactions in connection with Platform services, including physical vendor verification visits conducted by Operon Softwares's Audit and Compliance Team.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "1.2",
+   "text": "Who This Policy Applies To",
+   "id": "s-1-2"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "This Policy applies to all natural persons whose personal data Operon Softwares processes, including:",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Anonymous visitors to the Website.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Leads, prospective clients, and individuals who submit enquiries or attend product demonstrations.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Registered Client organisations and their authorised representatives and users.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Registered Vendor organisations and their directors, authorised representatives, factory personnel, and users.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Individuals whose data appears in documents, site photos, or records submitted as part of KYC, vendor onboarding, or project workflows.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "1.3",
+   "text": "What This Policy Does Not Cover",
+   "id": "s-1-3"
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "The personal data of Operon Softwares's own employees and contractors, which is governed by separate employment agreements and internal HR policies.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Data processed by third-party websites or services linked from our Platform. Please review those parties' own privacy policies.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Data processed by Clients or Vendors using the Platform to manage their own customer or employee data, where Operon Softwares acts as a data processor. In such cases, the relevant Client or Vendor is the data controller, and their privacy policies govern that data.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "1.4",
+   "text": "Enterprise Agreements",
+   "id": "s-1-4"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "If you or your organisation has entered into a Master Services Agreement (MSA), Data Processing Agreement (DPA), or other written contract with Operon Softwares, those agreements may supplement or in some respects modify the terms of this Policy. In the event of conflict, the terms of the executed agreement shall prevail.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h2",
+   "num": "2",
+   "text": "About Operon 360",
+   "id": "s-2"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Operon 360 is an AI-enabled B2B project management and execution platform — described as the world's first PM-led operating system for businesses — owned and operated by Operon Softwares. The Platform allows any company to submit a requirement, receive a dedicated Project Manager, and have everything executed end-to-end — including vendor selection, procurement powered by Graviyx, compliance, finance, and delivery — within a single managed workspace.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "The Platform connects verified Clients and Vendors inside secure, dedicated Project Workspaces. Operon Softwares's internal teams, including Project Managers, Client Advisory Specialists (CAS), B2B procurement powered by Graviyx professionals, Compliance and Vetting personnel, Finance, and Support, participate actively in facilitating these workflows.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "table",
+   "rows": [
+    [
+     "Detail",
+     "Information"
+    ],
+    [
+     "Brand Name",
+     "Operon 360"
+    ],
+    [
+     "Legal Entity Name",
+     "Operon Softwares Private Limited"
+    ],
+    [
+     "Registered Address",
+     "Bangalore, Karnataka, India [INSERT FULL STREET ADDRESS]"
+    ],
+    [
+     "Country of Incorporation",
+     "India"
+    ],
+    [
+     "Website",
+     "https://www.operon360.com"
+    ],
+    [
+     "Current Markets",
+     "India (US and Australia: planned expansion)"
+    ],
+    [
+     "Privacy / Support Contact",
+     "help@operon360.com"
+    ],
+    [
+     "Grievance Officer (DPDP Act)",
+     "Sankeerth M K | [INSERT DESIGNATION] | help@operon360.com"
+    ],
+    [
+     "Data Protection Officer (GDPR)",
+     "Sanjay Kumar | [INSERT DESIGNATION] | help@operon360.com"
+    ]
+   ]
+  },
+  {
+   "t": "h2",
+   "num": "3",
+   "text": "Definitions",
+   "id": "s-3"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "The following definitions apply throughout this Policy. Where the same concept appears in applicable law, these definitions should be read consistently with the statutory meaning.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "defs",
+   "items": [
+    {
+     "term": "“Personal Data”",
+     "copy": [
+      {
+       "t": "means any information relating to an identified or identifiable natural person. This includes but is not limited to names, email addresses, phone numbers, identification document numbers, IP addresses, device identifiers, financial account details, and any combination of data that could identify an individual.",
+       "b": false
+      }
+     ]
+    },
+    {
+     "term": "“Sensitive Personal Data”",
+     "copy": [
+      {
+       "t": "means a sub-category of personal data that attracts heightened protection obligations under applicable law. Under the DPDP Act and as relevant to Operon Softwares's operations, this includes Aadhaar numbers, PAN card numbers, financial account numbers, and any other data the Government of India may designate by notification.",
+       "b": false
+      }
+     ]
+    },
+    {
+     "term": "“Data Principal”",
+     "copy": [
+      {
+       "t": "means the natural person to whom the personal data relates, as defined under the DPDP Act, 2023.",
+       "b": false
+      }
+     ]
+    },
+    {
+     "term": "“Data Fiduciary”",
+     "copy": [
+      {
+       "t": "means the entity that determines the purpose and means of processing personal data. Operon Softwares is a Data Fiduciary in respect of the personal data it processes in connection with Operon 360 under this Policy.",
+       "b": false
+      }
+     ]
+    },
+    {
+     "term": "“Data Processor”",
+     "copy": [
+      {
+       "t": "means a third party that processes personal data on behalf of Operon Softwares under a written contractual arrangement. Data Processors act on Operon Softwares's instructions and may not use the data for their own purposes.",
+       "b": false
+      }
+     ]
+    },
+    {
+     "term": "“Processing”",
+     "copy": [
+      {
+       "t": "means any operation or set of operations performed on personal data, including collection, recording, storage, use, disclosure, sharing, alteration, retrieval, transmission, and deletion.",
+       "b": false
+      }
+     ]
+    },
+    {
+     "term": "“Consent”",
+     "copy": [
+      {
+       "t": "means a freely given, specific, informed, and unambiguous indication of the Data Principal's agreement to the processing of their personal data, given by a clear affirmative action.",
+       "b": false
+      }
+     ]
+    },
+    {
+     "term": "“Client”",
+     "copy": [
+      {
+       "t": "means a registered business entity or individual using the Platform primarily to submit project requirements, manage procurement powered by Graviyx, and receive managed execution services.",
+       "b": false
+      }
+     ]
+    },
+    {
+     "term": "“Vendor”",
+     "copy": [
+      {
+       "t": "means a registered business entity or individual using the Platform as a service provider, manufacturer, OEM, distributor, or wholesaler to offer goods or services.",
+       "b": false
+      }
+     ]
+    },
+    {
+     "term": "“Authorised User”",
+     "copy": [
+      {
+       "t": "means an employee, representative, or contractor of a Client or Vendor who is granted access to the Platform under that organisation's account.",
+       "b": false
+      }
+     ]
+    },
+    {
+     "term": "“Project Workspace” or “Workspace”",
+     "copy": [
+      {
+       "t": "means the dedicated, role-based digital environment within the Platform in which a Client, one or more Vendors, and an Operon Softwares Project Manager collaborate on a specific project.",
+       "b": false
+      }
+     ]
+    },
+    {
+     "term": "“KYC”",
+     "copy": [
+      {
+       "t": "means Know Your Customer — the multi-layered identity and business verification process applied to Vendors and applicable Clients during platform onboarding.",
+       "b": false
+      }
+     ]
+    },
+    {
+     "term": "“CAS Expert”",
+     "copy": [
+      {
+       "t": "means a Client Advisory Specialist employed by Operon Softwares who evaluates vendor suitability and facilitates procurement powered by Graviyx recommendations.",
+       "b": false
+      }
+     ]
+    },
+    {
+     "term": "“Platform”",
+     "copy": [
+      {
+       "t": "means the Operon 360 SaaS application, all associated modules, AI features, APIs, and interfaces, accessible via https://www.operon360.com, owned and operated by Operon Softwares.",
+       "b": false
+      }
+     ]
+    },
+    {
+     "term": "“DPDP Act”",
+     "copy": [
+      {
+       "t": "means India's Digital Personal Data Protection Act, 2023, and the Rules issued thereunder.",
+       "b": false
+      }
+     ]
+    },
+    {
+     "term": "“GDPR”",
+     "copy": [
+      {
+       "t": "means the EU General Data Protection Regulation 2016/679.",
+       "b": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "t": "h2",
+   "num": "4",
+   "text": "Categories of Users Covered by This Policy",
+   "id": "s-4"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Different types of individuals interact with Operon 360 in different ways, and we process different categories of data for each. This Section explains who falls under this Policy and in what capacity.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "4.1",
+   "text": "Website Visitors",
+   "id": "s-4-1"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Any person who accesses the Operon 360 website without logging in or registering is a Website Visitor. We collect limited technical data from Website Visitors automatically through cookies and server logs. Website Visitors are not required to provide personal data to browse the Website, though certain features (such as submitting a contact or demo request) require it.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "4.2",
+   "text": "Leads and Enquiries",
+   "id": "s-4-2"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Individuals who express interest in the Platform by submitting a contact form, demo request, or enquiry — whether through the Website, at an event, or through a sales interaction — are treated as Leads. Their data is processed primarily for pre-sales communication and, with their consent, for marketing purposes.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "4.3",
+   "text": "Demo Attendees",
+   "id": "s-4-3"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Individuals who attend a live or recorded product demonstration conducted by Operon Softwares's Demo Team. Data collected during demos may include questions asked, areas of interest, and any follow-up preferences noted by the attending analyst. This information is used to improve the Platform and to follow up appropriately with the prospective client.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "4.4",
+   "text": "Registered Clients",
+   "id": "s-4-4"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Businesses and individuals who create a registered account on the Platform to procure goods, services, or managed project execution. Clients have full access to the Platform's client-side features, including requirement submission, Project Workspace participation, procurement powered by Graviyx tools, billing, and post-sales services.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "4.5",
+   "text": "Registered Vendors",
+   "id": "s-4-5"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Businesses and individuals who register on the Platform to offer products or services. Vendors undergo a significantly more detailed onboarding and KYC process than Clients, including multi-layered document verification and, in many cases, a physical factory or premises visit by Operon Softwares's Audit Team. Vendor data includes business credentials, operational capacity information, and physical verification records.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "4.6",
+   "text": "Authorised Users of Clients and Vendors",
+   "id": "s-4-6"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Employees or representatives added to the Platform by a registered Client or Vendor organisation. Authorised Users may have varying levels of access depending on the role assigned by the Account holder. Operon Softwares processes their personal data as necessary to facilitate their use of the Platform.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "4.7",
+   "text": "Operon Softwares Employees and Contractors",
+   "id": "s-4-7"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Project Managers, CAS Experts, Compliance Officers, Finance Team members, Sales staff, and all other Operon Softwares personnel who access the Platform in the course of their employment or engagement. These individuals' personal data is governed by separate employment or contractor agreements. This Policy applies to them only to the extent they are also users of the Platform.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h2",
+   "num": "5",
+   "text": "Categories of Personal Data We Collect",
+   "id": "s-5"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "The personal data we collect depends on who you are and how you interact with Operon 360. We only collect data that is necessary and proportionate for the purposes identified in Section 7.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "5.1",
+   "text": "Data Collected from Website Visitors",
+   "id": "s-5-1"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "When you visit our Website, we automatically collect certain technical information through our server infrastructure and analytics tools:",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "IP address and derived approximate geographic location (city/region level).",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Browser type, version, language, and settings.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Operating system and device type.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Pages visited, time spent on each page, navigation paths, and referral source.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Session duration and interaction patterns.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Cookie identifiers and session tokens (see Section 11 for full cookie details).",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "This data is used in aggregate to understand how visitors use the Website and to improve our content and user experience. It is not used to identify individual visitors unless you choose to submit a form or register.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "5.2",
+   "text": "Data Collected from Leads, Enquiries, and Demo Attendees",
+   "id": "s-5-2"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "When you submit a contact form, demo request, newsletter sign-up, or make an enquiry through any channel:",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Full name and job title or designation.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Business email address and direct phone number.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Company name, industry sector, and approximate company size.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Nature and content of the enquiry or specific interest.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Marketing opt-in status and communication preferences.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Demo attendance records, including questions raised and areas of interest documented by the attending analyst for internal platform improvement purposes.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Any follow-up correspondence via email, phone, or the Platform.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "5.3",
+   "text": "Data Collected from Registered Clients",
+   "id": "s-5-3"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Upon registration and throughout your use of the Platform as a Client, we collect:",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h4",
+   "text": "Account and Identity Data"
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Full legal name, job title, and designation within the organisation.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Business email address and direct phone number.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Company legal name, registered address, and country of incorporation.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "GST registration number and any other applicable tax identification.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Account login credentials (your password is stored only in hashed, non-reversible form; we never store plain-text passwords).",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Profile information and account preferences.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h4",
+   "text": "Billing and Financial Data"
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Billing address and contact details.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Payment instrument data as processed by our payment gateway (we do not store full card numbers or CVV codes; see Section 5.7).",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Invoice and payment history.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Bank account details for large-value transactions processed outside the payment gateway.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h4",
+   "text": "Platform Usage and Project Data"
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Project requirements, briefs, and specifications submitted through the Platform.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Proposals and quotations received and reviewed.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Communications and messages exchanged within Project Workspaces.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Uploaded documents including project specifications, contracts, purchase orders, invoices, approval records, and correspondence.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Site photographs submitted in connection with project documentation or vendor verification.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Milestone approvals, sign-off records, and project activity logs.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Warranty claims and post-sales service request content.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Support ticket histories and resolutions.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "5.4",
+   "text": "Data Collected from Registered Vendors",
+   "id": "s-5-4"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "In addition to the Account, Billing, and Platform Usage data described for Clients above, Vendors are subject to a multi-layered KYC and business verification process. This is necessary to maintain the integrity of Operon Softwares's verified vendor ecosystem. We collect the following additional categories of data from Vendors:",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h4",
+   "text": "Online Document Verification"
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Certificate of Incorporation or equivalent business registration document.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Memorandum and Articles of Association or equivalent constitutional documents.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "GST registration certificate, income tax filings, and financial statements (as applicable to subscription tier and project scope).",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Trade licences, sector-specific certifications, quality certifications (ISO, BIS, etc.), and any regulatory approvals relevant to the Vendor's business.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Details of directors, partners, or proprietors, including full name, designation, and contact information.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "PAN card details of the business entity and, where required, of authorised directors or signatories.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Aadhaar numbers of authorised representatives or directors (subject to legal review — see warning below).",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Bank account details, including account number, IFSC code, and account holder name, for payment settlement purposes.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Background check results and sanctions screening records.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "note",
+   "runs": [
+    {
+     "t": "Legal Review Required: Aadhaar Collection — The collection, use, and storage of Aadhaar numbers is strictly regulated under the Aadhaar (Targeted Delivery of Financial and Other Subsidies, Benefits and Services) Act, 2016 and UIDAI regulations. Unless Operon Softwares is registered as an Authentication User Agency (AUA) or KYC User Agency (KUA) with UIDAI, collecting and storing Aadhaar numbers may not be lawful. Operon Softwares must obtain specific legal advice on this point before going live. If not AUA/KUA-registered, acceptable alternative identity documents (such as passport, Voter ID, or driving licence) should be collected instead.",
+     "b": false
+    }
+   ],
+   "draft": true
+  },
+  {
+   "t": "h4",
+   "text": "Physical / Factory Verification (Offline)"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Operon Softwares's Audit and Compliance Team may conduct physical verification visits to Vendor premises as part of the KYC process. During such visits, we collect and document:",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Site visit reports prepared by the verification team.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Photographs of premises, production or warehousing facilities, equipment, and machinery.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Records of manufacturing or service delivery capacity, including production output assessments.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Team strength documentation (total headcount, key personnel roles).",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Infrastructure and quality control documentation observed on-site.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Any documents provided or shown during the visit.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Individuals who appear in site photographs (for example, factory floor workers or facility managers) should be made aware by the Vendor that Operon Softwares's team may photograph the premises during the verification visit. Vendors are responsible for obtaining any internal permissions or consents required before our visit.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h4",
+   "text": "Ongoing Vendor Profile Data"
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Product and service portfolio listings, descriptions, pricing, and availability.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Capacity forecasts and material availability records updated on the Platform.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Leads, tender responses, order histories, and delivery performance records.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Sales projections and business intelligence data generated by the Platform.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "5.5",
+   "text": "Workspace and Project Collaboration Data",
+   "id": "s-5-5"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Once a Project Workspace is activated for a specific engagement, the following data is generated and stored within that Workspace:",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "All messages, instructions, clarifications, and communications exchanged between the Client, Vendor(s), and Operon Softwares's Project Manager and team within the Workspace.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "All documents uploaded or generated within the Workspace, including project specifications, technical drawings, material lists, purchase orders, invoices, quality certificates, inspection reports, delivery records, and contracts.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Site visit photographs submitted as part of project execution documentation or as evidence of work progress.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Milestone definitions, target dates, completion records, and approval logs.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Budget allocation and expenditure tracking records.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "procurement powered by Graviyx records including vendor quotations, bid comparisons, and purchase approvals.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Dispute records, escalation trails, and resolution documentation.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Post-project reports and lessons-learned documentation.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "5.6",
+   "text": "Warranty and Post-Sales Data",
+   "id": "s-5-6"
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Warranty claim submissions including defect descriptions, photographs, and product identifiers.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Claim triage notes, investigation records, and resolution outcomes.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Post-sales service request records, including problem descriptions and service histories.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Communication between Clients, Vendors, and Operon Softwares's support team during warranty and post-sales processes.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "5.7",
+   "text": "Payment and Financial Data",
+   "id": "s-5-7"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Payment transactions on the Platform are primarily processed by our third-party payment gateway provider ([INSERT PAYMENT GATEWAY NAME, e.g., Razorpay / Stripe]). For most transactions:",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Operon Softwares does not store full card numbers, CVV codes, or PINs. These are handled exclusively by the payment gateway provider under their own PCI-DSS compliance framework.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "We store transaction reference numbers, amounts, currency, date and time, payment status, and the billing address associated with the payment.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "For large-value transactions processed via direct bank transfer, Operon Softwares collects and retains:",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Bank account number and IFSC/routing code of the Vendor receiving payment.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Account holder name and bank name.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Confirmation of payment instructions and transfer records.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "note",
+   "runs": [
+    {
+     "t": "Legal Review Required: Bank Account Data Security — The storage of bank account numbers constitutes sensitive financial data and triggers obligations under the Information Technology (Reasonable Security Practices and Procedures and Sensitive Personal Data or Information) Rules, 2011. Operon Softwares must document its security practices specifically for this data category, ensure restricted access, maintain audit logs, and confirm that these practices are referenced in its Information Security Policy.",
+     "b": false
+    }
+   ],
+   "draft": true
+  },
+  {
+   "t": "h3",
+   "num": "5.8",
+   "text": "Sensitive Personal Data — Summary",
+   "id": "s-5-8"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Operon Softwares collects the following categories of sensitive personal data as defined under applicable Indian law. All sensitive personal data is subject to additional security controls, restricted access, separate consent obligations, and heightened retention safeguards:",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Aadhaar numbers of Vendor directors or authorised representatives (subject to legal clearance — see Section 5.4 warning above).",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "PAN card numbers (Vendor and applicable Client personnel).",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Financial account numbers, IFSC codes, and bank details (Vendor settlement accounts and Client large-value transactions).",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "We do not collect health data, biometric data (other than as may appear incidentally in physical verification photographs), caste or religious information, sexual orientation data, or any other sensitive data category beyond those listed above. We do not knowingly collect personal data from individuals under the age of 18.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h2",
+   "num": "6",
+   "text": "Sources of Personal Data",
+   "id": "s-6"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "We collect personal data from the following sources. Understanding where data comes from helps clarify our obligations and yours.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "6.1",
+   "text": "Directly From You",
+   "id": "s-6-1"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "The majority of personal data we hold is provided directly by you when you:",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Visit and interact with the Website, including by submitting forms or clicking consent banners.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Register for an account and complete your profile.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Submit requirements, upload documents, or communicate through the Platform.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Complete KYC documents and onboarding procedures.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Contact us for support, make a complaint, or exercise a privacy right.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Participate in a demo, attend an event, or engage with our marketing communications.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "6.2",
+   "text": "From Your Organisation",
+   "id": "s-6-2"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "If you are an Authorised User, your personal data (such as your name, email address, and role) may have been provided to Operon Softwares by your employer or organisation as part of the account setup process. You should check with your employer about how they manage your data in connection with the Platform.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "6.3",
+   "text": "From KYC and Verification Processes",
+   "id": "s-6-3"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "As part of Vendor onboarding, personal data may be obtained from or verified against:",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Government databases and registries (for document authenticity checks, where permitted by law).",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Third-party KYC and background check service providers ([INSERT KYC PROVIDER NAME]).",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Sanctions and anti-money-laundering screening databases.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Publicly available corporate information sources.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "6.4",
+   "text": "From Physical Verification Visits",
+   "id": "s-6-4"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "During physical factory or premises visits, our Audit Team collects data directly from the Vendor's site, including documentation, photographs, and observations recorded in site visit reports. Some of this data may incidentally relate to Vendor employees or personnel present at the time of the visit.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "6.5",
+   "text": "Automatically Through Platform and Website Use",
+   "id": "s-6-5"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "We automatically collect technical and usage data when you interact with the Website or Platform, including:",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Server logs recording access times, pages visited, and actions taken.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Browser and device information collected through our analytics tools.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Cookie data and session identifiers (see Section 11).",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Platform activity logs recording user actions within the Platform for security and audit purposes.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "6.6",
+   "text": "From Third-Party Integrations",
+   "id": "s-6-6"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "If you connect a third-party tool or integration to your Platform account, we may receive personal data from that tool as part of the integration. The extent of this sharing is governed by the settings you configure and the third party's terms.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h2",
+   "num": "7",
+   "text": "Why We Collect and Use Personal Data",
+   "id": "s-7"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "We process personal data only for specific, clearly defined, and legitimate purposes. Below is a comprehensive mapping of our processing activities.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "table",
+   "rows": [
+    [
+     "Processing Purpose",
+     "Data Categories Used"
+    ],
+    [
+     "Website operation and visitor analytics",
+     "IP address, cookies, device and browser data, page visit logs"
+    ],
+    [
+     "Responding to enquiries, demo requests, and pre-sales communications",
+     "Name, email, phone, company name, enquiry content, demo notes"
+    ],
+    [
+     "Account registration, login authentication, and profile management",
+     "Name, email, phone, company details, credentials, designation"
+    ],
+    [
+     "KYC and multi-layered vendor onboarding",
+     "Identity docs, PAN, Aadhaar (subject to legal review), director details, company docs, bank details, background check results"
+    ],
+    [
+     "Physical verification and factory assessment",
+     "Site photos, capacity records, machinery observations, team strength data, site visit reports"
+    ],
+    [
+     "AI-assisted vendor matching and requirement analysis",
+     "Client requirements, vendor profiles, project history, capacity data, transaction records"
+    ],
+    [
+     "Project Workspace management and collaboration",
+     "Messages, documents, specifications, approvals, milestone records, activity logs"
+    ],
+    [
+     "procurement powered by Graviyx, tenders, quotations, and purchase orders",
+     "Company details, project data, vendor bids, billing information, PO and invoice records"
+    ],
+    [
+     "Payment processing, invoicing, and financial management",
+     "Billing information, bank account details, transaction records, payment gateway data"
+    ],
+    [
+     "Delivering managed execution services (PM, CAS, Finance, Compliance)",
+     "All relevant account, project, and transaction data as needed for service delivery"
+    ],
+    [
+     "Warranty claim processing and after-sales service",
+     "Account data, purchase records, product details, claim descriptions, service histories"
+    ],
+    [
+     "Sending platform service notifications and alerts",
+     "Email, phone, notification preferences"
+    ],
+    [
+     "Marketing communications (opt-in/opt-out)",
+     "Name, email, phone, company, opt-in/out status, engagement history"
+    ],
+    [
+     "Customer support and helpdesk operations",
+     "Account data, support ticket content, correspondence history"
+    ],
+    [
+     "Legal compliance, tax reporting, and regulatory obligations",
+     "All relevant data as required by applicable Indian law including GST, RBI, SEBI, and sector-specific regulations"
+    ],
+    [
+     "Fraud prevention, security monitoring, and risk management",
+     "Identity data, financial data, IP addresses, access logs, sanctions screening results"
+    ],
+    [
+     "Internal analytics, platform improvement, and AI training (anonymised)",
+     "Aggregated and anonymised usage data — identifiable personal data is not used for AI model training without explicit consent"
+    ],
+    [
+     "Dispute resolution, grievance handling, and legal proceedings",
+     "Relevant account, workspace, transaction, and communication data"
+    ],
+    [
+     "Audit, compliance reviews, and internal investigations",
+     "All relevant data as required for the audit or investigation"
+    ]
+   ]
+  },
+  {
+   "t": "h2",
+   "num": "8",
+   "text": "Legal Bases and Consent Framework",
+   "id": "s-8"
+  },
+  {
+   "t": "h3",
+   "num": "8.1",
+   "text": "Overview",
+   "id": "s-8-1"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Operon Softwares processes personal data only where we have a valid legal basis for doing so. The legal basis varies depending on the purpose of processing and the applicable law. This Section explains the legal grounds we rely on and how they apply to our specific activities.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "8.2",
+   "text": "Under India's DPDP Act, 2023",
+   "id": "s-8-2"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "The DPDP Act, 2023 permits processing of personal data on the basis of consent or for certain “legitimate uses” without requiring fresh consent. We rely on the following grounds:",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h4",
+   "text": "Consent"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "We obtain free, specific, informed, and unambiguous consent from Data Principals for processing activities that are not necessary to perform a contract or comply with a legal obligation. This includes:",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Sending marketing and promotional communications.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Processing data for analytics and platform improvement beyond what is strictly necessary for service delivery.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Sharing your data with third parties for purposes other than service delivery (where applicable).",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Consent is obtained through:",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 2,
+   "runs": [
+    {
+     "t": "Clear opt-in checkboxes at registration (not pre-ticked).",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 2,
+   "runs": [
+    {
+     "t": "Explicit consent prompts within the Platform for specific processing activities.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 2,
+   "runs": [
+    {
+     "t": "Cookie consent banners on the Website (see Section 11).",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "You may withdraw consent at any time by updating your preferences in Account settings, using the unsubscribe link in marketing emails, or by writing to help@operon360.com. Withdrawal of consent does not affect the lawfulness of processing carried out before withdrawal. Withdrawing consent for optional processing will not affect your access to core Platform services.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h4",
+   "text": "Legitimate Uses (Contractual Necessity)"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "We process certain personal data because it is necessary to perform the contract we have with you — namely, providing you access to and services through the Platform. This includes:",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Account registration, authentication, and management.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "KYC and vendor verification (which is a prerequisite to platform access for Vendors).",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Processing payments and issuing invoices.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Operating Project Workspaces and delivering managed execution services.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Facilitating procurement powered by Graviyx, tenders, and purchase orders.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Warranty claims and post-sales support.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "You cannot opt out of this processing while continuing to use the Platform, as it is essential to service delivery.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h4",
+   "text": "Legal Obligation"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "We process personal data where we are required to do so by applicable Indian law, including:",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "KYC obligations under applicable financial and anti-money-laundering regulations.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "GST and tax record-keeping obligations.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Compliance with RBI guidelines in respect of payment and financial data.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Responding to lawful orders, warrants, or directions from courts, regulators, or government authorities.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h4",
+   "text": "Legitimate Interests (Pending DPDP Rules)"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Pending the full notification of the DPDP Act Rules, we also rely on our legitimate interests for:",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Fraud prevention, security monitoring, and protection of the Platform.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Internal audits and compliance reviews.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Improving our services and platform functionality through analysis of usage patterns.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "note",
+   "runs": [
+    {
+     "t": "DPDP Act Rules:",
+     "b": true
+    },
+    {
+     "t": " The Rules under the DPDP Act, 2023 have not yet been fully notified as of the effective date of this Policy. Operon Softwares will update this Section and related consent mechanisms when the Rules are published and in force. The Data Protection Board of India has not yet been formally constituted.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "8.3",
+   "text": "For Users in the European Union or United Kingdom (When Applicable)",
+   "id": "s-8-3"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "When Operon Softwares processes personal data of individuals in the EU or UK (for example, as we expand operations), we rely on the following lawful bases under the GDPR and UK GDPR:",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Article 6(1)(b) — Processing necessary for the performance of a contract to which you are a party, or to take steps at your request before entering into a contract.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Article 6(1)(a) — Consent, for marketing communications and optional processing.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Article 6(1)(c) — Compliance with a legal obligation.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Article 6(1)(f) — Legitimate interests, including fraud prevention, security, and service improvement, where these are not overridden by your fundamental rights.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Article 9(2)(a) — Explicit consent for sensitive personal data processing (where applicable).",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "8.4",
+   "text": "Marketing Communications — Detailed Explanation",
+   "id": "s-8-4"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Operon Softwares sends marketing and promotional communications to Clients, Vendors, Leads, Demo Attendees, and other registered contacts. The legal basis for this is consent.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "How we obtain consent:",
+     "b": true
+    },
+    {
+     "t": " At registration, you are presented with a clear, unticked opt-in checkbox inviting you to receive marketing communications. If you have interacted with us through a demo or enquiry, we may send you relevant product information on the basis of your expressed interest, with an opt-out mechanism available in every communication.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "What we send:",
+     "b": true
+    },
+    {
+     "t": " Platform updates, new feature announcements, industry insights, procurement powered by Graviyx-related content, case studies, and promotional offers relevant to your business profile.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "How to opt out:",
+     "b": true
+    },
+    {
+     "t": " You may opt out at any time by:",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 2,
+   "runs": [
+    {
+     "t": "Clicking the “Unsubscribe” link in any marketing email.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 2,
+   "runs": [
+    {
+     "t": "Updating your communication preferences in your Account settings.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 2,
+   "runs": [
+    {
+     "t": "Emailing help@operon360.com with the subject line “Marketing Opt-Out”.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Opting out of marketing does not affect the delivery of service-essential communications such as account notifications, security alerts, invoice reminders, and platform-critical updates.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h2",
+   "num": "9",
+   "text": "Cookies and Tracking Technologies",
+   "id": "s-9"
+  },
+  {
+   "t": "h3",
+   "num": "9.1",
+   "text": "What Are Cookies?",
+   "id": "s-9-1"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Cookies are small text files placed on your device when you visit a website. They help websites remember your preferences, understand how you use the site, and deliver a better experience. Similar technologies include web beacons, pixel tags, and local storage — we use these in the same way as cookies, and they are covered by this Section.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "9.2",
+   "text": "Categories of Cookies We Use",
+   "id": "s-9-2"
+  },
+  {
+   "t": "table",
+   "rows": [
+    [
+     "Cookie Type",
+     "Purpose and Details"
+    ],
+    [
+     "Strictly Necessary",
+     "Required for the Website and Platform to function. Includes session management, authentication, security tokens, and load balancing. These cannot be disabled. No consent is required."
+    ],
+    [
+     "Functional / Preference",
+     "Remember your language, region, and display preferences. Used to personalise your experience. Disabled if you reject functional cookies."
+    ],
+    [
+     "Analytics / Performance",
+     "Help us understand how visitors interact with the Website — which pages are visited, how long is spent, and where users exit. We use [INSERT ANALYTICS TOOL, e.g., Google Analytics / Mixpanel]. Data is typically aggregated and anonymised."
+    ],
+    [
+     "Marketing / Targeting",
+     "Used to deliver relevant content and, where applicable, to track the effectiveness of our marketing campaigns. These may be placed by us or by our marketing partners. Require opt-in consent."
+    ]
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "9.3",
+   "text": "Third-Party Cookies",
+   "id": "s-9-3"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Some cookies on our Website are placed by third-party services we use, including analytics providers, payment gateways, and video platforms embedded on our pages. These third parties have their own privacy policies and cookie practices. We recommend reviewing their policies if you have questions about specific third-party cookies.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "9.4",
+   "text": "Your Choices",
+   "id": "s-9-4"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "On your first visit to the Website, a cookie consent banner will ask for your consent to non-essential cookies. You may:",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Accept all cookies.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Accept only essential cookies.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Customise your choices by category.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "You may change your cookie preferences at any time by clicking the “Cookie Settings” link in the Website footer. You may also manage cookies through your browser settings; however, disabling cookies at the browser level may affect the functionality of the Website and Platform.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "note",
+   "runs": [
+    {
+     "t": "Action Required: Confirm that a Cookie Consent Management Platform (CMP) is deployed on the Operon 360 website and that cookie categories are correctly mapped to the consent tiers described above before this Policy is published.",
+     "b": false
+    }
+   ],
+   "draft": true
+  },
+  {
+   "t": "h3",
+   "num": "9.5",
+   "text": "Do Not Track",
+   "id": "s-9-5"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Some browsers include a “Do Not Track” (DNT) feature. At present, there is no universally accepted standard for responding to DNT signals, and Operon Softwares does not currently alter its data collection practices in response to DNT signals. We will update this Section if industry standards develop.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h2",
+   "num": "10",
+   "text": "AI Features, Automated Processing, and Matching Disclosures",
+   "id": "s-10"
+  },
+  {
+   "t": "h3",
+   "num": "10.1",
+   "text": "How AI Is Used on the Platform",
+   "id": "s-10-1"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Artificial intelligence and machine learning are core to Operon 360's value proposition. We use AI systems — including those powered by third-party AI providers ([INSERT PROVIDER NAMES, e.g., OpenAI / Anthropic / Google Vertex AI]) — for the following purposes:",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Vendor-Client Matching:",
+     "b": true
+    },
+    {
+     "t": " Analysing client requirements and matching them with verified vendors based on capability profiles, verified capacity, project history, quality certifications, and geographic proximity.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Requirement Analysis:",
+     "b": true
+    },
+    {
+     "t": " Processing and interpreting project briefs and requirements to identify relevant specifications, potential gaps, and recommended approaches.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "procurement powered by Graviyx Intelligence: Supporting procurement powered by Graviyx decisions by analysing vendor quotations, market pricing benchmarks, and historical transaction data.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Tender Analysis and Eligibility Assessment:",
+     "b": true
+    },
+    {
+     "t": " Assisting in evaluating vendor bids for tenders, including consistency checks and preliminary eligibility screening.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Forecasting and Planning:",
+     "b": true
+    },
+    {
+     "t": " Generating material forecasts, budget projections, and sales pipeline predictions for vendors and internal teams.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Workflow Automation:",
+     "b": true
+    },
+    {
+     "t": " Streamlining routine tasks such as document routing, notification triggers, and milestone reminders.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Platform Security and Fraud Detection:",
+     "b": true
+    },
+    {
+     "t": " Identifying unusual patterns or behaviours that may indicate fraudulent activity or security threats.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "10.2",
+   "text": "The Human + AI Model — How Decisions Are Made",
+   "id": "s-10-2"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Operon Softwares operates Operon 360 on a deliberate Human + AI model. This means:",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "AI systems may generate recommendations, shortlists, assessments, or automated prompts, but no material decision about a User's eligibility, vendor selection for a client, contract award, or account status is made by automated systems alone.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Every AI-generated recommendation that could materially affect a User (such as vendor shortlisting or tender eligibility assessment) is reviewed, validated, and either approved or overridden by a human Operon Softwares team member — typically a Project Manager, CAS Expert, or Compliance Officer — before it is communicated externally or acted upon.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "AI tools are used to increase the accuracy, speed, and consistency of our team's decisions, not to replace human judgment.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "This approach is designed to protect Users from the risks of fully automated decision-making and to maintain accountability and transparency in our processes.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "10.3",
+   "text": "What Data Is Processed by AI Systems?",
+   "id": "s-10-3"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "AI processing on the Platform may involve:",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Client requirements, project briefs, and specifications submitted through the Platform.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Vendor profile data, capability records, certifications, and historical performance.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "procurement powered by Graviyx data including quotations, PO histories, and delivery records.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Platform usage patterns and interaction logs (used for security and feature improvement).",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Personal data submitted to AI features may be processed by third-party AI service providers under data processing agreements. These agreements restrict providers from using your data for their own model training, commercial exploitation, or disclosure to third parties. See Section 12 for provider details.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "10.4",
+   "text": "Your Rights Regarding Automated Processing",
+   "id": "s-10-4"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Where any automated or AI-assisted processing produces a recommendation or output that significantly affects you, you have the right to:",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Be informed that AI processing was involved in the relevant recommendation or assessment.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Request that an Operon Softwares team member review the AI output and explain the basis for any decision.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Provide your own perspective, additional context, or supporting information.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Contest the outcome and request reconsideration.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "To exercise these rights, email help@operon360.com with the subject line: “AI Decision Review Request”, describing the decision or recommendation you wish to contest. We will respond within 5 business days.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "10.5",
+   "text": "AI and Personal Data — What We Do Not Do",
+   "id": "s-10-5"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Operon Softwares does not:",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Use identifiable personal data of Clients or Vendors to train external AI models without explicit consent.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Make fully automated decisions that produce legal or similarly significant effects on Users without human review.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Use AI tools to discriminate unlawfully against Users based on protected characteristics.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h2",
+   "num": "11",
+   "text": "How We Share Personal Data",
+   "id": "s-11"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Operon Softwares does not sell personal data to third parties. We do not share personal data for third-party advertising purposes. We share personal data only in the specific and limited circumstances described below, and always subject to appropriate confidentiality and contractual safeguards.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "11.1",
+   "text": "Within a Project Workspace",
+   "id": "s-11-1"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "A Project Workspace is a shared environment. When a Workspace is activated, certain personal and project data becomes accessible to all parties within that Workspace:",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "The Client can see the Vendor's business name, contact details, product/service portfolio, and Workspace communications.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "The Vendor can see the Client's project requirements, purchase orders, and Workspace communications.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Operon Softwares's assigned Project Manager and relevant internal team members (such as CAS Expert, procurement powered by Graviyx Team, or Finance Team) can access all Workspace content as necessary for service delivery.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Access within Workspaces is role-based. Vendors do not have access to a Client's full account data, billing records, or other engagement data outside the shared Workspace. Clients do not have access to a Vendor's KYC documents, background check results, or sensitive verification records.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "11.2",
+   "text": "With Operon Softwares's Internal Teams",
+   "id": "s-11-2"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Personal data is shared internally within Operon Softwares on a need-to-know basis. Teams that may access personal data include:",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Project Management Unit — for project oversight, milestone management, and client-vendor coordination.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "CAS Team — for vendor evaluation, requirement analysis, and procurement powered by Graviyx recommendations.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "B2B procurement powered by Graviyx Team — for procurement powered by Graviyx lifecycle management and supply chain execution.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Compliance and Vetting Team — for KYC processing, document verification, background checks, and physical verification.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Finance Team — for billing, payment processing, invoice management, and financial reporting.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Support Team — for handling helpdesk tickets, warranty claims, and post-sales service.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Legal Team — for contract review, dispute resolution, and regulatory compliance.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "All Operon Softwares employees and contractors are bound by contractual confidentiality obligations and our internal data access policies. Access to sensitive personal data (Aadhaar, PAN, bank account details) is restricted to authorised personnel with a documented business need.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "11.3",
+   "text": "With Service Providers and Subprocessors",
+   "id": "s-11-3"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "We engage third-party service providers who process personal data on our behalf under written Data Processing Agreements (DPAs). These providers are permitted to process personal data only for the specific purposes we direct and in accordance with our instructions. See Section 12 for the full subprocessor list and details.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "11.4",
+   "text": "With Other Platform Users (Business Interactions)",
+   "id": "s-11-4"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Certain information is shared between registered Users as a necessary part of their commercial interactions on the Platform — for example, a Vendor's company name, contact details, and product catalogue being visible to a Client during a procurement powered by Graviyx interaction. Such sharing is limited to what is necessary for the specific business interaction and is not shared beyond the relevant Workspace or interaction.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "11.5",
+   "text": "For Legal Compliance and Regulatory Obligations",
+   "id": "s-11-5"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "We may disclose personal data to:",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Law enforcement agencies, government authorities, or regulatory bodies where we receive a valid legal demand, warrant, court order, or regulatory direction.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Tax authorities (such as the Income Tax Department or GST Council) as required by applicable tax law.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Financial regulators (such as the Reserve Bank of India) in connection with payment and financial compliance obligations.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "The Data Protection Board of India, once constituted, in response to valid complaints or regulatory inquiries.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Where permitted by law, we will notify you before disclosing your data to a government authority unless we are legally prohibited from doing so or where prior notice would obstruct a lawful investigation.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "11.6",
+   "text": "In a Business Transfer",
+   "id": "s-11-6"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "If Operon Softwares undergoes a merger, acquisition, restructuring, or sale of all or part of its business or assets, personal data may be transferred to the acquiring or successor entity as part of that transaction. We will notify affected Users of any such transfer as required by applicable law, and the successor entity will be required to honour the commitments made in this Privacy Policy. Until any change in policy is communicated to you, this Policy continues to govern your personal data.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "11.7",
+   "text": "Data Access After Workspace Closure or Account Deletion",
+   "id": "s-11-7"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "When a Project Workspace is closed or a User's account is deleted:",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Workspace data is retained by Operon Softwares in accordance with the retention periods in Section 14.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "The Client no longer has active access to the closed Workspace but may request access to records they submitted for a period of [NUMBER] days post-closure through a formal data access request.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "The Vendor no longer has active access to the Workspace. The Vendor retains read-only access to records directly relating to their own deliverables for [NUMBER] days post-closure for record-keeping purposes.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Following these periods, detailed access is restricted exclusively to Operon Softwares's internal team. Neither the Client nor the Vendor can access the other party's data or the Workspace data outside the permitted access periods.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Retention of data post-closure is for Operon Softwares's compliance, audit, and dispute resolution purposes. Data will not be used for commercial purposes after the Workspace closes.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h2",
+   "num": "12",
+   "text": "Service Providers and Subprocessors",
+   "id": "s-12"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "We work with the following categories of third-party service providers in connection with Operon 360. Each processes personal data on our behalf under a written Data Processing Agreement (DPA) that binds them to data protection obligations at least as stringent as those we observe. We will update this list when we add or remove providers and will notify enterprise clients of material changes under their DPA.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "table",
+   "rows": [
+    [
+     "Category",
+     "Provider(s) / Notes"
+    ],
+    [
+     "Cloud Infrastructure and Hosting",
+     "Amazon Web Services (AWS) — [CONFIRM REGION, e.g., ap-south-1 Mumbai]. All core platform data is hosted on AWS infrastructure. AWS is certified to ISO 27001, SOC 2, and PCI-DSS standards."
+    ],
+    [
+     "Payment Processing",
+     "[INSERT PROVIDER, e.g., Razorpay / Stripe / PayPal]. Handles card and UPI transactions. Subject to PCI-DSS compliance. Operon Softwares does not store card data."
+    ],
+    [
+     "KYC and Identity Verification",
+     "[INSERT PROVIDER, e.g., Karza / Digilocker / Onfido / CKYC Registry]. Used for document authenticity verification, background checks, and sanctions screening."
+    ],
+    [
+     "AI Processing and Inference",
+     "[INSERT PROVIDERS, e.g., OpenAI / Anthropic / Google Vertex AI]. Processes requirement and project data to generate AI-assisted recommendations and analysis. Bound by DPAs restricting use of data for their own training."
+    ],
+    [
+     "Video Communications",
+     "[INSERT PROVIDER, e.g., Zoom / Google Meet]. Used for demo calls, client consultations, and vendor interactions."
+    ],
+    [
+     "Document Storage",
+     "AWS S3 — [CONFIRM REGION]. All uploaded documents, files, and attachments are stored in encrypted S3 buckets. [INSERT additional tools if applicable.]"
+    ],
+    [
+     "Email Communications and Transactional Messaging",
+     "[INSERT PROVIDER, e.g., SendGrid / Amazon SES / Mailchimp]. Used for account notifications, service emails, marketing communications, and transactional alerts."
+    ],
+    [
+     "Analytics and Performance Monitoring",
+     "[INSERT PROVIDER, e.g., Google Analytics / Mixpanel / Hotjar]. Used to understand website and platform usage patterns. Analytics data is generally aggregated and anonymised."
+    ],
+    [
+     "Customer Support / Helpdesk",
+     "[INSERT PROVIDER, e.g., Freshdesk / Zendesk / Intercom]. Handles support tickets, client and vendor queries, and warranty claim tracking."
+    ],
+    [
+     "CRM and Sales Management",
+     "[INSERT PROVIDER, e.g., HubSpot / Zoho CRM / Salesforce]. Manages lead, client, and vendor relationship data for sales, onboarding, and account management."
+    ]
+   ]
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Where a subprocessor is located outside India, appropriate data transfer safeguards are in place as described in Section 13.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h2",
+   "num": "13",
+   "text": "International Transfers of Personal Data",
+   "id": "s-13"
+  },
+  {
+   "t": "h3",
+   "num": "13.1",
+   "text": "Our Current Position",
+   "id": "s-13-1"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Operon Softwares is incorporated in India and currently operates Operon 360 exclusively in India. Our core infrastructure is hosted on AWS, and our entire team is currently India-based. As a result, the primary processing of personal data occurs within India.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "13.2",
+   "text": "Circumstances Where Data May Leave India",
+   "id": "s-13-2"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Notwithstanding our India-first infrastructure, personal data may be transferred outside India in the following limited circumstances:",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Third-Party AI Providers:",
+     "b": true
+    },
+    {
+     "t": " Certain AI service providers ([INSERT PROVIDERS]) process data on servers located outside India, which may include the United States or the EU. These transfers are governed by Data Processing Agreements that include contractual data protection obligations.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Other Subprocessors with Non-India Infrastructure:",
+     "b": true
+    },
+    {
+     "t": " Some of our subprocessors (see Section 12) may process data on servers located outside India as part of their global infrastructure. We assess each provider's data residency and security practices before engagement.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "International Team Access (Future):",
+     "b": true
+    },
+    {
+     "t": " As Operon Softwares expands Operon 360 to the United States, Australia, and the United Kingdom, team members located in those countries may be assigned to work on specific client projects. When this occurs, they will access relevant personal data under strict need-to-know controls and contractual confidentiality obligations.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "13.3",
+   "text": "Legal Framework for Transfers Under the DPDP Act",
+   "id": "s-13-3"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Under the DPDP Act, 2023, the Central Government may by notification restrict the transfer of personal data to certain countries or territories. Operon Softwares will comply with any such restrictions and update this Policy accordingly. Until the Government publishes a list of restricted countries, we rely on contractual safeguards with international subprocessors — specifically, written DPAs that impose data protection standards equivalent to those applicable in India.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "note",
+   "runs": [
+    {
+     "t": "Legal Review Required: International Transfer Assessment — When Operon Softwares formally onboards US and Australian clients and employees, a cross-border data transfer impact assessment should be conducted, and appropriate transfer mechanisms put in place under both the DPDP Act Rules (once notified) and any applicable US/Australia data protection laws (such as the California Consumer Privacy Act (CCPA), the Australian Privacy Act 1988, or UK GDPR/Data Protection Act 2018).",
+     "b": false
+    }
+   ],
+   "draft": true
+  },
+  {
+   "t": "h3",
+   "num": "13.4",
+   "text": "EU and UK Users (When Applicable)",
+   "id": "s-13-4"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "For users in the EU or UK, international transfers of personal data to India will be governed by appropriate safeguards as required under GDPR and UK GDPR. These may include:",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Standard Contractual Clauses (SCCs) approved by the European Commission.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "UK International Data Transfer Agreements (IDTAs).",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Other approved transfer mechanisms as applicable.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h2",
+   "num": "14",
+   "text": "Data Retention",
+   "id": "s-14"
+  },
+  {
+   "t": "h3",
+   "num": "14.1",
+   "text": "Our Approach to Retention",
+   "id": "s-14-1"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "We retain personal data for no longer than is necessary for the purposes for which it was collected, unless a longer retention period is required or permitted by applicable law. When determining retention periods, we consider:",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "The legal basis for processing and whether the underlying purpose continues.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Applicable statutory retention obligations (for example, GST law requires financial records to be retained for 8 years).",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "The potential need to retain data for dispute resolution, legal proceedings, or regulatory investigations.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Our obligations under KYC and anti-money-laundering regulations.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "The reasonable expectations of Data Principals regarding how long their data should be kept.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "14.2",
+   "text": "Retention Schedule",
+   "id": "s-14-2"
+  },
+  {
+   "t": "table",
+   "rows": [
+    [
+     "Data Category",
+     "Retention Period and Basis"
+    ],
+    [
+     "Registered User Account Data (active accounts)",
+     "For the duration of the account, plus 3 years following account closure. Basis: contractual obligations, potential dispute resolution."
+    ],
+    [
+     "KYC and Identity Verification Documents (Vendor)",
+     "7 years from the date of onboarding completion or last KYC update. Basis: applicable KYC, AML, and regulatory compliance requirements."
+    ],
+    [
+     "Physical Verification Records and Site Photographs",
+     "7 years from the date of the verification visit. Basis: compliance records, vendor eligibility history."
+    ],
+    [
+     "Project Workspace Data (messages, documents, approvals, logs)",
+     "7 years from the date of Workspace closure. Basis: contractual record-keeping, dispute resolution, audit."
+    ],
+    [
+     "Financial and Billing Records (invoices, POs, payments)",
+     "8 years from the transaction date. Basis: GST Act and Income Tax Act record-keeping obligations."
+    ],
+    [
+     "Bank Account Details (large-value transactions)",
+     "Duration of the commercial engagement plus 3 years, or as required by RBI guidelines (whichever is longer)."
+    ],
+    [
+     "Warranty Claim Records and Post-Sales Service Data",
+     "5 years from the date of claim submission or resolution (whichever is later). Basis: potential legal claims and consumer protection obligations."
+    ],
+    [
+     "Marketing and Lead Data",
+     "3 years from last engagement interaction, or immediately upon opt-out request. Upon opt-out, marketing processing ceases; minimal identification data may be retained on a suppression list to prevent re-contact."
+    ],
+    [
+     "Customer Support and Helpdesk Ticket Records",
+     "3 years from ticket closure. Basis: customer service quality, escalation history."
+    ],
+    [
+     "Website Analytics Data",
+     "26 months from the date of collection, or as governed by the analytics provider's data retention settings."
+    ],
+    [
+     "Consent Records and Opt-Out Logs",
+     "Retained for the full duration of the relevant processing activity plus 3 years. Required to demonstrate compliance with consent obligations."
+    ],
+    [
+     "Background Check and Sanctions Screening Results",
+     "7 years from the date of the check. Basis: regulatory compliance, risk management."
+    ],
+    [
+     "Legal Correspondence and Dispute Records",
+     "Retained until final resolution of the dispute or legal proceeding plus 7 years."
+    ]
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "14.3",
+   "text": "Deletion and Anonymisation",
+   "id": "s-14-3"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "When a retention period expires, we will securely delete or irreversibly anonymise the relevant data. Anonymised data (from which all identifying information has been removed and which cannot reasonably be used to re-identify an individual) may be retained and used indefinitely for analytical, statistical, and research purposes.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Certain data may be retained beyond the standard periods if required by a valid court order, regulatory direction, ongoing legal proceedings, or a legitimate dispute that has been formally notified to Operon Softwares. In such cases, the data will be retained only for the period necessary to resolve the matter and subject to access restrictions.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h2",
+   "num": "15",
+   "text": "Data Security",
+   "id": "s-15"
+  },
+  {
+   "t": "h3",
+   "num": "15.1",
+   "text": "Our Security Commitment",
+   "id": "s-15-1"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Protecting the personal data you entrust to us is a core obligation for Operon Softwares. We implement a combination of technical, administrative, and physical security measures designed to protect personal data against unauthorised access, accidental loss, destruction, alteration, or disclosure.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "15.2",
+   "text": "Technical Measures",
+   "id": "s-15-2"
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Infrastructure Security:",
+     "b": true
+    },
+    {
+     "t": " All platform data is hosted on Amazon Web Services (AWS), which maintains ISO 27001, SOC 2 Type II, and PCI-DSS certifications.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Encryption at Rest:",
+     "b": true
+    },
+    {
+     "t": " Personal data stored on the Platform is encrypted at rest using AES-256 or equivalent industry-standard encryption.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Encryption in Transit:",
+     "b": true
+    },
+    {
+     "t": " All data transmitted between your browser or application and our servers is encrypted using Transport Layer Security (TLS 1.2 or higher).",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Credential Security:",
+     "b": true
+    },
+    {
+     "t": " User passwords are stored exclusively in hashed form using industry-standard algorithms (e.g., bcrypt). Plain-text passwords are never stored.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Access Controls:",
+     "b": true
+    },
+    {
+     "t": " Role-based access controls (RBAC) ensure that employees and contractors can access only the data necessary for their specific function. Privileged access to sensitive data is subject to additional authentication requirements.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Audit Logging:",
+     "b": true
+    },
+    {
+     "t": " Access to sensitive personal data — including Aadhaar, PAN, and bank account information — is logged, and logs are retained for audit purposes.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Vulnerability Management:",
+     "b": true
+    },
+    {
+     "t": " Regular security assessments, vulnerability scans, and penetration testing are conducted to identify and remediate security risks.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "API Security:",
+     "b": true
+    },
+    {
+     "t": " Platform APIs are secured with authentication tokens and rate limiting to prevent unauthorised access.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "15.3",
+   "text": "Administrative Measures",
+   "id": "s-15-3"
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "All Operon Softwares employees and contractors who handle personal data are bound by written confidentiality obligations as part of their employment or engagement agreements.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Access to personal data is granted on a minimum-necessary and need-to-know basis and is reviewed periodically.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Employees handling sensitive personal data receive specific training on data protection obligations.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Third-party service providers are subject to security due diligence before engagement and are required to maintain appropriate security standards under their DPAs.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "15.4",
+   "text": "Physical Security (Relevant to Offline Verification)",
+   "id": "s-15-4"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "During physical verification visits to Vendor premises, Operon Softwares's Audit Team follows internal protocols to ensure that physical documents provided or shown during the visit are handled securely and that site photographs are stored only on authorised devices and transferred to secure systems promptly.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "15.5",
+   "text": "Data Breach Response",
+   "id": "s-15-5"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "In the event of a personal data breach, Operon Softwares will:",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Contain the breach and assess its nature and scope as quickly as possible.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Notify affected Data Principals where the breach is likely to result in high risk to their rights and freedoms, in accordance with the DPDP Act and applicable rules (and GDPR where applicable).",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Report the breach to the Data Protection Board of India (once operational) within the timeframes prescribed by law.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Document all breaches internally, regardless of whether notification is required.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "If you discover or suspect a data breach affecting your data, please notify us immediately at help@operon360.com with the subject line “Data Security Report”.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h2",
+   "num": "16",
+   "text": "Your Privacy Rights as a Data Principal",
+   "id": "s-16"
+  },
+  {
+   "t": "h3",
+   "num": "16.1",
+   "text": "Rights Under India's DPDP Act, 2023",
+   "id": "s-16-1"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "The DPDP Act provides Data Principals with specific rights in relation to their personal data. As a registered user or individual whose data Operon Softwares processes, you have the following rights:",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h4",
+   "text": "Right to Access Information"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "You have the right to obtain from Operon Softwares: (a) confirmation of whether we are processing your personal data; (b) a summary of the personal data we hold about you; and (c) information about the purposes for which your data is being processed, the categories of data processed, and who it has been shared with. You may access much of this information directly through your Account settings and data dashboard on the Platform.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h4",
+   "text": "Right to Correction and Completion"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "You have the right to request that inaccurate or incomplete personal data we hold about you is corrected or updated. For account data, you may make corrections directly through your Account settings. For KYC documents or other data that cannot be self-edited, please submit a correction request to help@operon360.com.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h4",
+   "text": "Right to Erasure"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "You have the right to request the deletion of your personal data where: (a) the data is no longer necessary for the purpose for which it was collected; (b) you have withdrawn consent and there is no other lawful basis for processing; or (c) the data has been processed unlawfully. Note that we may be unable to delete all data where we have a legal obligation to retain it (for example, financial records required by tax law, or KYC records required by regulatory obligations). We will inform you of any data we are unable to delete and the reason why.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h4",
+   "text": "Right to Withdraw Consent"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Where our processing is based on your consent, you have the right to withdraw that consent at any time. Withdrawal does not affect the lawfulness of processing carried out before withdrawal. You can withdraw consent for marketing communications through your Account settings or by contacting help@operon360.com. Withdrawing consent for processing that is necessary to provide the service may result in service limitations or Account closure.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h4",
+   "text": "Right to Grievance Redressal"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "You have the right to have your privacy grievances addressed by Operon Softwares's Grievance Officer (see Section 18). If your complaint is not resolved satisfactorily, you may escalate to the Data Protection Board of India once it is constituted.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h4",
+   "text": "Right to Nominate"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Under the DPDP Act, you may nominate another individual to exercise your privacy rights on your behalf in the event of your death or incapacity. To register a nominee, contact help@operon360.com.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "16.2",
+   "text": "Additional Rights for EU and UK Users (When Applicable)",
+   "id": "s-16-2"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Users in the EU and UK have additional rights under GDPR and UK GDPR:",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h4",
+   "text": "Right to Data Portability"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "You have the right to receive a copy of your personal data in a structured, commonly used, and machine-readable format (such as CSV or JSON) and, where technically feasible, to request that Operon Softwares transmit that data directly to another controller. This right applies where processing is based on consent or contract.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h4",
+   "text": "Right to Restrict Processing"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "You may request that we restrict the processing of your personal data in certain circumstances — for example, if you contest the accuracy of the data or if processing is unlawful but you do not want deletion.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h4",
+   "text": "Right to Object"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "You may object to processing based on legitimate interests, including direct marketing. If you object to direct marketing, we will stop processing your data for that purpose immediately. For other objections, we will assess whether our legitimate interests override your rights and respond accordingly.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h4",
+   "text": "Right Not to Be Subject to Solely Automated Decisions"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "You have the right not to be subject to decisions based solely on automated processing (including profiling) that produce legal or similarly significant effects on you. As described in Section 10.2, Operon Softwares does not make such decisions without human review. If you believe a material decision affecting you was made solely by automated means, please contact help@operon360.com.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h2",
+   "num": "17",
+   "text": "How to Exercise Your Privacy Rights",
+   "id": "s-17"
+  },
+  {
+   "t": "h3",
+   "num": "17.1",
+   "text": "In-Platform Workflow",
+   "id": "s-17-1"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Operon 360 provides a built-in privacy and data management workflow within the Platform through which registered users can:",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "View and download a summary of their personal data.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Update or correct account information directly.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Manage marketing and notification preferences.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Submit a formal rights request (access, deletion, correction, portability) for data not self-serviceable through Account settings.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "View the history of consent given and withdrawn.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "17.2",
+   "text": "Submitting a Request",
+   "id": "s-17-2"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "For requests that cannot be completed through the in-platform workflow, you may contact us at:",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Email:",
+     "b": true
+    },
+    {
+     "t": " help@operon360.com",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Subject line:",
+     "b": true
+    },
+    {
+     "t": " “Privacy Rights Request — [Type: Access / Correction / Deletion / Portability / Objection]”",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Include:",
+     "b": true
+    },
+    {
+     "t": " your full name, registered email address, the nature of your request, and a description of the specific data or processing concerned.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "17.3",
+   "text": "Identity Verification",
+   "id": "s-17-3"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "To protect against unauthorised requests and misuse, Operon Softwares may verify your identity before processing a rights request. We may ask you to confirm information we already hold about you or to provide additional verification. We will not charge a fee for this process.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "17.4",
+   "text": "Response Timelines",
+   "id": "s-17-4"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "We will: (a) acknowledge your request within 72 hours of receipt; (b) aim to fulfil or respond substantively within 30 days of receipt; and (c) notify you if we need up to an additional 30 days due to the complexity or volume of requests, explaining the reason for the extension. Total response time will not exceed 60 days in normal circumstances.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "17.5",
+   "text": "Limitations on Rights",
+   "id": "s-17-5"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Some rights cannot be exercised in all circumstances. For example:",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "We may be unable to delete financial data we are required to retain under tax law.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "We may be unable to delete KYC data during the applicable regulatory retention period.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Exercising data portability or deletion rights may affect your ability to use some or all Platform features.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "In all cases where we decline or limit a rights request, we will explain our reasons clearly and advise on escalation routes.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h2",
+   "num": "18",
+   "text": "Grievance and Complaint Mechanism",
+   "id": "s-18"
+  },
+  {
+   "t": "h3",
+   "num": "18.1",
+   "text": "Internal Grievance Officer (DPDP Act)",
+   "id": "s-18-1"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "If you have a concern, complaint, or grievance about the way Operon Softwares handles your personal data — including any alleged violation of the DPDP Act or this Privacy Policy — you may contact our designated Grievance Officer:",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "table",
+   "rows": [
+    [
+     "Detail",
+     "Information"
+    ],
+    [
+     "Name",
+     "Sankeerth M K"
+    ],
+    [
+     "Designation",
+     "[INSERT DESIGNATION]"
+    ],
+    [
+     "Organisation",
+     "Operon Softwares (operating as Operon 360)"
+    ],
+    [
+     "Contact Email",
+     "help@operon360.com"
+    ],
+    [
+     "Preferred Subject Line",
+     "“Privacy Grievance — [Brief Description]”"
+    ],
+    [
+     "Acknowledgement",
+     "Within 48 hours of receipt"
+    ],
+    [
+     "Target Resolution Time",
+     "Within 30 days of receipt (complex matters may take longer; you will be informed)"
+    ],
+    [
+     "Languages Accepted",
+     "English, Kannada, Hindi [CONFIRM AS APPLICABLE]"
+    ]
+   ]
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Your grievance should describe: the nature of your concern, the specific data or processing activity involved, the outcome you are seeking, and any previous correspondence with Operon Softwares on the matter.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "We take all privacy grievances seriously. We will investigate each complaint fairly, keep you informed of progress, and provide a written resolution within the target timeframe.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "18.2",
+   "text": "Escalation to the Data Protection Board of India",
+   "id": "s-18-2"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "If your grievance is not resolved to your satisfaction within the timeframe provided, or if you disagree with Operon Softwares's decision, you may escalate your complaint to the Data Protection Board of India once it is formally constituted and operational under the DPDP Act, 2023. We will update this Section with the Board's contact details once available.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "18.3",
+   "text": "EU Users — Data Protection Authorities",
+   "id": "s-18-3"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "If you are located in the EU and believe that Operon Softwares has violated your rights under GDPR, you have the right to lodge a complaint with the supervisory authority in your EU Member State. Our DPO for GDPR purposes is Sanjay Kumar (help@operon360.com).",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "18.4",
+   "text": "UK Users — Information Commissioner's Office",
+   "id": "s-18-4"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "UK users may contact the Information Commissioner's Office (ICO) at https://www.ico.org.uk if they believe their data protection rights under UK GDPR have been infringed.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h2",
+   "num": "19",
+   "text": "Children's Privacy",
+   "id": "s-19"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "The Operon 360 Platform is a professional B2B service intended exclusively for use by businesses, professionals, and individuals aged 18 and above. We do not knowingly collect, store, or process personal data from individuals under the age of 18.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "If you are under 18, please do not access or use the Platform or submit any personal data to us.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "If Operon Softwares becomes aware that personal data of a minor has been submitted to or collected through the Platform — whether accidentally, through misrepresentation of age, or otherwise — we will take prompt steps to delete such data from our systems. If you are a parent or guardian and believe that your child has provided personal data to us, please contact us immediately at help@operon360.com. We will investigate and respond within 5 business days.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h2",
+   "num": "20",
+   "text": "Third-Party Websites and Integrations",
+   "id": "s-20"
+  },
+  {
+   "t": "h3",
+   "num": "20.1",
+   "text": "External Links",
+   "id": "s-20-1"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "The Operon 360 Website and Platform may contain links to external websites, news articles, industry resources, or third-party services. These links are provided for convenience and informational purposes only. Operon Softwares does not own, control, or operate these external websites and is not responsible for their privacy practices, security standards, or content. Once you leave the Operon 360 Website by clicking an external link, this Privacy Policy no longer applies to you.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "We strongly encourage you to review the privacy policy of any third-party website or service you visit, particularly before providing any personal data.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "20.2",
+   "text": "Third-Party Integrations on the Platform",
+   "id": "s-20-2"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "The Platform may allow you to connect or integrate third-party tools and services (such as ERP systems, document management tools, or communication platforms) with your Operon 360 account. When you connect a third-party integration:",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "The third party may collect, process, or receive personal data as a result of the integration.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "The scope of data shared with the third party is governed by the permissions you set at the time of connection and the third party's own terms and privacy policy.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Operon Softwares is not responsible for the data practices of connected third-party services.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "You should review the terms and privacy policies of any third-party service you choose to integrate with Operon 360 and ensure that the integration is appropriate for your privacy obligations to your own users.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h2",
+   "num": "21",
+   "text": "Changes to This Privacy Policy",
+   "id": "s-21"
+  },
+  {
+   "t": "h3",
+   "num": "21.1",
+   "text": "How We Update This Policy",
+   "id": "s-21-1"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Operon Softwares may update this Privacy Policy from time to time to reflect changes in our data processing practices, legal requirements, the introduction of new Platform features, or the addition of new subprocessors. We are committed to being transparent about any such changes.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "21.2",
+   "text": "How We Notify You of Material Changes",
+   "id": "s-21-2"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "When we make material changes to this Policy — meaning changes that significantly affect how we collect, use, or share your personal data, or that affect your rights — we will notify you by:",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Posting a prominent notice on the Operon 360 Website and within the Platform.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Sending an email to your registered Account email address, where required or appropriate.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Updating the “Last Updated” date at the top of this Policy.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Material changes will be communicated at least 14 days before they take effect, except where an immediate change is required by applicable law or to address a security risk, in which case changes may take effect sooner.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "21.3",
+   "text": "Previous Versions",
+   "id": "s-21-3"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "We maintain a version history of this Privacy Policy. If you would like to review a previous version, please contact us at help@operon360.com. Your continued use of the Website or Platform after an updated Privacy Policy takes effect constitutes your acceptance of the revised terms. If you do not agree with the updated Policy, you may close your account and request deletion of your data as described in Section 17.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h2",
+   "num": "22",
+   "text": "Contact Details and Key Contacts",
+   "id": "s-22"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "If you have any questions about this Privacy Policy, how Operon Softwares handles your personal data, or if you wish to exercise any of your privacy rights, please use the following contact details:",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "table",
+   "rows": [
+    [
+     "Role",
+     "Details"
+    ],
+    [
+     "Company",
+     "Operon 360, operated by Operon Softwares — [INSERT FULL LEGAL ENTITY NAME]"
+    ],
+    [
+     "Registered Address",
+     "Bangalore, Karnataka, India [INSERT FULL STREET ADDRESS]"
+    ],
+    [
+     "General Privacy Enquiries",
+     "help@operon360.com"
+    ],
+    [
+     "Grievance Officer (DPDP Act)",
+     "Name: Sankeerth M K | Designation: [INSERT] | Email: help@operon360.com | Subject: “Privacy Grievance”"
+    ],
+    [
+     "Data Protection Officer (GDPR)",
+     "Name: Sanjay Kumar | Designation: [INSERT] | Email: help@operon360.com | Subject: “GDPR Enquiry”"
+    ],
+    [
+     "Rights Requests",
+     "help@operon360.com — Subject: “Privacy Rights Request”"
+    ],
+    [
+     "Data Security / Breach Reports",
+     "help@operon360.com — Subject: “Data Security Report” (URGENT)"
+    ],
+    [
+     "Marketing Opt-Out",
+     "help@operon360.com — Subject: “Marketing Opt-Out” or via Account settings"
+    ],
+    [
+     "AI Decision Review",
+     "help@operon360.com — Subject: “AI Decision Review Request”"
+    ],
+    [
+     "Children's Data Concerns",
+     "help@operon360.com — Subject: “Children's Data Concern”"
+    ],
+    [
+     "Website",
+     "https://www.operon360.com"
+    ]
+   ]
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "We aim to respond to all written privacy enquiries within 72 hours and to resolve substantive requests within 30 days. For urgent data security matters, please mark your email “URGENT” and we will prioritise it accordingly.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h2",
+   "num": null,
+   "text": "Open Issues, Legal Review Notes, and Information Still Needed",
+   "draft": true,
+   "id": "s-open-issues-legal-review-notes"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "The items below must be reviewed, confirmed, or actioned before this Privacy Policy is published on the Operon 360 website.",
+     "b": false
+    }
+   ],
+   "draft": true
+  },
+  {
+   "t": "h4",
+   "text": "A. Items Requiring Legal Review Before Publication",
+   "draft": true
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Aadhaar Collection (HIGH PRIORITY): Obtain specific legal advice on whether Operon Softwares is authorised to collect and store Aadhaar numbers under the Aadhaar Act, 2016 and UIDAI guidelines. If not AUA/KUA-registered, remove Aadhaar from the KYC data list and replace with alternative identity documents.",
+     "b": false
+    }
+   ],
+   "draft": true
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Bank Account Data (HIGH PRIORITY): Confirm that Operon Softwares's information security policy and data handling procedures explicitly address bank account number storage in compliance with IT (Reasonable Security Practices) Rules, 2011 and applicable RBI guidelines.",
+     "b": false
+    }
+   ],
+   "draft": true
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "DPDP Act Rules (ONGOING): Monitor the notification of DPDP Act Rules and update the consent framework, Data Protection Board escalation process, and cross-border transfer provisions accordingly.",
+     "b": false
+    }
+   ],
+   "draft": true
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Physical Verification Photos of Individuals: If site visit photographs may capture factory workers or other individuals, confirm the lawful basis for processing this data and whether any notice to those individuals is required.",
+     "b": false
+    }
+   ],
+   "draft": true
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Cross-Border AI Processing: Review the data processing agreements with all AI providers to confirm that they prohibit use of Operon Softwares user data for their own model training and that appropriate transfer safeguards are in place.",
+     "b": false
+    }
+   ],
+   "draft": true
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "US and Australia Expansion: Before formally onboarding US or Australian clients or employees, conduct a jurisdiction-specific privacy review covering CCPA (California), Australian Privacy Act 1988, and applicable state laws.",
+     "b": false
+    }
+   ],
+   "draft": true
+  },
+  {
+   "t": "h4",
+   "text": "B. Placeholders to Replace Before Publication",
+   "draft": true
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "[INSERT FULL LEGAL ENTITY NAME] — registered company name per MCA/ROC records.",
+     "b": false
+    }
+   ],
+   "draft": true
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "[INSERT FULL STREET ADDRESS] — complete registered office address in Bangalore.",
+     "b": false
+    }
+   ],
+   "draft": true
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "[INSERT AWS REGION] — confirm ap-south-1 (Mumbai) or other.",
+     "b": false
+    }
+   ],
+   "draft": true
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "[INSERT PAYMENT GATEWAY] — Razorpay, Stripe, PayPal, or other.",
+     "b": false
+    }
+   ],
+   "draft": true
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "[INSERT KYC PROVIDER] — Karza, Digilocker, Onfido, CKYC, or other.",
+     "b": false
+    }
+   ],
+   "draft": true
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "[INSERT AI PROVIDERS] — OpenAI, Anthropic, Google Vertex, or other.",
+     "b": false
+    }
+   ],
+   "draft": true
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "[INSERT VIDEO CALL TOOL] — Zoom, Google Meet, MS Teams, or other.",
+     "b": false
+    }
+   ],
+   "draft": true
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "[INSERT EMAIL TOOL] — SendGrid, Amazon SES, Mailchimp, or other.",
+     "b": false
+    }
+   ],
+   "draft": true
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "[INSERT ANALYTICS TOOL] — Google Analytics, Mixpanel, Hotjar, or other.",
+     "b": false
+    }
+   ],
+   "draft": true
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "[INSERT SUPPORT TOOL] — Freshdesk, Zendesk, Intercom, or other.",
+     "b": false
+    }
+   ],
+   "draft": true
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "[INSERT CRM TOOL] — HubSpot, Zoho CRM, Salesforce, or other.",
+     "b": false
+    }
+   ],
+   "draft": true
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "[INSERT GRIEVANCE OFFICER DESIGNATION] — Sankeerth M K's job title.",
+     "b": false
+    }
+   ],
+   "draft": true
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "[INSERT DPO DESIGNATION] — Sanjay Kumar's job title.",
+     "b": false
+    }
+   ],
+   "draft": true
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "[NUMBER] days for post-Workspace access — confirm operational decision.",
+     "b": false
+    }
+   ],
+   "draft": true
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "[EFFECTIVE DATE] and [LAST UPDATED DATE].",
+     "b": false
+    }
+   ],
+   "draft": true
+  },
+  {
+   "t": "h4",
+   "text": "C. Operational and Technical Prerequisites Before Going Live",
+   "draft": true
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Cookie Consent Management Platform (CMP): Must be deployed on the website before publishing. Confirm CMP vendor and ensure cookie categories are correctly mapped.",
+     "b": false
+    }
+   ],
+   "draft": true
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "In-Platform Privacy Workflow: Confirm that the in-platform data rights request workflow is built, tested, and functional before publication.",
+     "b": false
+    }
+   ],
+   "draft": true
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Subprocessor DPAs: Confirm that written DPAs are in place with all listed subprocessors. Priority: AI providers, KYC vendor, payment gateway.",
+     "b": false
+    }
+   ],
+   "draft": true
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Data Retention Enforcement: Confirm that automated data deletion/archival workflows are implemented in the platform to enforce the retention periods in Section 14.",
+     "b": false
+    }
+   ],
+   "draft": true
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Security Documentation: Confirm that an internal Information Security Policy is in place and that it specifically covers sensitive personal data categories (Aadhaar, PAN, bank details).",
+     "b": false
+    }
+   ],
+   "draft": true
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Nominee Registration Feature: Implement a mechanism for users to register a nominee per DPDP Act requirements, or note this as a roadmap item.",
+     "b": false
+    }
+   ],
+   "draft": true
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Consent Audit Trail: Confirm that the platform records and stores consent given and withdrawn (date, time, version, mechanism) for compliance purposes.",
+     "b": false
+    }
+   ],
+   "draft": true
+  },
+  {
+   "t": "fine",
+   "runs": [
+    {
+     "t": "© [YEAR] Operon 360, operated by Operon Softwares. All rights reserved. This Privacy Policy may not be reproduced without express written consent.",
+     "b": false
+    }
+   ],
+   "draft": true
+  }
+ ]
+}

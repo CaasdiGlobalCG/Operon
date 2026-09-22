@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Clear space unit = height of the symbol's small circle, per brand rule 07. */
+    --clear-space: 0.26em;
+    color-scheme: light;
+  }
+
+  html {
+    -webkit-text-size-adjust: 100%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 96px;
+  }
+
+  body {
+    @apply bg-paper font-sans text-body text-ink antialiased;
+    padding-top: env(safe-area-inset-top, 0px);
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+  }
+
+  h1, h2, h3, h4 {
+    @apply font-display font-semibold;
+    text-wrap: balance;
+  }
+
+  p { text-wrap: pretty; }
+
+  ::selection { background: #000; color: #fff; }
+
+  :focus-visible {
+    outline: 2px solid currentColor;
+    outline-offset: 3px;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after {
+      animation-duration: 0.001ms !important;
+      transition-duration: 0.001ms !important;
+    }
+  }
+}
+
+@layer components {
+  /* Reveal: opacity + transform only. One orchestrated entrance per section. */
+  .reveal {
+    opacity: 0;
+    transform: translateY(14px);
+    transition:
+      opacity 420ms cubic-bezier(0.22, 0.61, 0.36, 1),
+      transform 420ms cubic-bezier(0.22, 0.61, 0.36, 1);
+  }
+  .reveal[data-shown='true'] {
+    opacity: 1;
+    transform: none;
+  }
+
+  /* Hairline rules are the primary structural device of this system. */
+  .rule-ink { @apply border-ink-14; }
+  .rule-paper { @apply border-paper-14; }
+}
+
+/* Presence map: blinking city markers. Reduced-motion users get a static map
+   via the global animation-duration override in @layer base. */
+@keyframes map-dot-blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.15; }
+}
+.map-dot {
+  animation: map-dot-blink 2.2s ease-in-out infinite;
+}
