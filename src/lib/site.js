@@ -71,6 +71,7 @@ export const CORPORATE_FOOTER = [
     links: [
       { label: 'Privacy Policy', to: '/legal/privacy-policy' },
       { label: 'Terms of Service', to: '/legal/terms-of-service' },
+      { label: 'Acceptable Use Policy', to: '/legal/acceptable-use-policy' },
     ],
   },
 ];
@@ -126,6 +127,7 @@ export const O360_FOOTER = [
     links: [
       { label: 'Privacy Policy', to: '/legal/privacy-policy' },
       { label: 'Terms of Service', to: '/legal/terms-of-service' },
+      { label: 'Acceptable Use Policy', to: '/legal/acceptable-use-policy' },
     ],
   },
   {
@@ -158,6 +160,7 @@ export const ROUTES = [
   { path: '/legal', title: 'Legal & Compliance', shell: 'corporate', nav: 'footer', batch: 5 },
   { path: '/legal/privacy-policy', title: 'Privacy Policy', shell: 'corporate', nav: 'footer', batch: 5 },
   { path: '/legal/terms-of-service', title: 'Terms of Service', shell: 'corporate', nav: 'footer', batch: 5 },
+  { path: '/legal/acceptable-use-policy', title: 'Acceptable Use Policy', shell: 'corporate', nav: 'footer', batch: 5 },
   { path: '/grow', title: 'Marketing / Growth', shell: 'corporate', nav: 'footer', batch: 5 },
   ...INDUSTRIES.map((i) => ({
     path: `/industries/${i.slug}`,

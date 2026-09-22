@@ -4,11 +4,13 @@ import { Container, MonoLabel, Reveal, Section } from '../components/ui';
 import LegalDocument from '../components/LegalDocument';
 import privacyPolicy from '../content/legal/privacy-policy.json';
 import termsOfService from '../content/legal/terms-of-service.json';
+import acceptableUse from '../content/legal/acceptable-use-policy.json';
 
 // `content` is the document text, extracted verbatim from the approved PDFs.
 const DOCUMENTS = [
   { title: 'Privacy Policy', path: '/legal/privacy-policy', content: privacyPolicy },
   { title: 'Terms of Service', path: '/legal/terms-of-service', content: termsOfService },
+  { title: 'Acceptable Use Policy', path: '/legal/acceptable-use-policy', content: acceptableUse },
 ];
 
 export function Legal() {

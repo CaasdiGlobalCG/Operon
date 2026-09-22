@@ -1,0 +1,1873 @@
+{
+ "meta": {
+  "title": "Acceptable Use Policy",
+  "tagline": "Operon 360 — a brand of Operon Softwares",
+  "effectiveDate": "[INSERT DATE]",
+  "lastUpdated": "[INSERT DATE]",
+  "version": "1.0"
+ },
+ "blocks": [
+  {
+   "t": "h2",
+   "num": "1",
+   "text": "Purpose and Scope",
+   "id": "s-1"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "This Acceptable Use Policy (\"Policy\") sets out the rules, obligations, and standards that govern how all users may access and use the Operon 360 platform, services, workspaces, tools, and any associated features (collectively, the \"Platform\"). Operon 360 is an AI-enabled project management and execution platform connecting businesses with verified vendors, dedicated project managers, and integrated procurement powered by Graviyx, finance, and delivery capabilities — all within a single managed workspace. Because the Platform facilitates real commercial transactions, procurement powered by Graviyx decisions, and confidential business operations between multiple parties, maintaining platform integrity is essential to the trust and safety of every participant. This Policy exists to:",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Define what is and is not permitted on the Platform;",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Protect clients, vendors, and the Company from fraud, misuse, and abuse;",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Preserve the integrity of procurement powered by Graviyx, vendor selection, and AI-assisted workflows;",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Set enforceable standards for conduct, communications, and data handling; and",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Establish the Company's rights to investigate and act on violations.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "This Policy forms part of and must be read alongside the Operon 360 Terms of Service, Privacy Policy, and any workspace-specific agreements or vendor onboarding terms. In the event of a conflict between this Policy and the Terms of Service, the Terms of Service shall prevail unless this Policy expressly provides otherwise.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h2",
+   "num": "2",
+   "text": "Corporate Structure and Relationship to Operon Softwares",
+   "id": "s-2"
+  },
+  {
+   "t": "h3",
+   "num": "2.1",
+   "text": "Ownership and Operation",
+   "id": "s-2-1"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "“Operon 360” is a trading name and brand under which Operon Softwares [INSERT REGISTERED ENTITY NAME AND TYPE, e.g. “Operon Softwares Private Limited”], a company incorporated under the laws of India with its registered office at [INSERT REGISTERED ADDRESS] (“Operon Softwares”, “the Company”, “we”, “us”, or “our”), conducts business. Operon 360 is not a separate legal entity from Operon Softwares.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "2.2",
+   "text": "Interpretation",
+   "id": "s-2-2"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "References in this Policy to “Operon 360”, “the Platform”, or similar brand references describe the product, workspace, and features that users interact with. References to “the Company”, “we”, “us”, or “Operon Softwares” refer to the legal entity that owns, operates, and is legally responsible for Operon 360, and that holds all rights, obligations, and liabilities described in this Policy. All rights granted to, and obligations owed to, “Operon 360” under this Policy are rights and obligations of Operon Softwares.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "2.3",
+   "text": "Contracting Party",
+   "id": "s-2-3"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Any agreement formed by accepting this Policy, and any Terms of Service, workspace agreement, or vendor onboarding terms referenced herein, is formed between the user and Operon Softwares. Operon 360 is used solely as the commercial and product name under which Operon Softwares offers the Platform to clients, vendors, and other users.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "2.4",
+   "text": "No Independent Obligations",
+   "id": "s-2-4"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Operon 360 does not have separate legal personality, and no obligation, warranty, representation, or liability arises against “Operon 360” independently of Operon Softwares. All notices, legal process, correspondence, and communications required or permitted under this Policy shall be directed to Operon Softwares using the contact details in Section 16.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h2",
+   "num": "3",
+   "text": "Who This Policy Applies To",
+   "id": "s-3"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "This Policy applies to every individual and entity that accesses or uses the Platform in any capacity, including:",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Clients — businesses or individuals who engage Operon 360 to execute projects, procurement powered by Graviyx, or managed delivery;",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Vendors — businesses or individuals who have completed Operon 360's KYC verification process and are onboarded to offer goods or services through the Platform;",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Dual-Role Users — entities that participate on the Platform as both a client and a vendor simultaneously;",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Project Managers (PMs) — Operon Softwares-assigned or subcontracted project managers who manage execution within workspaces;",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Auditors — third parties granted limited access to workspaces for review, compliance, or verification purposes;",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Internal Personnel — employees, contractors, and agents of Operon Softwares operating within the Platform; and",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Any other person who accesses the Platform through any means, whether authorised or otherwise.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "By accessing or using the Platform, you confirm that you have read, understood, and agree to comply with this Policy. If you are accessing the Platform on behalf of a company or other legal entity, you represent that you have authority to bind that entity to this Policy.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h2",
+   "num": "4",
+   "text": "Permitted Use of the Platform",
+   "id": "s-4"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "The Platform is designed exclusively for lawful, good-faith commercial use. The following activities are expressly permitted: For Clients:",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Submitting project requirements, procurement powered by Graviyx requests, and scope documents;",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Reviewing vendor proposals, quotes, and profiles within assigned workspaces;",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Communicating with assigned PMs and, where the PM is present, with vendors;",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Approving deliverables, milestones, and procurement powered by Graviyx decisions;",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Uploading supporting documents relevant to a project (including RFQs, specifications, reference photos, and contracts);",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Accessing AI-generated recommendations, budgets, and analytics for the purpose of informed decision-making.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "For Vendors:",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Submitting accurate quotes, proposals, credentials, and supporting documentation in response to project requirements;",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Communicating with clients and PMs within designated workspace channels;",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Uploading deliverables, progress documentation, invoices, and project-related files;",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Managing vendor profiles and maintaining up-to-date KYC and business information.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "For All Users:",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Using the Platform's AI-assisted tools for their intended advisory purposes;",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Accessing workspace data to which you have been expressly granted access;",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Reporting concerns, misconduct, or policy violations to Operon 360 through designated reporting channels;",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Participating in Operon 360-facilitated communications in a professional and lawful manner.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Use of the Platform for any purpose not described above or not expressly authorised by Operon Softwares in writing is not permitted.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h2",
+   "num": "5",
+   "text": "Account Integrity and Access Rules",
+   "id": "s-5"
+  },
+  {
+   "t": "h3",
+   "num": "5.1",
+   "text": "Account Registration and KYC",
+   "id": "s-5-1"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "All users must complete Operon 360's Know Your Customer (\"KYC\") verification process before being granted active access to the Platform. Providing false, misleading, incomplete, or fabricated information during registration or KYC — including fake business registration numbers, fabricated GST or tax identification numbers, false identity documents, or misrepresented ownership structures — is a serious violation of this Policy and may constitute a criminal offence under applicable law.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "5.2",
+   "text": "Account Security",
+   "id": "s-5-2"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "You are solely responsible for maintaining the confidentiality of your account credentials. You must:",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Use a strong, unique password and not share login credentials with any other person;",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Ensure that only authorised individuals within your organisation access your account;",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Notify Operon Softwares immediately at support@operon360.com if you suspect unauthorised access, a security breach, or compromise of your account.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Account sharing, credential delegation to unauthorised parties, or allowing others to impersonate you on the Platform is strictly prohibited.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "5.3",
+   "text": "One Account Per Identity and Purpose",
+   "id": "s-5-3"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Each individual or business entity may maintain only one active account per role on the Platform. Creating multiple accounts to circumvent restrictions, inflate vendor presence, submit competing bids, avoid enforcement actions, or for any deceptive purpose is prohibited.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "5.4",
+   "text": "Dual-Role Disclosure",
+   "id": "s-5-4"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "If your organisation participates on the Platform as both a client and a vendor, you must disclose this dual-role status to Operon Softwares at the time of registration or promptly upon the dual relationship arising. Undisclosed dual-role participation in any workspace where a conflict of interest may exist is prohibited.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "5.5",
+   "text": "Subcontracted PMs and Auditors",
+   "id": "s-5-5"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Subcontracted project managers and auditors granted access to the Platform are bound by this Policy in full. The entity that engaged or nominated such individuals is responsible for ensuring their compliance. Access granted to subcontracted PMs and auditors is limited to the scope required for their specific engagement and may not be extended, transferred, or used beyond that scope.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "5.6",
+   "text": "No Impersonation",
+   "id": "s-5-6"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "You may not impersonate any other user, vendor, client, employee, PM, auditor, or any third party on the Platform. This includes the use of a name, logo, email address, or other identifier that falsely suggests affiliation with or authorisation from another person or entity, including Operon 360 or Operon Softwares.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h2",
+   "num": "6",
+   "text": "Prohibited Activities",
+   "id": "s-6"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "The following activities are strictly prohibited on or in connection with the Platform:",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "6.1",
+   "text": "Platform Integrity",
+   "id": "s-6-1"
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Accessing, or attempting to access, any part of the Platform for which you have not been granted express authorisation;",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Bypassing, disabling, or circumventing any authentication, access control, security feature, or technical restriction on the Platform;",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Using any automated tool, script, bot, crawler, scraper, spider, or similar mechanism to access, extract, copy, or index any portion of the Platform or its data without Operon Softwares's prior written authorisation;",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Conducting or commissioning penetration testing, vulnerability scanning, or any form of security research on the Platform without prior written authorisation from Operon Softwares;",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Reverse engineering, decompiling, disassembling, or otherwise attempting to derive source code, algorithms, or proprietary logic from any part of the Platform;",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Introducing malware, viruses, ransomware, trojans, or any malicious code into the Platform;",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Interfering with, disrupting, or degrading the performance, availability, or integrity of the Platform or its infrastructure;",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Attempting to intercept, monitor, or access communications or data belonging to other users without authorisation.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "6.2",
+   "text": "Account and Identity Abuse",
+   "id": "s-6-2"
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Creating or using a fake, fictitious, or misleading account identity;",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Submitting false or fabricated documents during KYC, onboarding, or any verification process;",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Operating as a front entity, shell company, or proxy for any individual or organisation that has been suspended, terminated, or blacklisted by Operon Softwares;",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Allowing a previously terminated user, vendor, or client to access the Platform through your account or workspace.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "6.3",
+   "text": "Misuse of AI and Platform Features",
+   "id": "s-6-3"
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Attempting to manipulate, deceive, game, or reverse-engineer Operon 360's AI systems, recommendation engines, matching algorithms, or analytics tools;",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Deliberately submitting false, distorted, or misleading data to Operon 360's AI features with the intent to skew outputs, manipulate vendor rankings, distort budget recommendations, or obtain an unfair advantage;",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Using AI-generated outputs from the Platform as the sole basis for binding commercial or financial decisions without independent verification, in circumvention of Operon 360's advisory disclaimers;",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Integrating or deploying third-party AI tools, bots, or automated agents into the Platform without Operon Softwares's express written permission.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "6.4",
+   "text": "Unauthorised Data Use",
+   "id": "s-6-4"
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Exporting, copying, storing, or reproducing Platform data — including vendor profiles, client information, project data, pricing, procurement powered by Graviyx records, or AI-generated outputs — for any purpose outside your authorised use of the Platform;",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Aggregating, compiling, or commercialising data obtained from the Platform without Operon Softwares's written consent;",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Using data obtained through the Platform to contact, solicit, or transact with other users outside the Platform.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h2",
+   "num": "7",
+   "text": "Prohibited Content and Communications",
+   "id": "s-7"
+  },
+  {
+   "t": "h3",
+   "num": "7.1",
+   "text": "General Content Standards",
+   "id": "s-7-1"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "All content uploaded to, shared through, or communicated on the Platform must comply with applicable law and Operon 360's professional conduct standards. You must not upload, post, transmit, or share content that:",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Is false, misleading, fraudulent, or deceptive;",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Infringes any third party's intellectual property rights, including copyright, trademark, or trade secrets;",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Contains personal data of third parties shared without lawful basis or consent;",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Is defamatory, obscene, threatening, or otherwise unlawful;",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Violates any applicable data protection law, including India's Digital Personal Data Protection Act, 2023 (\"DPDP Act\");",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Contains malware, phishing material, or links to harmful external content.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "7.2",
+   "text": "Communications Conduct",
+   "id": "s-7-2"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "All communications on the Platform — whether between clients, vendors, PMs, auditors, or Operon Softwares staff — must be conducted professionally and in good faith. The following are prohibited:",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Harassment, intimidation, threats, or coercive communications directed at any user;",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Discriminatory language or conduct on the basis of religion, caste, gender, ethnicity, nationality, disability, or any other protected characteristic;",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Hate speech, derogatory remarks, or content that incites hostility;",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Unsolicited commercial communications or spam within the Platform;",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Communications designed to pressure, manipulate, or unduly influence another user's procurement powered by Graviyx or commercial decisions.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "7.3",
+   "text": "Workspace Communication Rules",
+   "id": "s-7-3"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Direct communication between clients and vendors within a workspace is permitted only when an Operon Softwares-assigned or subcontracted project manager is present in that communication channel. Any attempt to conduct project-related discussions, negotiations, or agreements through private messages, side channels, or any means that excludes the assigned PM is prohibited.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "7.4",
+   "text": "Off-Platform Solicitation",
+   "id": "s-7-4"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Vendors who have been connected to a client through the Platform may not solicit that client for business, payments, or commercial arrangements outside of the Platform without Operon Softwares's prior written consent. This restriction applies for the duration of the engagement and extends to any direct continuation of work that originated through Operon 360.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h2",
+   "num": "8",
+   "text": "procurement powered by Graviyx, Vendor, and Marketplace",
+   "id": "s-8"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Integrity Operon 360's core function involves facilitating procurement powered by Graviyx decisions that have real financial and operational consequences for clients. The following rules exist to protect the integrity of every procurement powered by Graviyx process on the Platform.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "8.1",
+   "text": "Honest and Accurate Submissions",
+   "id": "s-8-1"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "All quotes, proposals, bids, credentials, certifications, portfolio materials, and supporting documents submitted by vendors must be accurate, current, and genuinely reflective of the vendor's actual capabilities, pricing, and intent to perform. The following are strictly prohibited:",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Submitting inflated, artificially deflated, fabricated, or collusive quotes or bids;",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Misrepresenting your qualifications, certifications, capacity, past work, or business standing;",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Submitting duplicate or near-identical bids across multiple accounts or identities for the same project requirement.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "8.2",
+   "text": "No Bid Shopping or Quote Sharing",
+   "id": "s-8-2"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Clients must not share a vendor's submitted quote, proposal, or pricing with competing vendors for the purpose of driving prices down or extracting improved terms without the originating vendor's knowledge and consent. This practice, commonly known as bid shopping, undermines procurement powered by Graviyx integrity and is prohibited.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "8.3",
+   "text": "No Collusion or Coordination",
+   "id": "s-8-3"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Vendors must not coordinate, communicate, or collude with other vendors regarding quotes, pricing, bid strategies, or the allocation of project work — whether on or off the Platform. Any arrangement designed to fix prices, divide markets, or manipulate the outcome of any procurement powered by Graviyx process on Operon 360 is prohibited.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "8.4",
+   "text": "No procurement powered by Graviyx Fraud or Identity Fraud",
+   "id": "s-8-4"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "The following are prohibited:",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Using false business identities, fabricated registrations, or misrepresented entity structures to participate in procurement powered by Graviyx processes;",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Submitting forged or altered documents, certificates, or compliance records;",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Operating as a proxy or front for a suspended or blacklisted vendor in order to participate in Platform procurement powered by Graviyx.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "8.5",
+   "text": "Financial Integrity",
+   "id": "s-8-5"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "All payment and financial transactions related to projects on the Platform must be processed through Operon Softwares's designated payment infrastructure. The following are strictly prohibited:",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Arranging off-platform payments, side payments, or direct financial transfers between vendors and clients in relation to work sourced through Operon 360;",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Offering, soliciting, or accepting kickbacks, undisclosed commissions, or any financial benefit in exchange for preferential treatment in vendor selection, project allocation, or procurement powered by Graviyx decisions;",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Any financial arrangement between a vendor and an Operon Softwares employee, PM, or agent that is not disclosed to and approved by Operon Softwares.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "8.6",
+   "text": "Conflict of Interest — Internal Staff and PMs",
+   "id": "s-8-6"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Operon Softwares employees, internal staff, and PMs (whether employed or subcontracted) must not hold any undisclosed financial interest — including equity, commissions, loans, or other remuneration — in any vendor active on the Platform. Any potential conflict of interest must be disclosed to Operon Softwares management immediately upon becoming aware of it.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h2",
+   "num": "9",
+   "text": "AI, Automation, API, and Technical Use Restrictions",
+   "id": "s-9"
+  },
+  {
+   "t": "h3",
+   "num": "9.1",
+   "text": "AI Tools and Outputs",
+   "id": "s-9-1"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Operon 360 incorporates AI-assisted features including vendor matching, budget forecasting, procurement powered by Graviyx recommendations, and analytics. These features are provided as advisory tools to support — not replace — human judgment and decision-making. Users acknowledge that:",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "AI-generated outputs, including vendor recommendations, budget estimates, and forecasts, are indicative only and do not constitute guarantees, warranties, or professional advice;",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Reliance on AI outputs without independent verification is at the user's own risk;",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Operon Softwares does not warrant the accuracy, completeness, or fitness for purpose of any AI-generated output.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "9.2",
+   "text": "Prohibited AI-Related Conduct",
+   "id": "s-9-2"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Users must not:",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Attempt to probe, test, manipulate, or reverse-engineer Operon 360's AI systems or the logic underlying its recommendations;",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Feed deliberately false, distorted, or synthetic data into the Platform's AI features with the intent to manipulate outputs;",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Use outputs from Operon 360's AI features to train, fine-tune, or develop competing AI models or systems;",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Integrate or connect third-party AI tools, automation bots, or agent-based systems into the Platform without express written authorisation from Operon Softwares.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "9.3",
+   "text": "No Unauthorised API or Automation Use",
+   "id": "s-9-3"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Operon 360 does not currently offer a public API. Any programmatic access to the Platform, including through scripts, automated browsers, bulk data extraction tools, or any method not expressly provided by Operon Softwares, is prohibited. Violation of this restriction may result in immediate account suspension and legal action.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "9.4",
+   "text": "Security and Technical Restrictions",
+   "id": "s-9-4"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Users must not:",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Attempt to circumvent rate limits, session controls, or access management systems;",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Test the security posture of the Platform without Operon Softwares's prior written authorisation;",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Exploit any vulnerability, bug, or unintended behaviour in the Platform for any purpose other than immediate good-faith disclosure to Operon Softwares at support@operon360.com.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h2",
+   "num": "10",
+   "text": "Data, Confidentiality, and Security Expectations",
+   "id": "s-10"
+  },
+  {
+   "t": "h3",
+   "num": "10.1",
+   "text": "Handling of Confidential Information",
+   "id": "s-10-1"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Users will, in the course of using the Platform, have access to confidential information belonging to other users, including project requirements, pricing, vendor identities, procurement powered by Graviyx strategies, and business data. You must:",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Use confidential information solely for the purpose of your authorised participation in the relevant workspace or project;",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Not disclose, share, reproduce, or exploit confidential information for any purpose outside the Platform without the express consent of the disclosing party;",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Take reasonable steps to protect confidential information from unauthorised access or disclosure.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "10.2",
+   "text": "Personal Data",
+   "id": "s-10-2"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Where users upload or share personal data through the Platform — including identity documents submitted as part of KYC — such data is handled in accordance with Operon Softwares's Privacy Policy and applicable data protection law, including the DPDP Act. Users must not upload personal data of third parties without a lawful basis for doing so. Users must not submit personal health information, financial account credentials, government-issued identity numbers of third parties, or any other category of sensitive personal data to Operon 360's AI features.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "10.3",
+   "text": "Data Belonging to the Company",
+   "id": "s-10-3"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "All platform-generated data, including vendor profiles, aggregated procurement powered by Graviyx data, AI model outputs, analytics, and workspace metadata, is proprietary to Operon Softwares. Users have no right to export, copy, commercially exploit, or reverse-engineer this data outside of their permitted use of the Platform.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "10.4",
+   "text": "Applicable Law Compliance",
+   "id": "s-10-4"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Users are responsible for ensuring that their use of the Platform — including data uploads, procurement powered by Graviyx activities, payments, and communications — complies with all applicable laws, including:",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "The Information Technology Act, 2000 and rules thereunder;",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "The Digital Personal Data Protection Act, 2023;",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "The Goods and Services Tax Act and applicable GST regulations;",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "The Foreign Exchange Management Act, 1999 (\"FEMA\") and RBI regulations, as applicable to cross-border transactions;",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "The Prevention of Corruption Act, 1988;",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "All other applicable local, national, and international laws governing the user's business activities on the Platform.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "As Operon Softwares expands Operon 360 to additional jurisdictions, users operating in those jurisdictions must additionally comply with all applicable local laws and regulations.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h2",
+   "num": "11",
+   "text": "Monitoring, Investigation, and Enforcement Rights",
+   "id": "s-11"
+  },
+  {
+   "t": "h3",
+   "num": "11.1",
+   "text": "Right to Monitor",
+   "id": "s-11-1"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Operon Softwares reserves the right to monitor, review, and analyse activity on the Platform — including communications, uploaded content, transactions, and technical access patterns — for the purposes of ensuring compliance with this Policy, detecting fraud or abuse, maintaining platform security, and improving Operon 360's services. Operon Softwares does not warrant that all activity will be actively monitored at all times. The existence of this right does not create an obligation to monitor, and Operon Softwares assumes no liability for failure to detect or prevent violations.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "11.2",
+   "text": "Investigations",
+   "id": "s-11-2"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Operon Softwares's compliance team is authorised to investigate suspected violations of this Policy. Upon notification or detection of a potential violation, Operon Softwares may:",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Gather and preserve evidence of the suspected violation;",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Review communications, uploaded files, transaction records, and account activity relevant to the investigation;",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Request information or documentation from any user involved in or connected to the matter.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "11.3",
+   "text": "User Cooperation Obligations",
+   "id": "s-11-3"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "All users subject to an Operon Softwares investigation must:",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Cooperate fully and promptly with Operon Softwares's compliance team within a reasonable timeframe as directed;",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Provide accurate, complete, and truthful responses to any requests for information;",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Preserve all records, communications, and documents relevant to the matter and refrain from deleting, altering, concealing, or destroying any such records from the point at which you are notified of, or reasonably ought to be aware of, an investigation.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Failure to cooperate, obstruction of an investigation, or tampering with evidence is itself a serious violation of this Policy and will be treated accordingly.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "11.4",
+   "text": "Reporting to Authorities",
+   "id": "s-11-4"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Operon Softwares reserves the right to report suspected illegal conduct — including fraud, identity theft, financial crimes, data breaches, and procurement powered by Graviyx corruption — to relevant law enforcement agencies, regulatory authorities, or other competent bodies, without prior notice to the user concerned.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h2",
+   "num": "12",
+   "text": "Consequences of Violations",
+   "id": "s-12"
+  },
+  {
+   "t": "h3",
+   "num": "12.1",
+   "text": "Range of Enforcement Actions",
+   "id": "s-12-1"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Depending on the nature, severity, and frequency of a violation, Operon Softwares may take one or more of the following actions:",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Formal Warning — Issuance of a written notice identifying the violation and required corrective action;",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Content or Document Removal — Removal of non-compliant content, files, communications, or submissions from the Platform;",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Feature Restriction — Limiting access to specific Platform features pending investigation or resolution;",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Temporary Suspension — Suspending account access for a defined or indefinite period;",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Withholding of Pending Transactions — Holding pending payments, deliverables, or procurement powered by Graviyx actions where a violation is under investigation;",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Permanent Termination — Permanently revoking access to the Platform for the user and, where applicable, associated accounts or entities;",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Legal Action — Pursuing civil remedies, damages, injunctive relief, or referring the matter to law enforcement.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "12.2",
+   "text": "Emergency Suspension Without Notice",
+   "id": "s-12-2"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "In cases involving actual or suspected fraud, security breaches, criminal conduct, imminent harm to other users, or actions that threaten the integrity of the Platform, Operon Softwares may suspend or terminate an account immediately and without prior notice. Operon Softwares will endeavour to notify the affected user as soon as reasonably practicable following such action.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "12.3",
+   "text": "Appeals",
+   "id": "s-12-3"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Operon Softwares's enforcement decisions are final. In serious cases — including permanent account termination — a user may submit a written appeal to support@operon360.com requesting an internal review. Appeals will be considered solely on the basis of material new information or clear procedural error. Submission of an appeal does not suspend the enforcement action pending its outcome. Operon Softwares's decision following internal review is final and binding.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "num": "12.4",
+   "text": "No Liability for Enforcement Actions",
+   "id": "s-12-4"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Operon Softwares shall not be liable to any user for losses, damages, or costs arising from enforcement actions taken in good faith under this Policy, including suspension or termination of account access.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h2",
+   "num": "13",
+   "text": "Reporting Violations",
+   "id": "s-13"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "If you witness, experience, or become aware of any conduct that you believe violates this Policy, you are encouraged to report it to Operon Softwares promptly. All reports should be submitted to: support@operon360.com When reporting a violation, please include:",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "A description of the conduct or content in question;",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "The date(s) and workspace(s) involved, where known;",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Any supporting evidence, screenshots, or documentation you are able to provide;",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "li",
+   "level": 1,
+   "runs": [
+    {
+     "t": "Your contact details so Operon Softwares can follow up if required.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Users must not take enforcement action against each other directly. All reports of misconduct must be directed to Operon Softwares. Operon Softwares will treat reports confidentially to the extent practicable and will not disclose the identity of the reporting party without consent, except where required by law or necessary for the investigation. Operon Softwares prohibits retaliation against any user who reports a violation in good faith. Any act of retaliation against a reporting user is itself a serious violation of this Policy.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h2",
+   "num": "14",
+   "text": "Relationship to Terms of Service",
+   "id": "s-14"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "This Policy is incorporated into and forms part of Operon Softwares's Terms of Service for Operon 360. Capitalised terms used but not defined in this Policy have the meanings given to them in the Terms of Service. In the event of any conflict between this Policy and the Terms of Service, the Terms of Service shall prevail. Nothing in this Policy limits or excludes any right or remedy available to Operon Softwares under the Terms of Service or applicable law.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h2",
+   "num": "15",
+   "text": "Changes to This Policy",
+   "id": "s-15"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "Operon Softwares reserves the right to update, modify, or replace this Policy at any time. Where changes are material, Operon Softwares will provide reasonable notice to users via the Platform, email, or such other means as Operon Softwares determines appropriate. Continued use of the Platform following the effective date of any revised Policy constitutes acceptance of the revised terms. Users are encouraged to review this Policy periodically.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "t": "h2",
+   "num": "16",
+   "text": "Contact Information",
+   "id": "s-16"
+  },
+  {
+   "t": "p",
+   "runs": [
+    {
+     "t": "For questions, concerns, reports of violations, or requests relating to this Policy, please contact: Operon 360 (operated by Operon Softwares) — Compliance and Trust Email: support@operon360.com [INSERT MAILING ADDRESS OF OPERON SOFTWARES] [INSERT GRIEVANCE OFFICER NAME AND CONTACT — required under DPDP Act; see Legal Review Notes]",
+     "b": false
+    }
+   ]
+  }
+ ]
+}

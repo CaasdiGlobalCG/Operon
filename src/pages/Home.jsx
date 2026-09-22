@@ -213,6 +213,60 @@ export default function Home() {
         </Container>
       </Section>
 
+      {/* ------------------------------------------------------ search dog */}
+      <Section surface="ink">
+        <Container>
+          <Reveal className="grid gap-10 lg:grid-cols-[0.9fr_1.1fr] lg:gap-20">
+            <div>
+              <MonoLabel tone="paper">Search Dog</MonoLabel>
+              <Display level={2} className="mt-6">
+                Describe your problem. Search Dog finds the fix.
+              </Display>
+              <div className="mt-10">
+                <Button tone="ink" onClick={() => window.dispatchEvent(new CustomEvent('searchdog:open'))}>
+                  Talk to Search Dog
+                </Button>
+              </div>
+            </div>
+            <div className="lg:pt-3">
+              <Body tone="paper">
+                Search Dog isn&rsquo;t a search bar — it&rsquo;s a business consultant that happens to run on AI. Tell it
+                what you&rsquo;re dealing with — cash flow, hiring, compliance, whatever it is — in your own words. It
+                asks a few sharp questions to understand the real problem, then points you to the exact tool,
+                calculator, or service on Operon Softwares built to solve it. If nothing in our toolkit fits, it&rsquo;ll
+                say so and tell you what will.
+              </Body>
+            </div>
+          </Reveal>
+
+          <Reveal className="mt-16 grid gap-px overflow-hidden rounded-lg bg-paper-14 md:grid-cols-3" delay={60}>
+            {[
+              {
+                step: '01',
+                title: 'Tell it what\u2019s going on',
+                copy: 'No forms, no menus — just describe the problem like you would to a person.',
+              },
+              {
+                step: '02',
+                title: 'It diagnoses, not just deflects',
+                copy: 'Search Dog asks follow-up questions to pin down what you actually need, not just keyword-matches you to a page.',
+              },
+              {
+                step: '03',
+                title: 'It hands you the fix',
+                copy: 'A direct link to the right calculator, tool, or page in our platform — or a clear next step if it\u2019s something we don\u2019t cover yet.',
+              },
+            ].map((item) => (
+              <article key={item.step} className="bg-ink p-8 md:p-10">
+                <MonoLabel tone="paper">{item.step}</MonoLabel>
+                <h3 className="mt-5 font-display text-h4 font-semibold">{item.title}</h3>
+                <p className="mt-4 text-body text-paper-70">{item.copy}</p>
+              </article>
+            ))}
+          </Reveal>
+        </Container>
+      </Section>
+
       {/* --------------------------------------------------------- insights */}
       <Section surface="cloud">
         <Container>

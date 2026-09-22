@@ -69,6 +69,7 @@ export function AppRoutes() {
           <Route path="/legal" element={<Legal />} />
           <Route path="/legal/privacy-policy" element={<LegalDoc />} />
           <Route path="/legal/terms-of-service" element={<LegalDoc />} />
+          <Route path="/legal/acceptable-use-policy" element={<LegalDoc />} />
           <Route path="/grow" element={<Grow />} />
           <Route path="*" element={<NotFound />} />
         </Route>
