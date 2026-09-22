@@ -1,5 +1,6 @@
+import { Link } from 'react-router-dom';
 import { CTABand, PageHero, SectionHead, Tabs } from '../../components/blocks';
-import { Body, Button, Container, MonoLabel, Reveal, Section, Shape, TextLink } from '../../components/ui';
+import { ArrowOut, Body, Button, Container, MonoLabel, Reveal, Section, Shape, TextLink } from '../../components/ui';
 import { ECOSYSTEM, MODULES } from '../../content/platform';
 import { O360 } from '../../lib/site';
 
@@ -162,14 +163,33 @@ export default function O360Landing() {
             </div>
           </SectionHead>
 
-          <Reveal className="mt-16 grid gap-px overflow-hidden rounded-lg bg-ink-14 sm:grid-cols-2 lg:grid-cols-4" delay={60}>
-            {MODULES.map((module) => (
-              <a key={module.id} href={`${O360}/features#${module.id}`} className="group bg-cloud p-6 transition-colors duration-180 hover:bg-paper">
-                <MonoLabel>{module.subtitle ? `${module.name} · ${module.subtitle}` : module.name}</MonoLabel>
-                <p className="mt-4 text-sm text-ink-70">{module.what}</p>
-              </a>
-            ))}
-          </Reveal>
+          <div className="mt-16">
+            <ul className="border-t border-ink-14">
+              {MODULES.map((module, i) => (
+                <Reveal as="li" key={module.id} delay={i * 70} once={false} className="border-b border-ink-14">
+                  <Link
+                    to={`${O360}/features#${module.id}`}
+                    className="group flex items-baseline gap-5 py-5 text-ink-55 transition-colors duration-200 hover:text-ink"
+                  >
+                    <span className="font-mono text-mono tabular-nums text-ink-40 transition-colors duration-200 group-hover:text-ink">
+                      {String(i + 1).padStart(2, '0')}
+                    </span>
+                    <span className="flex-1">
+                      <span className="font-display text-h4 font-semibold">{module.name}</span>
+                      {module.subtitle ? <span className="ml-3 text-sm">{module.subtitle}</span> : null}
+                      <span className="mt-1 hidden max-w-prose text-sm text-ink-55 md:block">{module.what}</span>
+                    </span>
+                    <span
+                      aria-hidden="true"
+                      className="shrink-0 -translate-x-2 opacity-0 transition-all duration-200 group-hover:translate-x-0 group-hover:opacity-100"
+                    >
+                      <ArrowOut />
+                    </span>
+                  </Link>
+                </Reveal>
+              ))}
+            </ul>
+          </div>
         </Container>
       </Section>
 

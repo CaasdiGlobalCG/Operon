@@ -179,7 +179,7 @@ export function EmptyState({ message, action, tone = 'ink' }) {
  * One reveal per section, transform/opacity only. Honours reduced motion by
  * rendering the final state immediately.
  */
-export function Reveal({ as: As = 'div', delay = 0, className = '', children }) {
+export function Reveal({ as: As = 'div', delay = 0, className = '', children, once = true, ...rest }) {
   const ref = useRef(null);
   const [shown, setShown] = useState(false);
 
@@ -194,17 +194,19 @@ export function Reveal({ as: As = 'div', delay = 0, className = '', children }) 
       ([entry]) => {
         if (entry.isIntersecting) {
           setShown(true);
-          io.disconnect();
+          if (once) io.disconnect();
+        } else if (!once) {
+          setShown(false);
         }
       },
       { rootMargin: '0px 0px -12% 0px', threshold: 0.05 },
     );
     io.observe(el);
     return () => io.disconnect();
-  }, []);
+  }, [once]);
 
   return (
-    <As ref={ref} className={`reveal ${className}`} data-shown={shown} style={{ transitionDelay: `${delay}ms` }}>
+    <As ref={ref} className={`reveal ${className}`} data-shown={shown} style={{ transitionDelay: `${delay}ms` }} {...rest}>
       {children}
     </As>
   );

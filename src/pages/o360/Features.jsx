@@ -1,15 +1,11 @@
-import { Accordion, CTABand, PageHero } from '../../components/blocks';
-import { Button, Container, ExternalLink, MonoLabel, Pending, Reveal, Section } from '../../components/ui';
+import { useEffect, useState } from 'react';
+import { useLocation } from 'react-router-dom';
+import { CTABand, PageHero } from '../../components/blocks';
+import { ArrowOut, Button, Container, ExternalLink, MonoLabel, Pending, Reveal, Section } from '../../components/ui';
 import { MODULES } from '../../content/platform';
 import { O360 } from '../../lib/site';
 
 export default function Features() {
-  const items = MODULES.map((module) => ({
-    id: module.id,
-    title: module.subtitle ? `${module.name} — ${module.subtitle}` : module.name,
-    content: <ModuleBody module={module} />,
-  }));
-
   return (
     <>
       <PageHero
@@ -27,7 +23,7 @@ export default function Features() {
       <Section surface="paper">
         <Container>
           <Reveal>
-            <Accordion items={items} defaultOpen="workspace" />
+            <ModuleIndex />
           </Reveal>
         </Container>
       </Section>
@@ -42,6 +38,98 @@ export default function Features() {
   );
 }
 
+/**
+ * Module index — hover/touch list on the left, detail panel on the right.
+ * Desktop: the sticky panel cross-fades to whichever row is hovered/focused.
+ * Mobile: the active row expands inline with a height animation.
+ * Row ids double as anchors (footer links like /360/features#cipher).
+ */
+function ModuleIndex() {
+  const [active, setActive] = useState(MODULES[0].id);
+  const { hash } = useLocation();
+  const current = MODULES.find((m) => m.id === active) || MODULES[0];
+
+  // Deep links (/360/features#cipher) activate the matching module.
+  useEffect(() => {
+    const id = hash.replace('#', '');
+    if (MODULES.some((m) => m.id === id)) setActive(id);
+  }, [hash]);
+
+  return (
+    <div className="grid gap-14 lg:grid-cols-[0.85fr_1.15fr] lg:gap-20">
+      <ul className="border-t border-ink-14">
+        {MODULES.map((m, i) => {
+          const is = m.id === active;
+          return (
+            <Reveal as="li" key={m.id} id={m.id} delay={i * 70} once={false} className="scroll-mt-28 border-b border-ink-14">
+              <button
+                type="button"
+                aria-expanded={is}
+                onMouseEnter={() => setActive(m.id)}
+                onFocus={() => setActive(m.id)}
+                onClick={() => setActive(m.id)}
+                className={`group flex w-full items-baseline gap-5 py-6 text-left transition-colors duration-200 ${
+                  is ? 'text-ink' : 'text-ink-55 hover:text-ink'
+                }`}
+              >
+                <span
+                  className={`font-mono text-mono tabular-nums transition-colors duration-200 ${
+                    is ? 'text-ink' : 'text-ink-40'
+                  }`}
+                >
+                  {String(i + 1).padStart(2, '0')}
+                </span>
+                <span className="flex-1">
+                  <span className={`font-display font-semibold transition-all duration-200 ${is ? 'text-h3' : 'text-h4'}`}>
+                    {m.name}
+                  </span>
+                  {m.subtitle ? <span className="ml-3 text-sm text-ink-55">{m.subtitle}</span> : null}
+                </span>
+                <span
+                  aria-hidden="true"
+                  className={`shrink-0 transition-all duration-200 ${
+                    is ? 'translate-x-0 opacity-100' : '-translate-x-2 opacity-0 group-hover:translate-x-0 group-hover:opacity-60'
+                  }`}
+                >
+                  <ArrowOut />
+                </span>
+              </button>
+
+              {/* Inline expanding detail — mobile/tablet only */}
+              <div
+                className={`grid transition-[grid-template-rows] duration-300 ease-signal lg:hidden ${
+                  is ? 'grid-rows-[1fr]' : 'grid-rows-[0fr]'
+                }`}
+              >
+                <div className="overflow-hidden">
+                  <div className={`pb-10 transition-opacity duration-300 ${is ? 'opacity-100' : 'opacity-0'}`}>
+                    <ModuleBody module={m} />
+                  </div>
+                </div>
+              </div>
+            </Reveal>
+          );
+        })}
+      </ul>
+
+      {/* Sticky cross-fading detail panel — desktop only */}
+      <div className="hidden lg:block">
+        <div className="sticky top-28">
+          <div key={current.id} className="animate-feature-in">
+            <div className="mb-6 flex items-baseline justify-between border-b border-ink-14 pb-5">
+              <MonoLabel>
+                {String(MODULES.indexOf(current) + 1).padStart(2, '0')} / {String(MODULES.length).padStart(2, '0')}
+              </MonoLabel>
+              <h3 className="font-display text-h3 font-semibold">{current.name}</h3>
+            </div>
+            <ModuleBody module={current} />
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
 function ModuleBody({ module }) {
   const rows = [
     ['What it is', module.what],
@@ -51,7 +139,7 @@ function ModuleBody({ module }) {
   ].filter(([, value]) => Boolean(value));
 
   return (
-    <div className="grid gap-10 lg:grid-cols-[1.2fr_0.8fr] lg:gap-16">
+    <div className="grid gap-10 xl:grid-cols-[1.2fr_0.8fr] xl:gap-16">
       <dl>
         {rows.map(([term, copy]) => (
           <div key={term} className="mb-6 last:mb-0">

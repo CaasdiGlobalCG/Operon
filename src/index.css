@@ -72,3 +72,12 @@
 .map-dot {
   animation: map-dot-blink 2.2s ease-in-out infinite;
 }
+
+/* Features module panel: soft rise when the active module changes. */
+@keyframes feature-in {
+  from { opacity: 0; transform: translateY(16px); }
+  to { opacity: 1; transform: none; }
+}
+.animate-feature-in {
+  animation: feature-in 400ms cubic-bezier(0.22, 0.61, 0.36, 1) both;
+}
