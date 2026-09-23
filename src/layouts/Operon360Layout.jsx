@@ -66,6 +66,12 @@ function O360Nav() {
               {item.label}
             </NavLink>
           ))}
+          <ExternalLink
+            tone="paper"
+            className="pb-1 text-sm text-paper-55 transition-colors duration-180 hover:text-paper"
+          >
+            Graviyx
+          </ExternalLink>
         </nav>
 
         <div className="hidden items-center gap-3 lg:flex">
@@ -103,6 +109,9 @@ function O360Nav() {
                   {item.label}
                 </NavLink>
               ))}
+              <ExternalLink tone="paper" className="py-3.5 font-display text-h4 font-semibold text-paper">
+                Graviyx
+              </ExternalLink>
             </nav>
             <div className="mt-6 flex flex-col gap-3">
               {O360_NAV_CTA.map((cta) => (
