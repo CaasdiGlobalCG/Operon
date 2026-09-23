@@ -68,7 +68,7 @@ export default function Home() {
               </div>
               <h1 className="animate-hero-in mt-7 text-h1 md:text-h1-lg" style={{ animationDelay: '90ms' }}>
                 We build the{' '}
-                <RotatingWord words={['platforms', 'utilities', 'rails']} /> institutions are missing.
+                <RotatingWord words={['platforms', 'utilities']} /> institutions are missing.
               </h1>
               <div className="animate-hero-in" style={{ animationDelay: '180ms' }}>
                 <Lead className="mt-8">
