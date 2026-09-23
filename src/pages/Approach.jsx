@@ -29,7 +29,7 @@ export default function Approach() {
                     <span className="font-mono text-mono uppercase tabular-nums text-ink-40">
                       {String(i + 1).padStart(2, '0')}
                     </span>
-                    <Shape form={stage.shape} size={13} className="mt-1" />
+                    {/* <Shape form={stage.shape} size={13} className="mt-1" /> */}
                   </div>
                   <h3 className="font-display text-h4 font-semibold">{stage.term}</h3>
                   <p className="max-w-prose text-body text-ink-70">{stage.copy}</p>

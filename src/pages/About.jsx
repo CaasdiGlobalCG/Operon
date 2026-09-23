@@ -22,7 +22,7 @@ export default function About() {
       {/* ------------------------------------------------- company overview */}
       <Section surface="cloud">
         <Container>
-          <SectionHead eyebrow="Company overview" headline="We identify structural gaps — and build what closes them.">
+          <SectionHead eyebrow="Company overview" headline="We identify structural gaps and build what closes them.">
             <Body>
               We scan governments, enterprises, and industries for critical functions that are fragmented, manual, or
               missing entirely, and build the platforms required to close them at scale. Entire categories of
@@ -38,7 +38,7 @@ export default function About() {
       {/* ------------------------------------------------------ the operon model */}
       <Section surface="paper">
         <Container>
-          <SectionHead eyebrow="The Operon model" headline="One company. A repeatable way of building.">
+          <SectionHead className="" eyebrow="The Operon model" headline="One company. A repeatable way of building.">
             <Body>
               A standing origination function scans for structural gaps, tests each candidate against a fixed set of
               utility criteria, and incubates the earliest version of a platform before handing it to a dedicated

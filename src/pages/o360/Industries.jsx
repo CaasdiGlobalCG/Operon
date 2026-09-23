@@ -124,9 +124,9 @@ export default function O360Industries() {
                     <th scope="col" className="py-4 pr-6 font-mono text-mono uppercase text-ink-55">
                       What running on Operon 360 looks like
                     </th>
-                    <th scope="col" className="w-24 py-4 font-mono text-mono uppercase text-ink-55">
+                    {/* <th scope="col" className="w-24 py-4 font-mono text-mono uppercase text-ink-55">
                       Demo
-                    </th>
+                    </th> */}
                   </tr>
                 </thead>
                 <tbody>
@@ -152,14 +152,14 @@ export default function O360Industries() {
                             </ul>
                           ) : null}
                         </td>
-                        <td className="py-6">
+                        {/* <td className="py-6">
                           <Link
                             to={`${O360}/get-demo`}
                             className="border-b border-ink-30 pb-0.5 text-sm font-medium hover:border-ink"
                           >
                             Get Demo
                           </Link>
-                        </td>
+                        </td> */}
                       </RevealFlat>
                     );
                   })}

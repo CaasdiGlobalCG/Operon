@@ -83,7 +83,7 @@ export const O360_NAV = [
   { label: 'Features', to: `${O360}/features` },
   { label: 'Industries', to: `${O360}/industries` },
   { label: 'Growth', to: '/grow' },
-  { label: 'Operon Softwares', to: '/' },
+  { label: 'Process', to: `${O360}/process` },
 ];
 
 export const O360_NAV_CTA = [

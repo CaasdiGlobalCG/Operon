@@ -94,12 +94,12 @@ export default function Process() {
         lead="How a project moves through Operon 360, step by step."
         actions={
           <>
-            <Button to={`${O360}/get-demo`} tone="ink">
+            {/* <Button to={`${O360}/get-demo`} tone="ink">
               For Clients — Get Started
             </Button>
             <Button to={`${O360}/get-demo`} tone="ink" variant="secondary">
               For Vendors — Join
-            </Button>
+            </Button> */}
           </>
         }
       />

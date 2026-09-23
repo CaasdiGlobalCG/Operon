@@ -110,7 +110,7 @@ export default function O360Landing() {
                 { shape: 'small-circle', term: 'Delivered', copy: 'Reviewed, approved, signed off.' },
               ].map((node) => (
                 <li key={node.term} className="flex min-h-[11rem] flex-col justify-between gap-6 bg-cloud p-6">
-                  <Shape form={node.shape} size={16} />
+                  {/* <Shape form={node.shape} size={16} /> */}
                   <div>
                     <h3 className="font-display text-h4 font-semibold">{node.term}</h3>
                     <p className="mt-2 text-sm text-ink-70">{node.copy}</p>
