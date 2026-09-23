@@ -1,6 +1,6 @@
 import { CTABand, PageHero, SectionHead } from '../components/blocks';
 import { Body, Button, Container, Display, ExternalLink, MonoLabel, Reveal, Section } from '../components/ui';
-import Signal from '../components/Signal';
+import { Mark } from '../components/Logo';
 import { O360 } from '../lib/site';
 
 export default function Platforms() {
@@ -11,7 +11,15 @@ export default function Platforms() {
         headline="We build platforms, not standalone products."
         lead="Every platform owns one utility, built and operated directly — never bundled, never spun off. Operon 360 is our first."
         actions={<Button to={O360}>Enter Operon 360</Button>}
-        aside={<Signal className="w-[200px] md:w-[260px]" />}
+        aside={
+          <div className="flex flex-col items-center">
+            <Mark variant="symbol" height={220} className="animate-float" />
+            <span
+              aria-hidden="true"
+              className="animate-float-shadow mt-8 block h-4 w-[58%] rounded-[50%] bg-ink blur-md"
+            />
+          </div>
+        }
       />
 
       {/* ----------------------------------------------------- philosophy */}

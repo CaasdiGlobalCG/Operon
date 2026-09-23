@@ -44,7 +44,7 @@ export default function Grow() {
                 return (
                   <article
                     key={item.title}
-                    className="flex flex-col justify-between gap-8 bg-paper p-7 transition-transform duration-200 ease-signal hover:-translate-y-1 md:p-8"
+                    className="relative flex flex-col justify-between gap-8 bg-paper p-7 transition-[transform,box-shadow] duration-200 ease-signal hover:z-10 hover:-translate-y-1 hover:shadow-[0_18px_44px_rgba(0,0,0,0.16)] md:p-8"
                   >
                     <div>
                       <MonoLabel>{item.title}</MonoLabel>

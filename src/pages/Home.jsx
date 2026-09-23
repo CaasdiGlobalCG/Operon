@@ -1,7 +1,7 @@
 import { useRef } from 'react';
 import { Link } from 'react-router-dom';
 import { motion, useReducedMotion, useScroll, useTransform } from 'framer-motion';
-import Signal from '../components/Signal';
+import { Mark } from '../components/Logo';
 import {
   Body,
   Button,
@@ -53,13 +53,13 @@ const NEXT_STEPS = [
 export default function Home() {
   const heroRef = useRef(null);
   const reduce = useReducedMotion();
-  // Signal graphic drifts slower than the scroll — parallax inside the hero.
+  // Logo mark drifts slower than the scroll — parallax inside the hero.
   const { scrollYProgress } = useScroll({ target: heroRef, offset: ['start start', 'end start'] });
   const signalY = useTransform(scrollYProgress, [0, 1], [0, -56]);
   return (
     <>
       {/* ------------------------------------------------------------- hero */}
-      <Section surface="paper" bleed className="pb-20 pt-16 md:pb-30 md:pt-24">
+      <Section surface="paper" bleed className="pb-21 pt-16 md:pb-30 md:pt-14">
         <Container>
           <div ref={heroRef} className="grid items-center gap-14 lg:grid-cols-[1.15fr_0.85fr] lg:gap-20">
             <div>
@@ -92,7 +92,13 @@ export default function Home() {
               className="animate-hero-in justify-self-center lg:justify-self-end"
               style={{ animationDelay: '180ms', ...(reduce ? {} : { y: signalY }) }}
             >
-              <Signal className="w-[220px] md:w-[300px] lg:w-[340px]" />
+              <div className="flex flex-col items-center">
+                <Mark variant="symbol" height={220} className="animate-float" />
+                <span
+                  aria-hidden="true"
+                  className="animate-float-shadow mt-10 block h-5 w-[58%] rounded-[50%] bg-ink blur-md"
+                />
+              </div>
             </motion.div>
           </div>
         </Container>
@@ -337,7 +343,7 @@ export default function Home() {
                 <Link
                   to={step.to}
                   onMouseMove={spotlightMove}
-                  className="spotlight group flex h-full min-h-[9.5rem] flex-col justify-between p-6 transition-colors duration-180 hover:bg-cloud"
+                  className="spotlight group relative flex h-full min-h-[9.5rem] flex-col justify-between p-6 transition-[color,background-color,box-shadow,transform] duration-180 hover:z-10 hover:-translate-y-1 hover:bg-cloud hover:shadow-[0_28px_80px_rgba(0,0,0,0.15)]"
                 >
                   <MonoLabel>{step.note}</MonoLabel>
                   <span className="font-display text-h4 font-semibold">{step.label}</span>

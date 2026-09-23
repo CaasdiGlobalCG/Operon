@@ -42,7 +42,11 @@ export function PageHero({ eyebrow, headline, lead, actions, surface = 'paper', 
               </div>
             ) : null}
           </div>
-          {aside ? <div className="animate-hero-in lg:justify-self-end" style={{ animationDelay: '180ms' }}>{aside}</div> : null}
+          {aside ? (
+            <div className="animate-hero-in self-center justify-self-center lg:justify-self-end" style={{ animationDelay: '180ms' }}>
+              {aside}
+            </div>
+          ) : null}
         </motion.div>
       </Container>
     </Section>
@@ -153,7 +157,7 @@ export function Card({ tone = 'ink', className = '', children }) {
   const bg = tone === 'paper' ? 'bg-ink' : 'bg-paper';
   return (
     <article
-      className={`flex flex-col gap-4 ${bg} p-7 transition-transform duration-200 ease-signal hover:-translate-y-1 md:p-8 ${className}`}
+      className={`relative flex flex-col gap-4 ${bg} p-7 transition-[transform,box-shadow] duration-200 ease-signal hover:z-10 hover:-translate-y-1 hover:shadow-[0_18px_44px_rgba(0,0,0,0.16)] md:p-8 ${className}`}
     >
       {children}
     </article>
