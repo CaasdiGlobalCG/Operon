@@ -110,7 +110,11 @@ function CorporateFooter() {
           </div>
           <div className="flex flex-col gap-3">
             <MonoLabel tone="paper">Registered office</MonoLabel>
-            <Pending id="registered-address" tone="paper" label="Registered address" />
+            <p className="max-w-[16rem] text-sm leading-6 text-paper-70">
+              2nd Floor, #262, 80 Ft Road,<br />
+              Banashankari 1st Stage, Srinivasanagar,<br />
+              Bengaluru, Karnataka 560050
+            </p>
             <Pending id="cin" tone="paper" label="CIN" />
           </div>
         </div>

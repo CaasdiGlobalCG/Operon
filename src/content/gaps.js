@@ -6,7 +6,6 @@
 
 export const GAPS = {
   'graviyx-url': 'Graviyx official URL',
-  'registered-address': 'Registered address (corporate footer and About)',
   cin: 'CIN / registration number',
   'parent-group': 'Parent group relationship ("under CAASDI Global") — confirm wording and whether to publish',
   roadmap: 'Future platform / market expansion roadmap items, if any are to be named',
