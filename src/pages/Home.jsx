@@ -263,7 +263,7 @@ export default function Home() {
             <div>
               <MonoLabel tone="paper">Search Dog</MonoLabel>
               <Display level={2} className="mt-6">
-                Describe your problem. Search Dog finds the fix.
+                Tell it what you need. Search Dog points you to the right place.
               </Display>
               <div className="mt-10">
                 <Button tone="ink" onClick={() => window.dispatchEvent(new CustomEvent('searchdog:open'))}>
@@ -273,11 +273,9 @@ export default function Home() {
             </div>
             <div className="lg:pt-3">
               <Body tone="paper">
-                Search Dog isn&rsquo;t a search bar — it&rsquo;s a business consultant that happens to run on AI. Tell it
-                what you&rsquo;re dealing with — cash flow, hiring, compliance, whatever it is — in your own words. It
-                asks a few sharp questions to understand the real problem, then points you to the exact tool,
-                calculator, or service on Operon Softwares built to solve it. If nothing in our toolkit fits, it&rsquo;ll
-                say so and tell you what will.
+                Search Dog is a site assistant — not a search bar. Tell it what you&rsquo;re dealing with — cash flow,
+                hiring, compliance, whatever it is — in your own words, and it points you to the most relevant tool,
+                calculator, or page on Operon Softwares. If nothing fits, it says so and connects you with a person.
               </Body>
             </div>
           </Reveal>
@@ -287,12 +285,12 @@ export default function Home() {
               {
                 step: '01',
                 title: 'Tell it what\u2019s going on',
-                copy: 'No forms, no menus — just describe the problem like you would to a person.',
+                copy: 'No forms, no menus — just say what you\u2019re looking for in your own words.',
               },
               {
                 step: '02',
-                title: 'It diagnoses, not just deflects',
-                copy: 'Search Dog asks follow-up questions to pin down what you actually need, not just keyword-matches you to a page.',
+                title: 'It routes, not just deflects',
+                copy: 'Search Dog matches what you describe to the right tool or page — and if a person would help more, it connects you with one.',
               },
               {
                 step: '03',

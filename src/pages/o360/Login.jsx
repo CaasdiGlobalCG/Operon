@@ -63,7 +63,7 @@ function LoginForm({ role }) {
           </Button>
         </div>
         {resetSent ? (
-          <FormNotice state="success" message="If an account exists for that email, a reset link is on its way." />
+          <FormNotice state="success" message="Password reset isn't available yet — use the Contact page and we'll help." />
         ) : null}
       </div>
     );
@@ -111,7 +111,7 @@ function LoginForm({ role }) {
         state={state === 'success' ? 'error' : state}
         message={
           state
-            ? "That email and password combination doesn't match our records."
+            ? "Sign-in isn't available yet — this page is a preview."
             : ''
         }
       />

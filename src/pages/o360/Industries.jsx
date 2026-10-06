@@ -200,8 +200,8 @@ export default function O360Industries() {
             <PresenceMap />
             <div>
               <p className="text-body text-ink-70">
-                The vendor and client network spans India&rsquo;s metropolitan centres. Blinking markers show the cities
-                the network is being built across.
+                The vendor and client network is being built across India&rsquo;s metropolitan centres — the blinking
+                markers show where.
               </p>
               <ul className="mt-8 grid grid-cols-2 gap-x-8 gap-y-2.5 sm:grid-cols-3">
                 {METRO_CITIES.map((city) => (

@@ -192,7 +192,7 @@ function ReferralForm({ kind }) {
       >
         <MonoLabel tone="paper">Referral received</MonoLabel>
         <p className="mt-4 max-w-prose text-body text-paper-70">
-          Thanks — the referral is in. We'll reach out to the {who} and keep you posted.
+          Thanks — we'll reach out to the {who} and keep you posted.
         </p>
         <Button tone="ink" variant="secondary" className="mt-8" onClick={reset}>
           Refer another
@@ -232,7 +232,7 @@ function ReferralForm({ kind }) {
         state={state}
         message={
           state === 'success'
-            ? `Thanks — the referral is in. We'll reach out to the ${who} and keep you posted.`
+            ? `Thanks — we'll reach out to the ${who} and keep you posted.`
             : 'Something went wrong. Please check the highlighted fields and try again.'
         }
       />

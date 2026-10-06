@@ -102,7 +102,7 @@ export default function GetDemo() {
                 state={state}
                 message={
                   state === 'success'
-                    ? `You're booked. We've sent a confirmation to ${values.email} with the details — see you then.`
+                    ? `Thanks — we'll get back to you at ${values.email} to confirm a time.`
                     : "We couldn't complete your booking. Please check the highlighted fields and try again."
                 }
               />

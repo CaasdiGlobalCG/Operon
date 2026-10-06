@@ -143,7 +143,7 @@ function FeedbackForm() {
         state={state}
         message={
           state === 'success'
-            ? 'Thanks — your feedback is in. We read every one.'
+            ? 'Thanks for the feedback.'
             : 'Something went wrong. Please check the highlighted fields and try again.'
         }
       />

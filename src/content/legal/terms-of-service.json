@@ -17,7 +17,7 @@
    "t": "p",
    "runs": [
     {
-     "t": "Welcome to Operon 360 (the “Platform”), an AI-powered business-to-business (B2B) platform developed and operated by Operon Softwares Private Limited, a company incorporated under the laws of India with its registered office at 2nd Floor, #262, 80 Ft Road, Banashankari 1st Stage, Srinivasanagar, Bengaluru, Karnataka 560050, India (“Operon Softwares”, “we”, “us”, or “our”). “Operon 360” is a trading name and brand under which Operon Softwares makes the Platform available; it is not a separate legal entity from Operon Softwares.",
+     "t": "Welcome to Operon 360 (the “Platform”), a business-to-business (B2B) platform developed and operated by Operon Softwares Private Limited, a company incorporated under the laws of India with its registered office at 2nd Floor, #262, 80 Ft Road, Banashankari 1st Stage, Srinivasanagar, Bengaluru, Karnataka 560050, India (“Operon Softwares”, “we”, “us”, or “our”). “Operon 360” is a trading name and brand under which Operon Softwares makes the Platform available; it is not a separate legal entity from Operon Softwares.",
      "b": false
     }
    ]
@@ -858,7 +858,7 @@
    "t": "p",
    "runs": [
     {
-     "t": "The Platform incorporates artificial intelligence and machine learning technologies to assist Users with tasks such as requirement analysis, vendor matching, procurement powered by Graviyx recommendations, project workflow support, market forecasting, and data structuring (collectively, “AI Features”). AI Features are provided as a convenience to improve operational efficiency.",
+     "t": "The Platform may incorporate artificial intelligence and machine learning technologies to assist Users with tasks such as requirement analysis, vendor matching, procurement powered by Graviyx recommendations, project workflow support, market forecasting, and data structuring (collectively, “AI Features”). AI Features are provided as a convenience to improve operational efficiency.",
      "b": false
     }
    ]

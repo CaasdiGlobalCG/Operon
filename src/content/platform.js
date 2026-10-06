@@ -27,21 +27,19 @@ export const MODULES = [
     capabilities: [
       'Drag-and-drop blocks',
       'Invoices, quotations, forms, tables, charts',
-      'AI-assisted elements that adapt to project context',
+      'Blocks assembled per project context',
     ],
   },
   {
     id: 'cipher',
     name: 'Cipher',
-    subtitle: 'AI Engine',
-    what: "Operon 360's in-product AI, assisting PMs, clients, and vendors within the platform.",
+    subtitle: 'In-product assistant',
+    what: "Operon 360's in-product assistant for PMs, clients, and vendors — capability details are being finalised.",
     problem: null,
-    how: 'Operates across Workspace, The Canvas, and the requirement-understanding step of Process Flow — a connective layer, not a standalone module.',
+    how: 'Planned to operate across Workspace, The Canvas, and the requirement-understanding step of Process Flow — a connective layer, not a standalone module.',
     who: 'PMs, clients, and vendors — inside the product, not the public site.',
     capabilities: [
-      'AI-assisted vendor matching',
-      'AI-assisted elements on The Canvas',
-      'Requirement-understanding support for PMs',
+      'Capability details are being finalised',
     ],
     gap: 'cipher',
     cta: { label: 'See where Cipher fits', to: '/360/process' },
@@ -114,7 +112,7 @@ export const ECOSYSTEM = [
   { name: 'Procurement', copy: 'Global sourcing and purchasing managed inside the same workspace as execution.' },
   { name: 'Materials', copy: 'Material sourcing and tracking connected directly to the projects and vendors that need them.' },
   { name: 'Services', copy: 'The full range of vendor-delivered services coordinated and tracked through the platform.' },
-  { name: 'Technology', copy: 'The AI-assisted matching, workflow, and finance infrastructure underneath every workspace.' },
+  { name: 'Technology', copy: 'The matching, workflow, and finance infrastructure underneath every workspace.' },
 ];
 
 export const PROCESS_STEPS = [
@@ -171,7 +169,7 @@ export const METHOD_STAGES = [
   {
     term: 'Build',
     shape: 'triangle',
-    copy: 'Once validated, a dedicated platform team — people, budget, leadership — builds the product, drawing on shared infrastructure already proven by earlier platforms: identity and access, core data platform, AI and automation services, billing, security.',
+    copy: 'Once validated, a dedicated platform team — people, budget, leadership — builds the product, drawing on shared infrastructure designed to be reused across platforms: identity and access, core data platform, billing, security.',
   },
   {
     term: 'Enable',

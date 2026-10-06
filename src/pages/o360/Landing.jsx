@@ -11,7 +11,7 @@ export default function O360Landing() {
         surface="ink"
         eyebrow="Operon 360 · Execution infrastructure"
         headline="The PM-led workflow operating system for businesses."
-        lead="Operon 360 connects verified vendors and clients inside a dedicated workspace for B2B procurement, sourcing, PM-led development, and PM-led execution — with complete visibility, accountability, and streamlined delivery."
+        lead="Operon 360 connects verified vendors and clients inside a dedicated workspace for B2B procurement, sourcing, PM-led development, and PM-led execution."
         actions={
           <>
             <Button to={`${O360}/get-demo`} tone="ink">
@@ -37,7 +37,7 @@ export default function O360Landing() {
                   content: (
                     <div className="grid gap-8 lg:grid-cols-2 lg:gap-16">
                       <Body>
-                        For a large enterprise: one platform instead of many, faster decisions, shorter turnaround.
+                        For a large enterprise: one platform instead of many disconnected tools.
                       </Body>
                       <div>
                         <Body>

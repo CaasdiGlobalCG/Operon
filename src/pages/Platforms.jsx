@@ -30,8 +30,7 @@ export default function Platforms() {
               A conventional software company grows one product by expanding its feature surface into a catch-all suite.
               We draw a hard line at the utility boundary: a genuinely new utility gets a new platform, built and owned
               directly. What platforms share is infrastructure, not product surface — identity and access, core data
-              platform, AI and automation services, billing, security — which is why each new platform moves faster than
-              the one before it.
+              platform, billing, security — designed so each new platform starts further along than the one before it.
             </Body>
           </SectionHead>
         </Container>

@@ -66,7 +66,7 @@ function GeneralForm() {
         state={state}
         message={
           state === 'success'
-            ? "Thanks — we've received your message and will get back to you shortly."
+            ? "Thanks — we'll get back to you shortly at the email you entered."
             : 'Something went wrong. Please check the highlighted fields and try again.'
         }
       />
@@ -115,7 +115,7 @@ function PartnershipsForm() {
         state={state}
         message={
           state === 'success'
-            ? 'Thanks for reaching out — our partnerships team will be in touch.'
+            ? 'Thanks for reaching out — we\'ll be in touch.'
             : 'Something went wrong. Please check the highlighted fields and try again.'
         }
       />
@@ -156,7 +156,7 @@ function InvestorForm() {
         state={state}
         message={
           state === 'success'
-            ? 'Thank you — your message has been sent to our investor relations team.'
+            ? 'Thank you — we\'ll be in touch.'
             : 'Something went wrong. Please check the highlighted fields and try again.'
         }
       />

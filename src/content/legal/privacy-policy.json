@@ -2,8 +2,8 @@
  "meta": {
   "title": "Privacy Policy",
   "tagline": "A brand operated by Operon Softwares",
-  "effectiveDate": "[INSERT DATE]",
-  "lastUpdated": "[INSERT DATE]",
+  "effectiveDate": "START : 2026-09-01 to END : 2028-12-01",
+  "lastUpdated": null,
   "version": "2.0"
  },
  "blocks": [
@@ -26,7 +26,7 @@
    "t": "p",
    "runs": [
     {
-     "t": "This Policy has been drafted with two frameworks primarily in mind: India's Digital Personal Data Protection Act, 2023 (“DPDP Act”) and the European Union's General Data Protection Regulation (“GDPR”), to ensure that our practices meet international privacy standards even where not immediately legally required. As Operon 360 expands to the United States, Australia, and the United Kingdom, this Policy will be supplemented with jurisdiction-specific addenda.",
+     "t": "This Policy has been drafted primarily with India's Digital Personal Data Protection Act, 2023 (“DPDP Act”) in mind. As Operon 360 expands to other jurisdictions, this Policy will be supplemented with jurisdiction-specific addenda.",
      "b": false
     }
    ]
@@ -309,7 +309,7 @@
    "t": "p",
    "runs": [
     {
-     "t": "Operon 360 is an AI-enabled B2B project management and execution platform — described as the world's first PM-led operating system for businesses — owned and operated by Operon Softwares. The Platform allows any company to submit a requirement, receive a dedicated Project Manager, and have everything executed end-to-end — including vendor selection, procurement powered by Graviyx, compliance, finance, and delivery — within a single managed workspace.",
+     "t": "Operon 360 is a B2B project management and execution platform organised around dedicated Project Managers, owned and operated by Operon Softwares. The Platform allows any company to submit a requirement, receive a dedicated Project Manager, and have everything executed end-to-end — including vendor selection, procurement powered by Graviyx, compliance, finance, and delivery — within a single managed workspace.",
      "b": false
     }
    ]
@@ -2550,7 +2550,7 @@
    "t": "p",
    "runs": [
     {
-     "t": "Artificial intelligence and machine learning are core to Operon 360's value proposition. We use AI systems — including those powered by third-party AI providers ([INSERT PROVIDER NAMES, e.g., OpenAI / Anthropic / Google Vertex AI]) — for the following purposes:",
+     "t": "Operon 360 uses AI-assisted features for some workflows. Where used, AI systems — including those powered by third-party AI providers ([INSERT PROVIDER NAMES, e.g., OpenAI / Anthropic / Google Vertex AI]) — support the following purposes:",
      "b": false
     }
    ]
@@ -3716,7 +3716,7 @@
      "b": true
     },
     {
-     "t": " Regular security assessments, vulnerability scans, and penetration testing are conducted to identify and remediate security risks.",
+     "t": " Security measures, including vulnerability assessments, are reviewed periodically to identify and remediate security risks.",
      "b": false
     }
    ]

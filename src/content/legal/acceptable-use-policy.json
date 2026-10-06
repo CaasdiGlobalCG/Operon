@@ -2,8 +2,8 @@
  "meta": {
   "title": "Acceptable Use Policy",
   "tagline": "Operon 360 — a brand of Operon Softwares",
-  "effectiveDate": "[INSERT DATE]",
-  "lastUpdated": "[INSERT DATE]",
+  "effectiveDate": "START : 2026-09-01 to END : 2028-12-01",
+  "lastUpdated": null,
   "version": "1.0"
  },
  "blocks": [
@@ -716,7 +716,7 @@
    "level": 1,
    "runs": [
     {
-     "t": "Attempting to manipulate, deceive, game, or reverse-engineer Operon 360's AI systems, recommendation engines, matching algorithms, or analytics tools;",
+     "t": "Attempting to manipulate, deceive, game, or reverse-engineer the Platform's automated features, recommendation engines, matching algorithms, or analytics tools;",
      "b": false
     }
    ]
@@ -1174,7 +1174,7 @@
    "t": "p",
    "runs": [
     {
-     "t": "Operon 360 incorporates AI-assisted features including vendor matching, budget forecasting, procurement powered by Graviyx recommendations, and analytics. These features are provided as advisory tools to support — not replace — human judgment and decision-making. Users acknowledge that:",
+     "t": "Operon 360 may incorporate AI-assisted features including vendor matching, budget forecasting, procurement powered by Graviyx recommendations, and analytics. These features are provided as advisory tools to support — not replace — human judgment and decision-making. Users acknowledge that:",
      "b": false
     }
    ]
@@ -1229,7 +1229,7 @@
    "level": 1,
    "runs": [
     {
-     "t": "Attempt to probe, test, manipulate, or reverse-engineer Operon 360's AI systems or the logic underlying its recommendations;",
+     "t": "Attempt to probe, test, manipulate, or reverse-engineer the Platform's automated systems or the logic underlying its recommendations;",
      "b": false
     }
    ]
