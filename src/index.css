@@ -41,6 +41,13 @@
       animation-duration: 0.001ms !important;
       transition-duration: 0.001ms !important;
     }
+    /* Loaders must read correctly with motion off: pin the whole op-anim
+       family to its resting state instead of leaving it mid-cycle. */
+    [class*='op-anim'] {
+      animation: none !important;
+      opacity: 1 !important;
+      transform: none !important;
+    }
   }
 }
 
@@ -215,4 +222,116 @@
   mask-composite: exclude;
   animation: sd-orbit 4s linear infinite;
   pointer-events: none;
+}
+
+/* ---------------------------------------------------------------------------
+   Loading animations. Transform and opacity only — never a layout property.
+   Every animated element carries an `op-anim` class so the reduced-motion
+   block in @layer base can pin the whole family to its resting state. The
+   logo artwork itself is never redrawn, retinted or covered (brand rules 01/03).
+   --------------------------------------------------------------------------- */
+
+@keyframes op-spin {
+  to { transform: rotate(360deg); }
+}
+.op-anim-spin {
+  animation: op-spin 1.3s linear infinite;
+}
+
+@keyframes op-bar-pulse {
+  0%, 100% { transform: scaleY(0.3); }
+  50% { transform: scaleY(1); }
+}
+.op-anim-bar {
+  animation: op-bar-pulse 1.1s cubic-bezier(0.22, 0.61, 0.36, 1) infinite;
+  transform-origin: center bottom;
+}
+
+@keyframes op-wipe {
+  0% { transform: translateX(-105%); }
+  55%, 100% { transform: translateX(105%); }
+}
+.op-anim-wipe {
+  animation: op-wipe 1.7s cubic-bezier(0.22, 0.61, 0.36, 1) infinite;
+}
+
+@keyframes op-underline {
+  0% { transform: scaleX(0); }
+  60%, 100% { transform: scaleX(1); }
+}
+.op-anim-underline {
+  animation: op-underline 1.7s cubic-bezier(0.22, 0.61, 0.36, 1) infinite;
+  transform-origin: left center;
+}
+
+@keyframes op-assemble {
+  0% {
+    transform: translate(var(--op-dx, 0px), var(--op-dy, 0px));
+    opacity: 0;
+  }
+  55%, 100% {
+    transform: none;
+    opacity: 1;
+  }
+}
+.op-anim-assemble {
+  animation: op-assemble 1.8s cubic-bezier(0.22, 0.61, 0.36, 1) infinite;
+  animation-fill-mode: backwards;
+}
+
+/* --- variants 6-10: the mark itself is the animated subject --------------- */
+
+@keyframes op-mark-spin {
+  to { transform: rotate(360deg); }
+}
+.op-anim-mark-spin {
+  animation: op-mark-spin 2.4s linear infinite;
+}
+
+@keyframes op-mark-counter {
+  to { transform: rotate(-360deg); }
+}
+.op-anim-mark-counter {
+  animation: op-mark-counter 3.2s linear infinite;
+}
+
+@keyframes op-mark-breathe {
+  0%, 100% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(0.93); opacity: 0.72; }
+}
+.op-anim-mark-breathe {
+  animation: op-mark-breathe 1.9s cubic-bezier(0.22, 0.61, 0.36, 1) infinite;
+}
+
+/* Stepped quarter-turns: mechanical, deliberate, no easing between steps. */
+@keyframes op-mark-quarter {
+  to { transform: rotate(360deg); }
+}
+.op-anim-mark-quarter {
+  animation: op-mark-quarter 2.6s steps(4, end) infinite;
+}
+
+@keyframes op-mark-assemble {
+  0% { transform: scale(0.82) rotate(-14deg); opacity: 0; }
+  45%, 100% { transform: none; opacity: 1; }
+}
+.op-anim-mark-assemble {
+  animation: op-mark-assemble 2.1s cubic-bezier(0.22, 0.61, 0.36, 1) infinite;
+  animation-fill-mode: backwards;
+}
+
+@keyframes op-ring-expand {
+  0%, 100% { transform: scale(1); opacity: 0.28; }
+  50% { transform: scale(1.09); opacity: 0.5; }
+}
+.op-anim-ring-expand {
+  animation: op-ring-expand 1.9s cubic-bezier(0.22, 0.61, 0.36, 1) infinite;
+}
+
+@keyframes op-square-fade {
+  0%, 100% { transform: scale(0.72); opacity: 0.35; }
+  50% { transform: scale(1); opacity: 1; }
+}
+.op-anim-square-fade {
+  animation: op-square-fade 1.9s cubic-bezier(0.22, 0.61, 0.36, 1) infinite;
 }

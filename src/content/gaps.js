@@ -31,4 +31,5 @@ export const GAPS = {
   'legal-docs': 'Legal document text, effective dates, and version numbers (drafted by counsel)',
   'legal-placeholder': 'Bracketed placeholders inside the Terms of Service and Privacy Policy (dates, entity name, contacts, providers) — counsel to complete',
   'search-dog-scope': "Search Dog's business-consultant capability — product/eng scope decision",
+  'calculator-report-email': 'Email delivery of generated calculator reports — no backend/endpoint exists yet, so reports download in-browser only',
 };

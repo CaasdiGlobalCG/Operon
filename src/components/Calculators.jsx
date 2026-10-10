@@ -1,5 +1,6 @@
 import { useMemo, useState } from 'react';
 import { Button, MonoLabel } from './ui';
+import { ReportDialog } from './calculator-report/index.js';
 
 /**
  * Two working calculators for the Marketing/Growth page, replacing the
@@ -26,6 +27,9 @@ const inrShort = (n) => {
   return inr(v);
 };
 
+/** Keeps a typed number inside the range the sliders used to enforce. */
+const clamp = (n, min, max) => Math.min(Math.max(Number.isFinite(n) ? n : min, min), max);
+
 /* -------------------------------------------------------------- primitives */
 
 function FieldRow({ index, label, hint, children }) {
@@ -43,36 +47,21 @@ function FieldRow({ index, label, hint, children }) {
   );
 }
 
-function NumField({ value, onChange, prefix, suffix, placeholder, width = 'w-full' }) {
+function NumField({ value, onChange, prefix, suffix, placeholder, width = 'w-full', min, max }) {
   return (
     <div className={`flex items-center gap-1.5 rounded-md border border-ink-14 bg-paper px-3 ${width} focus-within:border-ink`}>
       {prefix ? <span className="font-mono text-mono-xs text-ink-40">{prefix}</span> : null}
       <input
         type="number"
         inputMode="decimal"
+        min={min}
+        max={max}
         value={value}
         placeholder={placeholder}
         onChange={(e) => onChange(e.target.value)}
         className="h-10 w-full min-w-0 bg-transparent text-right font-mono text-sm text-ink outline-none"
       />
       {suffix ? <span className="shrink-0 font-mono text-mono-xs text-ink-40">{suffix}</span> : null}
-    </div>
-  );
-}
-
-function Slider({ value, onChange, min, max, step = 1, display }) {
-  return (
-    <div className="flex flex-col items-end gap-2 sm:items-stretch">
-      <div className="text-right font-mono text-sm text-ink">{display}</div>
-      <input
-        type="range"
-        min={min}
-        max={max}
-        step={step}
-        value={value}
-        onChange={(e) => onChange(Number(e.target.value))}
-        className="w-full accent-black"
-      />
     </div>
   );
 }
@@ -156,6 +145,7 @@ export function FragmentationTaxCalculator() {
   const [delayPct, setDelayPct] = useState(35);
   const [delayCostInput, setDelayCostInput] = useState('');
   const [showMath, setShowMath] = useState(false);
+  const [reportOpen, setReportOpen] = useState(false);
 
   const toolCount = Object.values(tools).filter(Boolean).length;
   const usingDefaultDelayCost = delayCostInput === '' || Number(delayCostInput) <= 0;
@@ -173,7 +163,55 @@ export function FragmentationTaxCalculator() {
 
   const pmEquivalent = calc.total / Math.max(1, (Number(coordCost) || 1) * 12);
 
+  // Payload for the downloadable report. Every string is formatted here, from
+  // the same values already on screen — the PDF re-derives nothing.
+  const report = {
+    title: 'Fragmentation Tax Report',
+    subtitle: 'What disconnected tools and informal coordination are costing your program.',
+    headline: { label: 'Estimated annual fragmentation tax', value: `${inrShort(calc.low)} – ${inrShort(calc.high)}` },
+    inputs: [
+      ['Active vendors currently engaged', String(vendors)],
+      ['Tools used to coordinate them', TOOL_OPTIONS.filter((t) => tools[t.id]).map((t) => t.label).join(', ') || 'None selected'],
+      ['People spent coordinating vendors/tools', `${coordinators || 0} FTE`],
+      ['Fully-loaded monthly cost of that headcount', `${inr(Number(coordCost) || 0)} per person per month`],
+      ['Active sites / projects running concurrently', String(sites)],
+      ['Projects with a coordination-related delay or rework', `${delayPct}%`],
+      [
+        'Cost of a delayed opening or reworked milestone',
+        `${inr(delayCost)}${usingDefaultDelayCost ? ' (conservative default — no figure entered)' : ''}`,
+      ],
+    ],
+    breakdown: [
+      {
+        label: 'Coordination labor cost',
+        value: inr(calc.laborCost),
+        note: `FTE headcount × monthly cost × 12 — ${coordinators || 0} FTE × ${inr(Number(coordCost) || 0)}/mo × 12 months.`,
+      },
+      {
+        label: 'Tool overhead',
+        value: inr(calc.toolOverhead),
+        note: `${toolCount} tools selected. Each additional system beyond the first is modelled at ${TOOL_OVERHEAD_RATE * 100}% of labor cost.`,
+      },
+      {
+        label: 'Delay / rework cost',
+        value: inr(calc.delayRework),
+        note: `${delayPct}% of projects × ${sites} active sites × ${inr(delayCost)} per incident.`,
+      },
+      {
+        label: 'Total (midpoint)',
+        value: inr(calc.total),
+        note: `Shown on screen as a ±15% range: ${inr(calc.low)} – ${inr(calc.high)}.`,
+      },
+    ],
+    notes: [
+      'This is a directional model, not an audited cost — use it to size the problem, not to book it.',
+      `Roughly equivalent to funding ${pmEquivalent.toFixed(1)} additional full-time coordinators, paid for indirectly through delay and rework.`,
+      'Estimate based on the inputs provided. Actual costs vary by organization.',
+    ],
+  };
+
   return (
+    <>
     <article className="overflow-hidden rounded-lg border border-ink-14 bg-paper">
       <div className="border-b border-ink-14 p-7 md:p-8">
         <MonoLabel>Fragmentation Tax Calculator</MonoLabel>
@@ -192,7 +230,7 @@ export function FragmentationTaxCalculator() {
           <MonoLabel>Your numbers</MonoLabel>
           <div className="mt-2 border-t border-ink-14">
             <FieldRow index={1} label="Active vendors currently engaged" hint="Contractors, suppliers and sub-vendors across all live sites.">
-              <Slider value={vendors} onChange={setVendors} min={1} max={150} display={vendors} />
+              <NumField value={vendors} onChange={(v) => setVendors(clamp(Number(v) || 0, 1, 150))} suffix="vendors" min={1} max={150} />
             </FieldRow>
 
             <FieldRow index={2} label="Tools used to coordinate them" hint="Every additional system adds handoffs and reconciliation time.">
@@ -220,11 +258,11 @@ export function FragmentationTaxCalculator() {
             </FieldRow>
 
             <FieldRow index={5} label="Active sites / projects running concurrently" hint="Sites currently in fit-out, build, or handover.">
-              <Slider value={sites} onChange={setSites} min={1} max={60} display={sites} />
+              <NumField value={sites} onChange={(v) => setSites(clamp(Number(v) || 0, 1, 60))} suffix="sites" min={1} max={60} />
             </FieldRow>
 
             <FieldRow index={6} label="Projects with a coordination-related delay, rework, or dispute" hint="Over the last 12 months — share attributable to vendor coordination, not material or design issues.">
-              <Slider value={delayPct} onChange={setDelayPct} min={0} max={100} display={`${delayPct}%`} />
+              <NumField value={delayPct} onChange={(v) => setDelayPct(clamp(Number(v) || 0, 0, 100))} suffix="%" min={0} max={100} />
             </FieldRow>
 
             <FieldRow
@@ -279,8 +317,11 @@ export function FragmentationTaxCalculator() {
               That&rsquo;s roughly equivalent to funding <strong className="text-paper">{pmEquivalent.toFixed(1)} additional full-time coordinators</strong> you&rsquo;re already paying for indirectly, through delay and rework alone.
             </p>
 
-            <div className="mt-6">
-              <Button to="/contact#general" tone="ink" className="w-full">
+            <div className="mt-6 flex flex-col gap-3">
+              <Button tone="ink" className="w-full" onClick={() => setReportOpen(true)}>
+                Generate report
+              </Button>
+              <Button to="/contact#general" tone="ink" variant="secondary" className="w-full">
                 Talk to us about reducing this
               </Button>
             </div>
@@ -338,6 +379,8 @@ export function FragmentationTaxCalculator() {
         </div>
       </div>
     </article>
+    <ReportDialog open={reportOpen} onClose={() => setReportOpen(false)} report={report} />
+    </>
   );
 }
 
@@ -356,6 +399,7 @@ export function ChasingCostCalculator() {
   const [daysDelayed, setDaysDelayed] = useState('');
   const [borrowRate, setBorrowRate] = useState('14');
   const [ctaOpen, setCtaOpen] = useState(false);
+  const [reportOpen, setReportOpen] = useState(false);
 
   const calc = useMemo(() => {
     const qpm = Number(quotesPerMonth) || 0;
@@ -380,7 +424,54 @@ export function ChasingCostCalculator() {
     return { hrs, hourly, unwonQuotesPerYear, wastedCost, delayCost, total, low, high, weeksOfTime, hasDays, outstanding };
   }, [quotesPerMonth, conversionPct, hoursPerQuote, timeMode, hourlyRate, monthlyRevenue, workingHours, outstandingAmount, daysDelayed, borrowRate]);
 
+  // Payload for the downloadable report, built from the values already on screen.
+  const report = {
+    title: 'Chasing Cost Report',
+    subtitle: 'What unwon quotes and slow-paying clients are costing you.',
+    headline: { label: 'Your estimated chasing cost', value: `${inrShort(calc.low)} – ${inrShort(calc.high)} per year` },
+    inputs: [
+      ['Quotes or RFQs you respond to', `${quotesPerMonth || 0} per month`],
+      ['Of those, how many turn into a won project', `${conversionPct}%`],
+      ['Hours spent on a single quote', `${hoursPerQuote || 0} hrs`],
+      [
+        'What your time is worth',
+        timeMode === 'hourly'
+          ? `${inr(Number(hourlyRate) || 0)} per hour`
+          : `${inr(Number(monthlyRevenue) || 0)} revenue ÷ ${workingHours || 0} hrs per month`,
+      ],
+      ['Clients currently owing you past due date', String(clientsOwing || 0)],
+      ['Total amount currently outstanding', inr(calc.outstanding)],
+      ['Typical delay beyond the agreed date', calc.hasDays ? `${daysDelayed} days` : 'Not provided — assumed as a running average'],
+      ['Assumed cost of short-term working capital', `${borrowRate}% a year`],
+    ],
+    breakdown: [
+      {
+        label: 'Wasted quoting',
+        value: inr(calc.wastedCost),
+        note: `~${Math.round(calc.unwonQuotesPerYear)} quotes a year that did not convert, at ${calc.hrs} hrs each and ${inr(calc.hourly)}/hr.`,
+      },
+      {
+        label: 'Payment delay',
+        value: inr(calc.delayCost),
+        note: `${inr(calc.outstanding)} outstanding at ${borrowRate}%${calc.hasDays ? `, for ${daysDelayed} days` : ', assumed as a running average'}.`,
+      },
+      {
+        label: 'Total (midpoint)',
+        value: inr(calc.total),
+        note: `Shown on screen as a ±15% range: ${inr(calc.low)} – ${inr(calc.high)}.`,
+      },
+    ],
+    notes: [
+      calc.weeksOfTime >= 1
+        ? `Close to ${calc.weeksOfTime.toFixed(1)} weeks of your own billable time a year, spent chasing instead of building, across ${clientsOwing || 0} clients currently past due.`
+        : `Time and cash tied up chasing instead of building, across ${clientsOwing || 0} clients currently past due.`,
+      'Delayed payment is treated as tying up cash at the rate you entered — roughly what short-term working capital costs.',
+      'Estimate based on the inputs provided. Actual costs vary.',
+    ],
+  };
+
   return (
+    <>
     <article className="overflow-hidden rounded-lg border border-ink-14 bg-paper">
       <div className="border-b border-ink-14 p-7 md:p-8">
         <MonoLabel>Chasing Cost Calculator</MonoLabel>
@@ -402,7 +493,7 @@ export function ChasingCostCalculator() {
             </FieldRow>
 
             <FieldRow index={2} label="Of those, how many turn into a won project?" hint="Your rough win rate.">
-              <Slider value={conversionPct} onChange={setConversionPct} min={0} max={100} display={`${conversionPct}%`} />
+              <NumField value={conversionPct} onChange={(v) => setConversionPct(clamp(Number(v) || 0, 0, 100))} suffix="%" min={0} max={100} />
             </FieldRow>
 
             <FieldRow index={3} label="Hours spent on a single quote" hint="Estimation, site visit, costing — all in.">
@@ -529,10 +620,16 @@ export function ChasingCostCalculator() {
               )}
             </p>
 
+            <div className="mt-6">
+              <Button tone="ink" className="w-full" onClick={() => setReportOpen(true)}>
+                Generate report
+              </Button>
+            </div>
+
             <button
               type="button"
               onClick={() => setCtaOpen((v) => !v)}
-              className="mt-6 w-full rounded-md bg-paper px-5 py-3 text-left text-sm font-medium text-ink transition-colors duration-180 hover:bg-paper-70"
+              className="mt-3 w-full rounded-md border border-paper-30 px-5 py-3 text-left text-sm font-medium text-paper transition-colors duration-180 hover:border-paper hover:bg-paper-08"
             >
               See how verified vendors get paid differently
             </button>
@@ -550,5 +647,7 @@ export function ChasingCostCalculator() {
         </div>
       </div>
     </article>
+    <ReportDialog open={reportOpen} onClose={() => setReportOpen(false)} report={report} />
+    </>
   );
 }

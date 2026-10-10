@@ -23,6 +23,16 @@ import Process from './pages/o360/Process';
 import WhyUs from './pages/o360/WhyUs';
 import Ecosystem from './pages/o360/Ecosystem';
 import NotFound from './pages/NotFound';
+import LoadingVariant1 from './pages/LoadingVariants/LoadingVariant1';
+import LoadingVariant2 from './pages/LoadingVariants/LoadingVariant2';
+import LoadingVariant3 from './pages/LoadingVariants/LoadingVariant3';
+import LoadingVariant4 from './pages/LoadingVariants/LoadingVariant4';
+import LoadingVariant5 from './pages/LoadingVariants/LoadingVariant5';
+import LoadingVariant6 from './pages/LoadingVariants/LoadingVariant6';
+import LoadingVariant7 from './pages/LoadingVariants/LoadingVariant7';
+import LoadingVariant8 from './pages/LoadingVariants/LoadingVariant8';
+import LoadingVariant9 from './pages/LoadingVariants/LoadingVariant9';
+import LoadingVariant10 from './pages/LoadingVariants/LoadingVariant10';
 import { O360 } from './lib/site';
 
 // Hash routing is used only for the static single-file preview build, where no
@@ -95,6 +105,18 @@ export function AppRoutes() {
           <Route path="why-us" element={<WhyUs />} />
           <Route path="ecosystem" element={<Ecosystem />} />
         </Route>
+
+        {/* --------------------- loading-animation variants (preview, unguarded) */}
+        <Route path="/loading-variant-1" element={<LoadingVariant1 />} />
+        <Route path="/loading-variant-2" element={<LoadingVariant2 />} />
+        <Route path="/loading-variant-3" element={<LoadingVariant3 />} />
+        <Route path="/loading-variant-4" element={<LoadingVariant4 />} />
+        <Route path="/loading-variant-5" element={<LoadingVariant5 />} />
+        <Route path="/loading-variant-6" element={<LoadingVariant6 />} />
+        <Route path="/loading-variant-7" element={<LoadingVariant7 />} />
+        <Route path="/loading-variant-8" element={<LoadingVariant8 />} />
+        <Route path="/loading-variant-9" element={<LoadingVariant9 />} />
+        <Route path="/loading-variant-10" element={<LoadingVariant10 />} />
           </Routes>
         </motion.div>
       </AnimatePresence>
